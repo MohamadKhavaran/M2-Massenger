@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QWidget" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>440</y>
+     <width>611</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="Back_pushButton">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Submit_pushButton">
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>511</width>
+     <height>415</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="FirstName_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>FirstName </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="FirstName_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="LastName_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LastName </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="LastName_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="UserName_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Username </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="UserName_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Password_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Password </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Password_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="ConfrimPassword_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Confrim Password </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="ConfrimPassword_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="PhoneNumber_label">
+      <property name="font">
+       <font>
+        <family>Sina</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="PhoneNumber_lineEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
