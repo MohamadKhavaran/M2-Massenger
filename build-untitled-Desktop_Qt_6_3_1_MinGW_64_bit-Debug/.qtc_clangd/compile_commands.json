@@ -9,7 +9,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -34,7 +34,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -46,9 +46,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -72,10 +72,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled\\main.cpp"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\main.cpp"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/untitled/main.cpp"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/main.cpp"
 },
 {
     "arguments": [
@@ -87,7 +87,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -112,7 +112,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -124,9 +124,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -150,10 +150,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled\\mainwindow.cpp"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mainwindow.cpp"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/untitled/mainwindow.cpp"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -165,7 +165,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -190,7 +190,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -202,9 +202,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -228,10 +228,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled\\register.cpp"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\register.cpp"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/untitled/register.cpp"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/register.cpp"
 },
 {
     "arguments": [
@@ -243,7 +243,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -268,7 +268,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -280,9 +280,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -306,10 +306,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled\\mainwindow.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mainwindow.h"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/untitled/mainwindow.h"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mainwindow.h"
 },
 {
     "arguments": [
@@ -321,7 +321,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -346,7 +346,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -358,9 +358,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -384,10 +384,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled\\register.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\register.h"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/untitled/register.h"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/register.h"
 },
 {
     "arguments": [
@@ -399,7 +399,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -424,7 +424,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -436,9 +436,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -462,10 +462,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
 },
 {
     "arguments": [
@@ -477,7 +477,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-OLreOZ\\clang-uiheader-psSAkk",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-VAeBRV\\clang-uiheader-fHmuVU",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -502,7 +502,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\untitled",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -514,9 +514,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -540,9 +540,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Padidar\\Documents\\GitHub\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
     ],
-    "directory": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Padidar/Documents/GitHub/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
+    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
 }
 ]

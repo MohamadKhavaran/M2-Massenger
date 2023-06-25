@@ -1,12 +1,6 @@
 <RCC>
     <qresource prefix="/new/prefix1">
-        <file>../../../Desktop/iconsecond.png</file>
-        <file>../../../Downloads/telegramLogo.png</file>
-        <file>../../../Downloads/usericon2.png</file>
-        <file>../../../Downloads/usericon1.png</file>
         <file>../../../Downloads/usericon5.png</file>
-        <file>../../../Downloads/usericon3.png</file>
         <file>../../../Downloads/telegramlogo2.png</file>
-        <file>../../../Downloads/telegramlogo1.png</file>
     </qresource>
 </RCC>
