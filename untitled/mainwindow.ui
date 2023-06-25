@@ -219,14 +219,14 @@ QPushButton#pushButton_3:pressed{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>350</x>
-       <y>90</y>
+       <x>340</x>
+       <y>110</y>
        <width>311</width>
        <height>351</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/new/prefix1/Downloads/telegramlogo2.png);</string>
+      <string notr="true">border-image: url(:/Desktop/telegramlogo2.png);</string>
      </property>
      <property name="text">
       <string/>

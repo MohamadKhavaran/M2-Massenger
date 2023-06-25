@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../Desktop/usericon5.png</file>
+        <file>../../../Desktop/telegramlogo2.png</file>
+    </qresource>
+</RCC>
