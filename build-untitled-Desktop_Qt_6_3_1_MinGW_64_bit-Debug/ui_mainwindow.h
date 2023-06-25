@@ -14,7 +14,6 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
@@ -35,21 +34,20 @@ public:
     QPushButton *pushButton_2;
     QLabel *label_4;
     QPushButton *pushButton_3;
-    QMenuBar *menubar;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(923, 617);
+        MainWindow->resize(797, 549);
         MainWindow->setStyleSheet(QString::fromUtf8("background-color:rgba(255, 255, 255, 255);\n"
 "border-bottom-right-radius: 90px;"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         widget = new QWidget(centralwidget);
         widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(80, 20, 781, 601));
+        widget->setGeometry(QRect(0, 0, 801, 551));
         widget->setStyleSheet(QString::fromUtf8("QPushButton#pushButton{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -106,7 +104,8 @@ public:
         label = new QLabel(widget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(420, 70, 321, 430));
-        label->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/telegramLogo.png);"));
+        label->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/telegramLogo.png);\n"
+"border-image: url(:/new/prefix1/Downloads/telegramLogo.png);"));
         label_2 = new QLabel(widget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(80, 70, 341, 421));
@@ -167,10 +166,6 @@ public:
         font4.setBold(true);
         pushButton_3->setFont(font4);
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 923, 25));
-        MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
