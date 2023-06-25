@@ -10,6 +10,7 @@
 #include <QJsonDocument>
 #include<QJsonValue>
 #include<QMessageBox>
+#include<verification.h>
 Register::Register(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Register)
@@ -57,11 +58,11 @@ if(reply->error()==QNetworkReply::NoError)
     QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
     QJsonObject JObject = JsonDocument.object();
     QString x = JObject.value("message").toString();
-    QMessageBox::information(this,"",x);
-    //Attention : This part will be corrected later
+    // for test server Connection before verification PhoneNumer :  QMessageBox::information(this,"",x);
+    // verification Phone Number
     this->close();
-    MainWindow  * newMainWindowPage = new MainWindow();
-    newMainWindowPage->show();
+    verification  * newverification = new verification(PhoneNumber,FirstName,x);
+    newverification->show();
     this->close();
 }
 else
