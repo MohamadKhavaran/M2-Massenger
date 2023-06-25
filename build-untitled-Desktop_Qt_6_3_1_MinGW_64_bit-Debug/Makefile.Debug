@@ -112,6 +112,8 @@ debug/qrc_icons.cpp: ../untitled/icons.qrc \
 		C:/Qt/6.3.1/mingw_64/bin/rcc.exe \
 		../../../Desktop/iconsecond.png \
 		../../../Downloads/usericon5.png \
+		../../../Downloads/telegramlogo2.png \
+		../../../Downloads/telegramlogo1.png \
 		../../../Downloads/telegramLogo.png \
 		../../../Downloads/usericon1.png \
 		../../../Downloads/usericon3.png \

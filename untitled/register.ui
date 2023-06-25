@@ -209,7 +209,7 @@
 }
 
 QPushButton#Submit_pushButton:hover{
-	background-color:rgba(0, 255, 0 , 255);
+	background-color:rgb(0, 255, 0);
 
 }
 
@@ -249,8 +249,7 @@ QPushButton#Submit_pushButton:pressed{
 }
 
 QPushButton#Back_pushButton:hover{
-	background-color:rgba(255, 0, 0, 255);
-
+	background-color:rgb(255, 0, 0);
 }
 
 QPushButton#Back_pushButton:pressed{
@@ -330,6 +329,9 @@ border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
 padding-bottom:7px;</string>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
    </widget>
    <widget class="QLineEdit" name="ConfrimPassword_lineEdit">
     <property name="geometry">
@@ -346,6 +348,9 @@ border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
 padding-bottom:7px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
     </property>
    </widget>
    <widget class="QLineEdit" name="PhoneNumber_lineEdit">

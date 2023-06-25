@@ -105,7 +105,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#Submit_pushButton:hover{\n"
-"	background-color:rgba(0, 255, 0 , 255);\n"
+"	background-color:rgb(0, 255, 0);\n"
 "\n"
 "}\n"
 "\n"
@@ -128,8 +128,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#Back_pushButton:hover{\n"
-"	background-color:rgba(255, 0, 0, 255);\n"
-"\n"
+"	background-color:rgb(255, 0, 0);\n"
 "}\n"
 "\n"
 "QPushButton#Back_pushButton:pressed{\n"
@@ -169,6 +168,7 @@ public:
 "border-bottom:2px solid rgba(254, 231, 21, 1);\n"
 "color:rgba(255, 255, 255, 255);\n"
 "padding-bottom:7px;"));
+        Password_lineEdit->setEchoMode(QLineEdit::Password);
         ConfrimPassword_lineEdit = new QLineEdit(widget);
         ConfrimPassword_lineEdit->setObjectName(QString::fromUtf8("ConfrimPassword_lineEdit"));
         ConfrimPassword_lineEdit->setGeometry(QRect(220, 378, 381, 28));
@@ -177,6 +177,7 @@ public:
 "border-bottom:2px solid rgba(254, 231, 21, 1);\n"
 "color:rgba(255, 255, 255, 255);\n"
 "padding-bottom:7px;"));
+        ConfrimPassword_lineEdit->setEchoMode(QLineEdit::Password);
         PhoneNumber_lineEdit = new QLineEdit(widget);
         PhoneNumber_lineEdit->setObjectName(QString::fromUtf8("PhoneNumber_lineEdit"));
         PhoneNumber_lineEdit->setGeometry(QRect(220, 430, 381, 28));
