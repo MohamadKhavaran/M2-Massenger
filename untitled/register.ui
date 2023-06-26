@@ -380,7 +380,7 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Desktop/usericon5.png);</string>
+     <string notr="true">image: url(:/icons/newregistrationicon.png);</string>
     </property>
     <property name="text">
      <string/>

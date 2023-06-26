@@ -189,7 +189,7 @@ public:
         label = new QLabel(widget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 10, 191, 161));
-        label->setStyleSheet(QString::fromUtf8("border-image: url(:/Desktop/usericon5.png);"));
+        label->setStyleSheet(QString::fromUtf8("image: url(:/icons/newregistrationicon.png);"));
 
         retranslateUi(Register);
 
