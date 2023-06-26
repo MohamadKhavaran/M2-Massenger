@@ -13,7 +13,7 @@ class verification : public QWidget
 
 public:
     explicit verification(QWidget *parent = nullptr);
-bool verificate(QString FirstName ,QString LastName  ,QString Username ,QString Password ,QString PhoneNumber, QString Message,QString number_sent );
+bool verificate(QString FirstName ,QString LastName  ,QString Username ,QString Password ,QString PhoneNumber,QString number_sent );
 // verification()
    ~verification();
 
@@ -30,7 +30,6 @@ private:
     QString Password ;
     QString PhoneNumber;
     QString number_sent;
-    QString Message;
 };
 
 #endif // VERIFICATION_H

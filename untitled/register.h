@@ -19,7 +19,6 @@ void Change_Number(QString ,QString ,QString,QString );
 
 private slots:
     void on_Back_pushButton_clicked();
-
     void on_Submit_pushButton_clicked();
 
 private:

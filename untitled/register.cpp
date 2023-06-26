@@ -40,54 +40,31 @@ void Register::on_Back_pushButton_clicked()
 
 void Register::on_Submit_pushButton_clicked()
 {
-    QString  LastName  , Username , Password , ConfrimPassword;
+    QString  LastName  , Username , Password , ConfrimPassword,PhoneNumber;
     QString FirstName = ui->FirstName_lineEdit->text();
     LastName = ui->LastName_lineEdit->text();
     Username = ui->UserName_lineEdit->text();
     Password = ui->Password_lineEdit->text();
     ConfrimPassword = ui->ConfrimPassword_lineEdit->text();
-     QString PhoneNumber = ui->PhoneNumber_lineEdit->text();
+    PhoneNumber = ui->PhoneNumber_lineEdit->text();
     if(!CheckingBox( FirstName , LastName  , Username , Password , ConfrimPassword,PhoneNumber))
         return;
 
-QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
-//Create The QNetworkRequest With setUrl For Connect To Server
-QNetworkRequest  Request;
-Request.setUrl("http://api.barafardayebehtar.ml:8080/signup?username="+Username+"&password="+Password+"&firstname="+FirstName
-               +"&lastname="+LastName);
-// Send Request To Server By QNetworkReply Object
-QNetworkReply  * reply = NetAccMan->get(Request);
-while (!reply->isFinished()) {
-    QCoreApplication::processEvents();
-}
-//Checking Network Connection
-if(reply->error()==QNetworkReply::NoError)
-{
-    QByteArray  Data = reply->readAll();
-    QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
-    QJsonObject JObject = JsonDocument.object();
-     QString x = JObject.value("message").toString();
+
     // for test server Connection before verification PhoneNumer :QMessageBox::information(this,"",x);
     // verification Phone Number
       int number_sent = 10000 + rand()%100000;
-//       QUrl url("http://ippanel.com:8080/?apikey=z36vEB6j1JoMr1-tL7ccHj7wNCyMdt7gpGyHRwzzTrA=&pid=a782whh9p3pzg6w&fnum=3000505&tnum="+PhoneNumber+"&p1=name&p2=ramz&v1="+FirstName+"&v2="+QString::number(number_sent));
+//       QUrl url = "http://ippanel.com:8080/?apikey=7o8vFuWx4R2TH1tExjIu4RTWrGz8PClVsoPfevUc_GQ=&pid=a782whh9p3pzg6w&fnum=3000505&tnum="+PhoneNumber+"&p1=name&p2=ramz&v1="+FirstName+"&v2="+QString::number(number_sent);
 //       QNetworkAccessManager* manager = new QNetworkAccessManager(this);
 //       QNetworkReply* reply = manager->get(QNetworkRequest(url));
-verification * newverification  = new verification();
+       verification * newverification  = new verification();
 bool temporal = true;
-temporal  = newverification->verificate(FirstName,LastName,Username,Password,PhoneNumber,x,QString::number(number_sent));
+temporal  = newverification->verificate(FirstName,LastName,Username,Password,PhoneNumber,QString::number(number_sent));
 if (temporal==true)
 {
     newverification->show();
 }
     this->close();
-}
-else
-{QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
-    MainWindow  * newMainWindowPage = new MainWindow();
-    newMainWindowPage->show();
-    this->close();
-}
 }
 bool Register:: CheckingBox(QString FirstName ,QString LastName  ,QString Username ,QString Password ,QString ConfrimPassword,QString PhoneNumber)
 {
