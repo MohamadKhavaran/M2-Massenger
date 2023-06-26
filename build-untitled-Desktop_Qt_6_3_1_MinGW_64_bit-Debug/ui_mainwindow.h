@@ -90,7 +90,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#pushButton:hover{\n"
-"	background-color:rgba(255, 163, 81, 255);\n"
+"	background-color:rgb(246, 120, 29);\n"
 "\n"
 "}\n"
 "\n"
@@ -113,7 +113,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#pushButton_2:hover{\n"
-"	background-color:rgba(255, 163, 81, 255);\n"
+"	background-color:rgb(246, 120, 29);\n"
 "\n"
 "}\n"
 "\n"
@@ -136,7 +136,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#pushButton_3:hover{\n"
-"	background-color:rgba(255, 163, 81, 255);\n"
+"	background-color:rgb(246, 120, 29);\n"
 "\n"
 "}\n"
 "\n"
@@ -148,7 +148,7 @@ public:
         label = new QLabel(widget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(340, 110, 311, 351));
-        label->setStyleSheet(QString::fromUtf8("border-image: url(:C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\telegramlogo2.png)"));
+        label->setStyleSheet(QString::fromUtf8("image: url(:/icons/telegramlogo.jpeg);"));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

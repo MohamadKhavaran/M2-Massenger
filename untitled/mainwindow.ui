@@ -128,7 +128,7 @@ padding-bottom:7px;</string>
 }
 
 QPushButton#pushButton:hover{
-	background-color:rgba(255, 163, 81, 255);
+	background-color:rgb(246, 120, 29);
 
 }
 
@@ -165,7 +165,7 @@ QPushButton#pushButton:pressed{
 }
 
 QPushButton#pushButton_2:hover{
-	background-color:rgba(255, 163, 81, 255);
+	background-color:rgb(246, 120, 29);
 
 }
 
@@ -202,7 +202,7 @@ QPushButton#pushButton_2:pressed{
 }
 
 QPushButton#pushButton_3:hover{
-	background-color:rgba(255, 163, 81, 255);
+	background-color:rgb(246, 120, 29);
 
 }
 
@@ -226,7 +226,7 @@ QPushButton#pushButton_3:pressed{
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:C:\Users\Modern\Documents\GitHub\AP-project\untitled\telegramlogo2.png)</string>
+      <string notr="true">image: url(:/icons/telegramlogo.jpeg);</string>
      </property>
      <property name="text">
       <string/>
