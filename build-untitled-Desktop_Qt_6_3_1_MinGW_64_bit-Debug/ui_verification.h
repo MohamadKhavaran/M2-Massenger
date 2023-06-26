@@ -31,12 +31,15 @@ public:
     {
         if (verification->objectName().isEmpty())
             verification->setObjectName(QString::fromUtf8("verification"));
-        verification->resize(727, 610);
+        verification->resize(661, 317);
         verification->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(255, 255, 255);"));
         CodeSent_lineEdit = new QLineEdit(verification);
         CodeSent_lineEdit->setObjectName(QString::fromUtf8("CodeSent_lineEdit"));
-        CodeSent_lineEdit->setGeometry(QRect(340, 200, 41, 28));
+        CodeSent_lineEdit->setGeometry(QRect(260, 150, 111, 28));
+        QFont font;
+        font.setPointSize(12);
+        CodeSent_lineEdit->setFont(font);
         CodeSent_lineEdit->setStyleSheet(QString::fromUtf8("bbackground-color:rgba(0, 0, 0, 0);\n"
 "border:none;\n"
 "border-bottom:2px solid rgba(254, 231, 21, 1);\n"
@@ -44,27 +47,60 @@ public:
 "padding-bottom:7px;"));
         Question_label = new QLabel(verification);
         Question_label->setObjectName(QString::fromUtf8("Question_label"));
-        Question_label->setGeometry(QRect(180, 20, 425, 30));
-        QFont font;
-        font.setPointSize(13);
-        font.setBold(true);
-        Question_label->setFont(font);
-        Question_label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,51);"));
+        Question_label->setGeometry(QRect(60, 40, 521, 30));
+        QFont font1;
+        font1.setPointSize(13);
+        font1.setBold(true);
+        Question_label->setFont(font1);
+        Question_label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
         PhoneNumber_label = new QLabel(verification);
         PhoneNumber_label->setObjectName(QString::fromUtf8("PhoneNumber_label"));
-        PhoneNumber_label->setGeometry(QRect(280, 58, 161, 30));
-        PhoneNumber_label->setFont(font);
+        PhoneNumber_label->setGeometry(QRect(240, 90, 161, 30));
+        PhoneNumber_label->setFont(font1);
         PhoneNumber_label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,51);"));
         pushButton = new QPushButton(verification);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(10, 210, 211, 29));
-        pushButton->setStyleSheet(QString::fromUtf8("background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));\n"
-"color: rgb(255, 255, 255);"));
+        pushButton->setGeometry(QRect(90, 230, 211, 29));
+        QFont font2;
+        font2.setPointSize(12);
+        font2.setBold(true);
+        pushButton->setFont(font2);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton{\n"
+"	background-color:rgba(255, 255, 0, 190);\n"
+"	color:rgba(0, 0, 0, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:hover{\n"
+"	background-color:rgba(255, 0, 0);\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(150,123, 111, 255);\n"
+"}"));
         pushButton_2 = new QPushButton(verification);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(510, 211, 211, 29));
-        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));\n"
-"color: rgb(255, 255, 255);"));
+        pushButton_2->setGeometry(QRect(340, 230, 211, 29));
+        pushButton_2->setFont(font2);
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
+"	background-color:rgba(255, 255, 0, 190);\n"
+"	color:rgba(0, 0, 0, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_2:hover{\n"
+"	background-color:rgba(0, 255, 0);\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_2:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(150,123, 111, 255);\n"
+"}"));
 
         retranslateUi(verification);
 
@@ -75,7 +111,8 @@ public:
     {
         verification->setWindowTitle(QCoreApplication::translate("verification", "Form", nullptr));
         CodeSent_lineEdit->setText(QString());
-        Question_label->setText(QCoreApplication::translate("verification", "Enter the code sent to the number below", nullptr));
+        CodeSent_lineEdit->setPlaceholderText(QCoreApplication::translate("verification", " Enter code", nullptr));
+        Question_label->setText(QCoreApplication::translate("verification", " Enter the code sent to the phone number below: ", nullptr));
         PhoneNumber_label->setText(QCoreApplication::translate("verification", "09052578107", nullptr));
         pushButton->setText(QCoreApplication::translate("verification", "Change Number", nullptr));
         pushButton_2->setText(QCoreApplication::translate("verification", "Confrim", nullptr));

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>727</width>
-    <height>610</height>
+    <width>661</width>
+    <height>317</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,11 +20,16 @@ color: rgb(255, 255, 255);</string>
   <widget class="QLineEdit" name="CodeSent_lineEdit">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>200</y>
-     <width>41</width>
+     <x>260</x>
+     <y>150</y>
+     <width>111</width>
      <height>28</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
@@ -36,13 +41,16 @@ padding-bottom:7px;</string>
    <property name="text">
     <string/>
    </property>
+   <property name="placeholderText">
+    <string> Enter code</string>
+   </property>
   </widget>
   <widget class="QLabel" name="Question_label">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>20</y>
-     <width>425</width>
+     <x>60</x>
+     <y>40</y>
+     <width>521</width>
      <height>30</height>
     </rect>
    </property>
@@ -53,17 +61,17 @@ padding-bottom:7px;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(255,255,51);</string>
+    <string notr="true">color:rgb(255,255,0)	;</string>
    </property>
    <property name="text">
-    <string>Enter the code sent to the number below</string>
+    <string> Enter the code sent to the phone number below: </string>
    </property>
   </widget>
   <widget class="QLabel" name="PhoneNumber_label">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>58</y>
+     <x>240</x>
+     <y>90</y>
      <width>161</width>
      <height>30</height>
     </rect>
@@ -84,15 +92,35 @@ padding-bottom:7px;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>210</y>
+     <x>90</x>
+     <y>230</y>
      <width>211</width>
      <height>29</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
-color: rgb(255, 255, 255);</string>
+    <string notr="true">QPushButton#pushButton{
+	background-color:rgba(255, 255, 0, 190);
+	color:rgba(0, 0, 0, 255);
+	border-radius:5px;
+}
+
+QPushButton#pushButton:hover{
+	background-color:rgba(255, 0, 0);
+
+}
+
+QPushButton#pushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123, 111, 255);
+}</string>
    </property>
    <property name="text">
     <string>Change Number</string>
@@ -101,15 +129,35 @@ color: rgb(255, 255, 255);</string>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>211</y>
+     <x>340</x>
+     <y>230</y>
      <width>211</width>
      <height>29</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
-color: rgb(255, 255, 255);</string>
+    <string notr="true">QPushButton#pushButton_2{
+	background-color:rgba(255, 255, 0, 190);
+	color:rgba(0, 0, 0, 255);
+	border-radius:5px;
+}
+
+QPushButton#pushButton_2:hover{
+	background-color:rgba(0, 255, 0);
+
+}
+
+QPushButton#pushButton_2:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123, 111, 255);
+}</string>
    </property>
    <property name="text">
     <string>Confrim</string>

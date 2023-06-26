@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     QFile file("token.txt");
-    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+    /*if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         if (file.size() == 0)
         {
             w.show();
@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
             //Open Class After Login ...
             return a.exec();
         }
-    }
+    }*/
+    w.show();
 
     return a.exec();
 }
