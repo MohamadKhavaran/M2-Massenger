@@ -51,7 +51,7 @@ public:
 ""));
         label_2 = new QLabel(widget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(280, 50, 261, 81));
+        label_2->setGeometry(QRect(272, 50, 261, 81));
         QFont font;
         font.setPointSize(25);
         font.setBold(true);

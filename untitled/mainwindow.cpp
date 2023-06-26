@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include<register.h>
 #include"register.h"
 #include<QApplication>
 #include<QCoreApplication>
@@ -22,8 +23,23 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-
+bool MainWindow::check_sign()
+{
+    QFile file("token.txt");
+    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        if (file.size() == 0)
+        {
+            Register * Notoken = new Register();
+            Notoken->show();
+            this->close();
+        }
+        else
+        {
+            //Open Class After Login ...
+            QMessageBox::information(this,"Token is Full","https://ece.iut.ac.ir");
+        }
+    }
+}
 void MainWindow::on_pushButton_3_clicked()
 {
  Register * newRegisterPage = new Register();

@@ -14,7 +14,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+bool check_sign();
 private slots:
     void on_pushButton_3_clicked();
 

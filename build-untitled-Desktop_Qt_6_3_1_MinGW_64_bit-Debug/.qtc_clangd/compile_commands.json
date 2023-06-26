@@ -9,7 +9,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -87,7 +87,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -165,7 +165,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -243,7 +243,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -321,7 +321,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -399,7 +399,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -477,7 +477,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -555,7 +555,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -618,10 +618,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
     ],
     "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
 },
 {
     "arguments": [
@@ -633,7 +633,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -711,7 +711,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-DmzMKQ\\clang-uiheader-CbuMYT",
+        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-nalwCJ\\clang-uiheader-BIiTGI",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -774,9 +774,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
+        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
     ],
     "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
+    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
 }
 ]

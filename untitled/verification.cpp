@@ -59,11 +59,12 @@ void verification::on_pushButton_2_clicked()
     if(ui->CodeSent_lineEdit->text()==number_sent)
     {
         QMessageBox::information(this,"Message verification"," is correct !");
+        QMessageBox::information(this," ",Message);
     }
-    else
+else
     {
         QMessageBox::warning(this,"Message verification"," is incorrect !");
-        QMessageBox::warning(this," ",Message);
+
     }
 }
 
