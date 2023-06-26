@@ -2,5 +2,20 @@
     <qresource prefix="/">
         <file>../icons/newregistrationicon.png</file>
         <file>../icons/telegramlogo.jpeg</file>
+        <file>../icons/channel icon.png</file>
+        <file>../icons/icons8-cancel-64 (3).png</file>
+        <file>../icons/icons8-exit-100.png</file>
+        <file>../icons/icons8-login-64.png</file>
+        <file>../icons/icons8-password-64 (1).png</file>
+        <file>../icons/icons8-people-40.png</file>
+        <file>../icons/pv chat.jpg</file>
+        <file>../icons/group1.jpg</file>
+        <file>../icons/group2.png</file>
+        <file>../icons/group3.jpg</file>
+        <file>../icons/pv.png</file>
+        <file>../icons/close1.png</file>
+        <file>../icons/close2.png</file>
+        <file>../icons/close3.png</file>
+        <file>../icons/logout3.png</file>
     </qresource>
 </RCC>
