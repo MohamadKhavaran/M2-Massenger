@@ -683,7 +683,7 @@ QPushButton#pushButton_15:pressed{
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>120</y>
+      <y>100</y>
       <width>151</width>
       <height>101</height>
      </rect>
@@ -699,7 +699,7 @@ QPushButton#pushButton_15:pressed{
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>110</y>
+      <y>100</y>
       <width>121</width>
       <height>111</height>
      </rect>
