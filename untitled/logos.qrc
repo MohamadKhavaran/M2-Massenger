@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../icons/newregistrationicon.png</file>
+        <file>../icons/telegramlogo.jpeg</file>
+    </qresource>
+</RCC>

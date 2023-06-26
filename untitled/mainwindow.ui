@@ -219,14 +219,14 @@ QPushButton#pushButton_3:pressed{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>340</x>
-       <y>110</y>
-       <width>311</width>
+       <x>320</x>
+       <y>90</y>
+       <width>351</width>
        <height>351</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">image: url(:/icons/telegramlogo.jpeg);</string>
      </property>
      <property name="text">
       <string/>
