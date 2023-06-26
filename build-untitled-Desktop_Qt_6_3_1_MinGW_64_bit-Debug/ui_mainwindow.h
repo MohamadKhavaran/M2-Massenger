@@ -148,7 +148,7 @@ public:
         label = new QLabel(widget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(340, 110, 311, 351));
-        label->setStyleSheet(QString::fromUtf8("border-image: url(:/Desktop/telegramlogo2.png);"));
+        label->setStyleSheet(QString::fromUtf8("border-image: url(:C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\telegramlogo2.png)"));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

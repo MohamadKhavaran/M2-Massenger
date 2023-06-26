@@ -13,6 +13,7 @@ class Register : public QWidget
 
 public:
     explicit Register(QWidget *parent = nullptr);
+void Change_Number(QString ,QString ,QString,QString );
     bool CheckingBox(QString FirstName ,QString LastName  ,QString Username ,QString Password ,QString ConfrimPassword,QString PhoneNumber);
     ~Register();
 

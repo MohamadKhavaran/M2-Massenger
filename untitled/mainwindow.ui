@@ -226,7 +226,7 @@ QPushButton#pushButton_3:pressed{
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/Desktop/telegramlogo2.png);</string>
+      <string notr="true">border-image: url(:C:\Users\Modern\Documents\GitHub\AP-project\untitled\telegramlogo2.png)</string>
      </property>
      <property name="text">
       <string/>

@@ -22,7 +22,15 @@ Register::~Register()
 {
     delete ui;
 }
-
+// for Back to Register PAGE And fill the boxes
+void  Register::Change_Number(QString FirstName ,QString LastName  ,QString Username ,QString Password)
+{
+    ui->FirstName_lineEdit->setText(FirstName);
+    ui->LastName_lineEdit->setText(LastName);
+    ui->UserName_lineEdit->setText(Username);
+    ui->Password_lineEdit->setText(Password);
+    ui->ConfrimPassword_lineEdit->setText(Password);
+}
 void Register::on_Back_pushButton_clicked()
 {
     MainWindow  * newMainWindowPage = new MainWindow();
@@ -32,15 +40,16 @@ void Register::on_Back_pushButton_clicked()
 
 void Register::on_Submit_pushButton_clicked()
 {
-    QString FirstName , LastName  , Username , Password , ConfrimPassword,PhoneNumber;
-    FirstName = ui->FirstName_lineEdit->text();
+    QString  LastName  , Username , Password , ConfrimPassword;
+    QString FirstName = ui->FirstName_lineEdit->text();
     LastName = ui->LastName_lineEdit->text();
     Username = ui->UserName_lineEdit->text();
     Password = ui->Password_lineEdit->text();
     ConfrimPassword = ui->ConfrimPassword_lineEdit->text();
-    PhoneNumber = ui->PhoneNumber_lineEdit->text();
+     QString PhoneNumber = ui->PhoneNumber_lineEdit->text();
     if(!CheckingBox( FirstName , LastName  , Username , Password , ConfrimPassword,PhoneNumber))
         return;
+
 QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
 //Create The QNetworkRequest With setUrl For Connect To Server
 QNetworkRequest  Request;
@@ -57,12 +66,20 @@ if(reply->error()==QNetworkReply::NoError)
     QByteArray  Data = reply->readAll();
     QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
     QJsonObject JObject = JsonDocument.object();
-    QString x = JObject.value("message").toString();
-    // for test server Connection before verification PhoneNumer :  QMessageBox::information(this,"",x);
+     QString x = JObject.value("message").toString();
+    // for test server Connection before verification PhoneNumer :QMessageBox::information(this,"",x);
     // verification Phone Number
-    this->close();
-    verification  * newverification = new verification(PhoneNumber,FirstName,x);
+      int number_sent = 10000 + rand()%100000;
+//       QUrl url("http://ippanel.com:8080/?apikey=z36vEB6j1JoMr1-tL7ccHj7wNCyMdt7gpGyHRwzzTrA=&pid=a782whh9p3pzg6w&fnum=3000505&tnum="+PhoneNumber+"&p1=name&p2=ramz&v1="+FirstName+"&v2="+QString::number(number_sent));
+//       QNetworkAccessManager* manager = new QNetworkAccessManager(this);
+//       QNetworkReply* reply = manager->get(QNetworkRequest(url));
+verification * newverification  = new verification();
+bool temporal = true;
+temporal  = newverification->verificate(FirstName,LastName,Username,Password,PhoneNumber,x,QString::number(number_sent));
+if (temporal==true)
+{
     newverification->show();
+}
     this->close();
 }
 else
