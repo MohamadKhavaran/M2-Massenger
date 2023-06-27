@@ -16,6 +16,8 @@ verification::verification(QWidget *parent) :
     ui(new Ui::verification)
 {
     ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
+
 }
 //verification::verification()
 //{

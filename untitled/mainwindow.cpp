@@ -19,6 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
+
 }
 bool MainWindow:: CheckingBox(QString Username ,QString Password)
 {
