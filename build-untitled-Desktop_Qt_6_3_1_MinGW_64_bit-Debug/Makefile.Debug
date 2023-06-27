@@ -124,21 +124,12 @@ debug/qrc_logo.cpp: ../untitled/logo.qrc \
 		C:/Qt/6.3.1/mingw_64/bin/rcc.exe \
 		../icons/newregistrationicon.png \
 		../icons/icons8-password-64\ (1).png \
-		../icons/close1.png \
-		../icons/icons8-login-64.png \
 		../icons/logout3.png \
 		../icons/pv.png \
-		../icons/icons8-exit-100.png \
-		../icons/telegramlogo.jpeg \
-		../icons/group2.png \
-		../icons/group1.jpg \
-		../icons/icons8-people-40.png \
-		../icons/close2.png \
-		../icons/group3.jpg \
-		../icons/icons8-cancel-64\ (3).png \
+		../icons/close3.png \
 		../icons/channel\ icon.png \
-		../icons/pv\ chat.jpg \
-		../icons/close3.png
+		../icons/telegramlogo.jpeg \
+		../icons/group2.png
 	C:\Qt\6.3.1\mingw_64\bin\rcc.exe -name logo ..\untitled\logo.qrc -o debug\qrc_logo.cpp
 
 compiler_moc_predefs_make_all: debug/moc_predefs.h
@@ -868,7 +859,39 @@ debug/afterlogin.o: ../untitled/afterlogin.cpp ../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_afterlogin.h
+		ui_afterlogin.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\afterlogin.o ..\untitled\afterlogin.cpp
 
 debug/main.o: ../untitled/main.cpp ../untitled/mainwindow.h \
@@ -1195,6 +1218,9 @@ debug/mainwindow.o: ../untitled/mainwindow.cpp ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QCheckBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qcheckbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
@@ -1208,7 +1234,6 @@ debug/mainwindow.o: ../untitled/mainwindow.cpp ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QStatusBar \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstatusbar.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1417,6 +1442,9 @@ debug/register.o: ../untitled/register.cpp ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QCheckBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qcheckbox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
@@ -1430,7 +1458,6 @@ debug/register.o: ../untitled/register.cpp ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
