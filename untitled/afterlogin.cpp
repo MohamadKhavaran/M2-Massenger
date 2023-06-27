@@ -20,6 +20,7 @@ afterLogin::afterLogin(QWidget *parent) :
     ui(new Ui::afterLogin)
 {
     ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
 }
 
 afterLogin::~afterLogin()
