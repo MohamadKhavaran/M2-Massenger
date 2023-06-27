@@ -26,6 +26,7 @@ public:
     QLabel *PhoneNumber_label;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
+    QLabel *label;
 
     void setupUi(QWidget *verification)
     {
@@ -101,6 +102,10 @@ public:
 "	padding-top:5px;\n"
 "	background-color:rgba(150,123, 111, 255);\n"
 "}"));
+        label = new QLabel(verification);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(100, 90, 111, 91));
+        label->setStyleSheet(QString::fromUtf8("image: url(:/icons/icons8-password-64 (1).png);"));
 
         retranslateUi(verification);
 
@@ -116,6 +121,7 @@ public:
         PhoneNumber_label->setText(QCoreApplication::translate("verification", "09052578107", nullptr));
         pushButton->setText(QCoreApplication::translate("verification", "Change Number", nullptr));
         pushButton_2->setText(QCoreApplication::translate("verification", "Confrim", nullptr));
+        label->setText(QString());
     } // retranslateUi
 
 };

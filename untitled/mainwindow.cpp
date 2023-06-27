@@ -82,3 +82,10 @@ void MainWindow::on_pushButton_clicked()
     }
 }
 
+void MainWindow::on_checkBox_stateChanged(int arg1) {
+    if(arg1)
+        ui->lineEdit_2->setEchoMode(QLineEdit::Normal);
+    else
+        ui->lineEdit_2->setEchoMode(QLineEdit::Password);
+}
+

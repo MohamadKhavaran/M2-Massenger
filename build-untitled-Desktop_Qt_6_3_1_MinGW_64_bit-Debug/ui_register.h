@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -38,15 +39,16 @@ public:
     QLineEdit *ConfrimPassword_lineEdit;
     QLineEdit *PhoneNumber_lineEdit;
     QLabel *label;
+    QCheckBox *checkBox;
 
     void setupUi(QWidget *Register)
     {
         if (Register->objectName().isEmpty())
             Register->setObjectName(QString::fromUtf8("Register"));
-        Register->resize(727, 610);
+        Register->resize(796, 666);
         widget = new QWidget(Register);
         widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(0, 0, 731, 611));
+        widget->setGeometry(QRect(0, 0, 801, 671));
         widget->setStyleSheet(QString::fromUtf8("background-color:	rgb(0, 0, 0);\n"
 ""));
         label_2 = new QLabel(widget);
@@ -190,6 +192,24 @@ public:
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 10, 191, 161));
         label->setStyleSheet(QString::fromUtf8("image: url(:/icons/newregistrationicon.png);"));
+        checkBox = new QCheckBox(widget);
+        checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        checkBox->setGeometry(QRect(630, 370, 135, 26));
+        QFont font3;
+        font3.setBold(true);
+        checkBox->setFont(font3);
+        checkBox->setStyleSheet(QString::fromUtf8("QCheckBox#checkBox{\n"
+"	background-color:rgba(255, 255, 0, 190);\n"
+"\n"
+"	color:rgba(0, 0, 0, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"\n"
+"QCheckBox#checkBox:hover{\n"
+"	background-color:rgb(246, 120, 29);\n"
+"\n"
+"}"));
 
         retranslateUi(Register);
 
@@ -209,6 +229,7 @@ public:
         Submit_pushButton->setText(QCoreApplication::translate("Register", "Submit", nullptr));
         Back_pushButton->setText(QCoreApplication::translate("Register", "Back", nullptr));
         label->setText(QString());
+        checkBox->setText(QCoreApplication::translate("Register", "Show password", nullptr));
     } // retranslateUi
 
 };

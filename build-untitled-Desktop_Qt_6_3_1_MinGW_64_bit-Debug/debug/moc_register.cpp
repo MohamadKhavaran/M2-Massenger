@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Register_t {
-    const uint offsetsAndSize[8];
-    char stringdata0[66];
+    const uint offsetsAndSize[12];
+    char stringdata0[96];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_Register_t, stringdata0) + ofs), len 
@@ -32,11 +32,14 @@ static const qt_meta_stringdata_Register_t qt_meta_stringdata_Register = {
 QT_MOC_LITERAL(0, 8), // "Register"
 QT_MOC_LITERAL(9, 26), // "on_Back_pushButton_clicked"
 QT_MOC_LITERAL(36, 0), // ""
-QT_MOC_LITERAL(37, 28) // "on_Submit_pushButton_clicked"
+QT_MOC_LITERAL(37, 28), // "on_Submit_pushButton_clicked"
+QT_MOC_LITERAL(66, 24), // "on_checkBox_stateChanged"
+QT_MOC_LITERAL(91, 4) // "arg1"
 
     },
     "Register\0on_Back_pushButton_clicked\0"
-    "\0on_Submit_pushButton_clicked"
+    "\0on_Submit_pushButton_clicked\0"
+    "on_checkBox_stateChanged\0arg1"
 };
 #undef QT_MOC_LITERAL
 
@@ -46,7 +49,7 @@ static const uint qt_meta_data_Register[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -54,12 +57,14 @@ static const uint qt_meta_data_Register[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       1,    0,   32,    2, 0x08,    1 /* Private */,
+       3,    0,   33,    2, 0x08,    2 /* Private */,
+       4,    1,   34,    2, 0x08,    3 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    5,
 
        0        // eod
 };
@@ -72,10 +77,10 @@ void Register::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         switch (_id) {
         case 0: _t->on_Back_pushButton_clicked(); break;
         case 1: _t->on_Submit_pushButton_clicked(); break;
+        case 2: _t->on_checkBox_stateChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject Register::staticMetaObject = { {
@@ -86,7 +91,7 @@ const QMetaObject Register::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_Register_t
 , QtPrivate::TypeAndForceComplete<Register, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>
 
 
 >,
@@ -113,13 +118,13 @@ int Register::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

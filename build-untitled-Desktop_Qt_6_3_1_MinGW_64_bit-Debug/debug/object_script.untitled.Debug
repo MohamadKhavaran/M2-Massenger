@@ -1,10 +1,10 @@
+debug/afterlogin.o
 debug/main.o
 debug/mainwindow.o
 debug/register.o
-debug/qrc_icons.o
-debug/qrc_img.o
+debug/verification.o
 debug/qrc_logo.o
-debug/qrc_registerIcon.o
-debug/qrc_res.o
+debug/moc_afterlogin.o
 debug/moc_mainwindow.o
 debug/moc_register.o
+debug/moc_verification.o

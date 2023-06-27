@@ -119,3 +119,15 @@ bool Register:: CheckingBox(QString FirstName ,QString LastName  ,QString Userna
     return true;
 }
 
+
+void Register::on_checkBox_stateChanged(int arg1)
+{
+    if(arg1) {
+        ui->Password_lineEdit->setEchoMode(QLineEdit::Normal);
+        ui->ConfrimPassword_lineEdit->setEchoMode(QLineEdit::Normal);
+    }
+    else {
+        ui->Password_lineEdit->setEchoMode(QLineEdit::Password);
+        ui->ConfrimPassword_lineEdit->setEchoMode(QLineEdit::Password);
+    }
+}
