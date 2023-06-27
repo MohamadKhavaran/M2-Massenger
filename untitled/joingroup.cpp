@@ -16,6 +16,8 @@ JoinGroup::JoinGroup(QWidget *parent) :
     ui(new Ui::JoinGroup)
 {
     ui->setupUi(this);
+    ui->lineEdit->setFocus();
+    this->setFixedSize(this->width(), this->height());
 }
 
 JoinGroup::~JoinGroup()
@@ -30,6 +32,7 @@ bool JoinGroup:: CheckingBox(QString GroupName)
        return false;
    }
    return true;
+
 }
 
 void JoinGroup::on_pushButton_clicked()

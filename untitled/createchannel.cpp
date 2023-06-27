@@ -11,11 +11,17 @@
 #include<QJsonValue>
 #include<QMessageBox>
 #include<QFile>
+//#include<QTimer>
 CreateChannel::CreateChannel(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::CreateChannel)
 {
     ui->setupUi(this);
+    //ui->lineEdit->setFocusPolicy(Qt::StrongFocus);
+    ui->lineEdit->setFocus();
+    //QTimer::singleShot(0, ui->lineEdit, SLOT(setFocus()));
+    this->setFixedSize(this->width(), this->height());
+
 }
 bool CreateChannel:: CheckingBox(QString ChannelName ,QString ChannelTitle)
 {
