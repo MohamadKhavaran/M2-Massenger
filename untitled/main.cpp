@@ -1,4 +1,6 @@
 #include "mainwindow.h"
+#include"afterlogin.h"
+#include"ui_afterlogin.h"
 #include "register.h"
 #include<QFile>
 #include <QApplication>
@@ -15,10 +17,10 @@ int main(int argc, char *argv[])
         }
         else
         {
-            //Open Class After Login ...
-            return a.exec();
+        afterLogin * fullToken = new    afterLogin();
+        fullToken->show();
+
         }
     }
-//w.show()
     return a.exec();
 }

@@ -1,7 +1,9 @@
 #include "mainwindow.h"
+#include"afterlogin.h"
 #include "ui_mainwindow.h"
 #include<register.h>
 #include"register.h"
+#include"ui_mainwindow.h"
 #include<QApplication>
 #include<QCoreApplication>
 #include<QNetworkAccessManager>
@@ -18,28 +20,26 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 }
+bool MainWindow:: CheckingBox(QString Username ,QString Password)
+{
+
+     if(Username.length() == 0){
+        QMessageBox::warning(this, "Invalid input", "Username cannot be empty!");
+        return false;
+    }
+    else if(Password.length() == 0){
+        QMessageBox::warning(this, "Invalid input", "Password cannot be empty!");
+        return false;
+}
+    return true;
+}
+
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-bool MainWindow::check_sign()
-{
-    QFile file("token.txt");
-    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        if (file.size() == 0)
-        {
-            Register * Notoken = new Register();
-            Notoken->show();
-            this->close();
-        }
-        else
-        {
-            //Open Class After Login ...
-            QMessageBox::information(this,"Token is Full","https://ece.iut.ac.ir");
-        }
-    }
-}
+
 void MainWindow::on_pushButton_3_clicked()
 {
  Register * newRegisterPage = new Register();
@@ -52,6 +52,8 @@ void MainWindow::on_pushButton_clicked()
 {
     QString Username = ui->lineEdit->text();
     QString Password = ui->lineEdit_2->text();
+    if(!CheckingBox(Username , Password))
+        return;
     QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
     //Create The QNetworkRequest With setUrl For Connect To Server
     QNetworkRequest  Request;
@@ -69,6 +71,24 @@ void MainWindow::on_pushButton_clicked()
         QJsonObject JObject = JsonDocument.object();
         QString x = JObject.value("message").toString();
         QString token  = JObject.value("token").toString();
+        QString code = JObject.value("code").toString();
+        if(code=="200")
+        {
+        // Username_file for save Username
+        QFile Username_file("Username.txt");
+         if (!Username_file.open(QIODevice::WriteOnly | QIODevice::Text))
+             return;
+
+         QTextStream out_username(&Username_file);
+         out_username <<Username;
+         // Password_file for save Password
+         QFile Password_file("Password.txt");
+          if (!Password_file.open(QIODevice::WriteOnly | QIODevice::Text))
+              return;
+
+          QTextStream out_password(&Password_file);
+          out_password <<Password;
+        // file for save token
         QFile file("token.txt");
          if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
              return;
@@ -76,9 +96,21 @@ void MainWindow::on_pushButton_clicked()
          QTextStream out(&file);
          out <<token;
         QMessageBox::information(this,"",x);
-        //Attention : This part will be corrected later
+        afterLogin * AfterLogin = new afterLogin();
+         AfterLogin->show();
         this->close();
+}
+        else
+        {
+            QMessageBox::warning(this,"",x);
+            return;
 
+        }
+    }
+    else
+    {
+        QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
+return;
     }
 }
 

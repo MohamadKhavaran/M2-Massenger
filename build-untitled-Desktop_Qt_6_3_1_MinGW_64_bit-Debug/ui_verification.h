@@ -31,7 +31,7 @@ public:
     {
         if (verification->objectName().isEmpty())
             verification->setObjectName(QString::fromUtf8("verification"));
-        verification->resize(661, 317);
+        verification->resize(616, 439);
         verification->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(255, 255, 255);"));
         CodeSent_lineEdit = new QLineEdit(verification);
@@ -112,7 +112,7 @@ public:
         verification->setWindowTitle(QCoreApplication::translate("verification", "Form", nullptr));
         CodeSent_lineEdit->setText(QString());
         CodeSent_lineEdit->setPlaceholderText(QCoreApplication::translate("verification", " Enter code", nullptr));
-        Question_label->setText(QCoreApplication::translate("verification", " Enter the code sent to the phone number below: ", nullptr));
+        Question_label->setText(QCoreApplication::translate("verification", " Enter the code sent to the phone number below", nullptr));
         PhoneNumber_label->setText(QCoreApplication::translate("verification", "09052578107", nullptr));
         pushButton->setText(QCoreApplication::translate("verification", "Change Number", nullptr));
         pushButton_2->setText(QCoreApplication::translate("verification", "Confrim", nullptr));

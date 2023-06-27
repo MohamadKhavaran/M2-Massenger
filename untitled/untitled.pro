@@ -10,6 +10,10 @@ CONFIG += c++17
 
 SOURCES += \
     afterlogin.cpp \
+    createchannel.cpp \
+    creategroup.cpp \
+    joinchannel.cpp \
+    joingroup.cpp \
     main.cpp \
     mainwindow.cpp \
     register.cpp \
@@ -17,12 +21,20 @@ SOURCES += \
 
 HEADERS += \
     afterlogin.h \
+    createchannel.h \
+    creategroup.h \
+    joinchannel.h \
+    joingroup.h \
     mainwindow.h \
     register.h \
     verification.h
 
 FORMS += \
     afterlogin.ui \
+    createchannel.ui \
+    creategroup.ui \
+    joinchannel.ui \
+    joingroup.ui \
     mainwindow.ui \
     register.ui \
     verification.ui
