@@ -10,8 +10,10 @@ CONFIG += c++17
 
 SOURCES += \
     afterlogin.cpp \
+    channellist.cpp \
     createchannel.cpp \
     creategroup.cpp \
+    grouplist.cpp \
     joinchannel.cpp \
     joingroup.cpp \
     main.cpp \
@@ -21,8 +23,10 @@ SOURCES += \
 
 HEADERS += \
     afterlogin.h \
+    channellist.h \
     createchannel.h \
     creategroup.h \
+    grouplist.h \
     joinchannel.h \
     joingroup.h \
     mainwindow.h \
@@ -31,8 +35,10 @@ HEADERS += \
 
 FORMS += \
     afterlogin.ui \
+    channellist.ui \
     createchannel.ui \
     creategroup.ui \
+    grouplist.ui \
     joinchannel.ui \
     joingroup.ui \
     mainwindow.ui \

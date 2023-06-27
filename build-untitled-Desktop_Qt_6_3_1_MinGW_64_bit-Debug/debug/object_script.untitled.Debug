@@ -1,6 +1,8 @@
 debug/afterlogin.o
+debug/channellist.o
 debug/createchannel.o
 debug/creategroup.o
+debug/grouplist.o
 debug/joinchannel.o
 debug/joingroup.o
 debug/main.o
@@ -9,8 +11,10 @@ debug/register.o
 debug/verification.o
 debug/qrc_logo.o
 debug/moc_afterlogin.o
+debug/moc_channellist.o
 debug/moc_createchannel.o
 debug/moc_creategroup.o
+debug/moc_grouplist.o
 debug/moc_joinchannel.o
 debug/moc_joingroup.o
 debug/moc_mainwindow.o

@@ -3,6 +3,8 @@
 #include"createchannel.h"
 #include"joingroup.h"
 #include"joinchannel.h"
+#include"grouplist.h"
+#include<channellist.h>
 #include "ui_afterlogin.h"
 #include"mainwindow.h"
 #include<QFile>
@@ -116,6 +118,24 @@ void afterLogin::on_pushButton_9_clicked()
 {
     JoinChannel * newJoinChannel = new JoinChannel();
   newJoinChannel ->show();
+  this->close();
+}
+
+
+
+void afterLogin::on_pushButton_6_clicked()
+{
+ GroupList * newGroupList = new GroupList();
+ newGroupList->show();
+ this->close();
+
+}
+
+
+void afterLogin::on_pushButton_10_clicked()
+{
+  channellist * newChannelList = new channellist();
+  newChannelList->show();
   this->close();
 }
 

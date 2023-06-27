@@ -25,6 +25,10 @@ private slots:
 
     void on_pushButton_9_clicked();
 
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_10_clicked();
+
 private:
     Ui::afterLogin *ui;
     //Use in Logout

@@ -1,6 +1,8 @@
 release/afterlogin.o
+release/channellist.o
 release/createchannel.o
 release/creategroup.o
+release/grouplist.o
 release/joinchannel.o
 release/joingroup.o
 release/main.o
@@ -9,8 +11,10 @@ release/register.o
 release/verification.o
 release/qrc_logo.o
 release/moc_afterlogin.o
+release/moc_channellist.o
 release/moc_createchannel.o
 release/moc_creategroup.o
+release/moc_grouplist.o
 release/moc_joinchannel.o
 release/moc_joingroup.o
 release/moc_mainwindow.o

@@ -26,7 +26,7 @@ JoinChannel::~JoinChannel()
 bool JoinChannel:: CheckingBox(QString ChannelName)
 {
     if(ChannelName.length() == 0){
-       QMessageBox::warning(this, "Invalid input", "groupname cannot be empty!");
+       QMessageBox::warning(this, "Invalid input", "channelname cannot be empty!");
        return false;
    }
    return true;
