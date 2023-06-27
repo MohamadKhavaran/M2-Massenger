@@ -16,6 +16,7 @@ JoinGroup::JoinGroup(QWidget *parent) :
     ui(new Ui::JoinGroup)
 {
     ui->setupUi(this);
+    ui->lineEdit->setFocus();
 }
 
 JoinGroup::~JoinGroup()

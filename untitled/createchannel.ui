@@ -70,6 +70,9 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
    <property name="styleSheet">
     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
 border:none;

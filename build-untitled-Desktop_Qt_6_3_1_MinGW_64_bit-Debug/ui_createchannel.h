@@ -56,6 +56,7 @@ public:
         lineEdit_2 = new QLineEdit(CreateChannel);
         lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
         lineEdit_2->setGeometry(QRect(430, 200, 154, 28));
+        lineEdit_2->setFocusPolicy(Qt::StrongFocus);
         lineEdit_2->setStyleSheet(QString::fromUtf8("bbackground-color:rgba(0, 0, 0, 0);\n"
 "border:none;\n"
 "border-bottom:2px solid rgba(254, 231, 21, 1);\n"

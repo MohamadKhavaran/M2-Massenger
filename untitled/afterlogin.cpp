@@ -119,3 +119,11 @@ void afterLogin::on_pushButton_9_clicked()
   this->close();
 }
 
+
+void afterLogin::on_pushButton_pressed()
+{
+    CreateGroup * newGroup = new CreateGroup();
+    newGroup->show();
+    this->close();
+}
+
