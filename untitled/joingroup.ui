@@ -6,65 +6,169 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>789</width>
-    <height>422</height>
+    <width>670</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
+  <property name="styleSheet">
+   <string notr="true">background-color:rgba(0, 0, 0, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>150</y>
-     <width>312</width>
-     <height>36</height>
+     <x>260</x>
+     <y>180</y>
+     <width>161</width>
+     <height>34</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QLabel" name="label">
-      <property name="font">
-       <font>
-        <pointsize>15</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>groupname : </string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="lineEdit"/>
-    </item>
-   </layout>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgba(254, 231, 21, 1);</string>
+   </property>
+   <property name="text">
+    <string>Group name :</string>
+   </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>360</y>
-     <width>195</width>
+     <x>420</x>
+     <y>180</y>
+     <width>221</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+border:none;
+border-bottom:2px solid rgba(254, 231, 21, 1);
+color:rgba(255, 255, 255, 255);
+padding-bottom:7px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>290</y>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
-    <item>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="text">
-       <string>Back</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton">
-      <property name="text">
-       <string>confrim</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton{
+	background-color:rgba(254, 231, 21, 1);
+	color:rgba(0, 0, 0, 255);
+	border-radius:5px;
+}
+
+QPushButton#pushButton:hover{
+	background-color:rgb(0, 255, 0);
+
+}
+
+QPushButton#pushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123, 111, 255);
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Confrim</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2{
+	background-color:rgba(254, 231, 21, 1);
+	color:rgba(0, 0, 0, 255);
+	border-radius:5px;
+}
+
+QPushButton#pushButton_2:hover{
+	background-color:rgb(255, 0, 0);
+}
+
+QPushButton#pushButton_2:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123, 111, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255,255,0)	;</string>
+   </property>
+   <property name="text">
+    <string>M2 messenger</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/icons/group2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
   </widget>
  </widget>
  <resources/>

@@ -83,7 +83,7 @@ public:
 "}\n"
 "\n"
 "QPushButton#pushButton_4:hover{\n"
-"	background-color:rgba(0, 255, 0);\n"
+"	background-color:rgb(246, 120, 29);\n"
 "\n"
 "}\n"
 "\n"
@@ -102,7 +102,11 @@ public:
         QFont font2;
         font2.setPointSize(12);
         pushButton_5->setFont(font2);
-        pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/icons/close3.png);"));
+        pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/icons/close3.png);\n"
+"\n"
+"\n"
+"\n"
+""));
         group_groupBox = new QGroupBox(widget);
         group_groupBox->setObjectName(QString::fromUtf8("group_groupBox"));
         group_groupBox->setGeometry(QRect(30, 190, 290, 520));

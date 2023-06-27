@@ -78,7 +78,7 @@
 }
 
 QPushButton#pushButton_4:hover{
-	background-color:rgba(0, 255, 0);
+	background-color:rgb(246, 120, 29);
 
 }
 
@@ -123,7 +123,11 @@ QPushButton#pushButton_4:pressed{
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/icons/close3.png);</string>
+     <string notr="true">image: url(:/icons/close3.png);
+
+
+
+</string>
     </property>
     <property name="text">
      <string/>

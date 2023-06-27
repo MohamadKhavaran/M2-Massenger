@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -22,55 +21,93 @@ QT_BEGIN_NAMESPACE
 class Ui_JoinGroup
 {
 public:
-    QWidget *widget;
-    QHBoxLayout *horizontalLayout;
     QLabel *label;
     QLineEdit *lineEdit;
-    QWidget *widget1;
-    QHBoxLayout *horizontalLayout_2;
-    QPushButton *pushButton_2;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QLabel *label_2;
+    QLabel *label_3;
 
     void setupUi(QWidget *JoinGroup)
     {
         if (JoinGroup->objectName().isEmpty())
             JoinGroup->setObjectName(QString::fromUtf8("JoinGroup"));
-        JoinGroup->resize(789, 422);
-        widget = new QWidget(JoinGroup);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(170, 150, 312, 36));
-        horizontalLayout = new QHBoxLayout(widget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        JoinGroup->resize(670, 400);
+        JoinGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);"));
+        label = new QLabel(JoinGroup);
         label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(260, 180, 161, 34));
         QFont font;
         font.setPointSize(15);
+        font.setItalic(true);
         label->setFont(font);
-
-        horizontalLayout->addWidget(label);
-
-        lineEdit = new QLineEdit(widget);
+        label->setStyleSheet(QString::fromUtf8("color:rgba(254, 231, 21, 1);"));
+        lineEdit = new QLineEdit(JoinGroup);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-
-        horizontalLayout->addWidget(lineEdit);
-
-        widget1 = new QWidget(JoinGroup);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(30, 360, 195, 31));
-        horizontalLayout_2 = new QHBoxLayout(widget1);
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        pushButton_2 = new QPushButton(widget1);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-
-        horizontalLayout_2->addWidget(pushButton_2);
-
-        pushButton = new QPushButton(widget1);
+        lineEdit->setGeometry(QRect(420, 180, 221, 28));
+        lineEdit->setStyleSheet(QString::fromUtf8("bbackground-color:rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+"border-bottom:2px solid rgba(254, 231, 21, 1);\n"
+"color:rgba(255, 255, 255, 255);\n"
+"padding-bottom:7px;"));
+        pushButton = new QPushButton(JoinGroup);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-
-        horizontalLayout_2->addWidget(pushButton);
-
+        pushButton->setGeometry(QRect(520, 290, 131, 31));
+        QFont font1;
+        font1.setPointSize(13);
+        font1.setBold(true);
+        pushButton->setFont(font1);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton{\n"
+"	background-color:rgba(254, 231, 21, 1);\n"
+"	color:rgba(0, 0, 0, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:hover{\n"
+"	background-color:rgb(0, 255, 0);\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(150,123, 111, 255);\n"
+"}\n"
+"\n"
+"\n"
+""));
+        pushButton_2 = new QPushButton(JoinGroup);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(380, 290, 131, 31));
+        pushButton_2->setFont(font1);
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
+"	background-color:rgba(254, 231, 21, 1);\n"
+"	color:rgba(0, 0, 0, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_2:hover{\n"
+"	background-color:rgb(255, 0, 0);\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_2:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(150,123, 111, 255);\n"
+"}"));
+        label_2 = new QLabel(JoinGroup);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(10, 10, 291, 61));
+        QFont font2;
+        font2.setPointSize(25);
+        font2.setBold(true);
+        font2.setItalic(true);
+        label_2->setFont(font2);
+        label_2->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
+        label_3 = new QLabel(JoinGroup);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(60, 130, 161, 131));
+        label_3->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
 
         retranslateUi(JoinGroup);
 
@@ -80,9 +117,11 @@ public:
     void retranslateUi(QWidget *JoinGroup)
     {
         JoinGroup->setWindowTitle(QCoreApplication::translate("JoinGroup", "Form", nullptr));
-        label->setText(QCoreApplication::translate("JoinGroup", "groupname : ", nullptr));
+        label->setText(QCoreApplication::translate("JoinGroup", "Group name :", nullptr));
+        pushButton->setText(QCoreApplication::translate("JoinGroup", "Confrim", nullptr));
         pushButton_2->setText(QCoreApplication::translate("JoinGroup", "Back", nullptr));
-        pushButton->setText(QCoreApplication::translate("JoinGroup", "confrim", nullptr));
+        label_2->setText(QCoreApplication::translate("JoinGroup", "M2 messenger", nullptr));
+        label_3->setText(QString());
     } // retranslateUi
 
 };
