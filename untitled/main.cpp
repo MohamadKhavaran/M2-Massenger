@@ -3,6 +3,7 @@
 #include<QFile>
 #include <QApplication>
 #include<QMessageBox>
+#include"afterlogin.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -15,8 +16,8 @@ int main(int argc, char *argv[])
         }
         else
         {
-            //Open Class After Login ...
-            return a.exec();
+           afterLogin * newpage = new afterLogin();
+           newpage ->show();
         }
     }
 
