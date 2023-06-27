@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>727</width>
-    <height>610</height>
+    <width>796</width>
+    <height>666</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>731</width>
-     <height>611</height>
+     <width>801</width>
+     <height>671</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -384,6 +384,38 @@ padding-bottom:7px;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>370</y>
+      <width>135</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox#checkBox{
+	background-color:rgba(255, 255, 0, 190);
+
+	color:rgba(0, 0, 0, 255);
+	border-radius:5px;
+}
+
+
+QCheckBox#checkBox:hover{
+	background-color:rgb(246, 120, 29);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Show password</string>
     </property>
    </widget>
   </widget>
