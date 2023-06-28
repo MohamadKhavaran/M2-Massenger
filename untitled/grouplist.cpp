@@ -42,12 +42,15 @@ GroupList::GroupList(QWidget *parent) :
         QString Message = JObject.value("message").toString();
          int count_group =  0;
          QString temp ;
+         QString temp_Exception ="You Are in -0- Group";
+
          while(true)
          {
              temp = "You Are in -"+QString::number(count_group)+"- Groups";
              if(temp==Message)
              break;
-
+             else if(temp_Exception==Message)
+             break;
              count_group++;
          }
          int temporally = 0 ;

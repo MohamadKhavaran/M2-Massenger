@@ -4,7 +4,9 @@
 #include"joingroup.h"
 #include"joinchannel.h"
 #include"grouplist.h"
-#include<channellist.h>
+#include"channellist.h"
+#include"sendmessageuser.h"
+#include"userlist.h"
 #include "ui_afterlogin.h"
 #include"mainwindow.h"
 #include<QFile>
@@ -121,8 +123,6 @@ void afterLogin::on_pushButton_9_clicked()
   this->close();
 }
 
-
-
 void afterLogin::on_pushButton_6_clicked()
 {
  GroupList * newGroupList = new GroupList();
@@ -131,11 +131,25 @@ void afterLogin::on_pushButton_6_clicked()
 
 }
 
-
 void afterLogin::on_pushButton_10_clicked()
 {
   channellist * newChannelList = new channellist();
   newChannelList->show();
   this->close();
+}
+
+void afterLogin::on_pushButton_14_clicked()
+{
+    userlist * newUserList = new userlist();
+    newUserList->show();
+    this->close();
+}
+
+
+void afterLogin::on_pushButton_13_clicked()
+{
+    sendmessageuser * newsendMessageuser = new sendmessageuser();
+    newsendMessageuser->show();
+    this->close();
 }
 

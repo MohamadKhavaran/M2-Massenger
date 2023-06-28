@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     afterlogin.cpp \
     channellist.cpp \
+    chatpage.cpp \
     createchannel.cpp \
     creategroup.cpp \
     grouplist.cpp \
@@ -18,24 +19,32 @@ SOURCES += \
     joingroup.cpp \
     main.cpp \
     mainwindow.cpp \
+    mythread.cpp \
     register.cpp \
+    sendmessageuser.cpp \
+    userlist.cpp \
     verification.cpp
 
 HEADERS += \
     afterlogin.h \
     channellist.h \
+    chatpage.h \
     createchannel.h \
     creategroup.h \
     grouplist.h \
     joinchannel.h \
     joingroup.h \
     mainwindow.h \
+    mythread.h \
     register.h \
+    sendmessageuser.h \
+    userlist.h \
     verification.h
 
 FORMS += \
     afterlogin.ui \
     channellist.ui \
+    chatpage.ui \
     createchannel.ui \
     creategroup.ui \
     grouplist.ui \
@@ -43,6 +52,8 @@ FORMS += \
     joingroup.ui \
     mainwindow.ui \
     register.ui \
+    sendmessageuser.ui \
+    userlist.ui \
     verification.ui
 
 # Default rules for deployment.

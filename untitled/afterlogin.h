@@ -1,7 +1,7 @@
 #ifndef AFTERLOGIN_H
 #define AFTERLOGIN_H
 #include <QWidget>
-
+//sender
 namespace Ui {
 class afterLogin;
 }
@@ -28,6 +28,10 @@ private slots:
     void on_pushButton_6_clicked();
 
     void on_pushButton_10_clicked();
+
+    void on_pushButton_14_clicked();
+
+    void on_pushButton_13_clicked();
 
 private:
     Ui::afterLogin *ui;
