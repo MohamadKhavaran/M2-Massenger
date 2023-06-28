@@ -16,6 +16,7 @@ channellist::channellist(QWidget *parent) :
     ui(new Ui::channellist)
 {
     ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
     QFile file("token.txt");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
