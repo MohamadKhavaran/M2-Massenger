@@ -16,8 +16,9 @@ CreateGroup::CreateGroup(QWidget *parent) :
     ui(new Ui::CreateGroup)
 {
     ui->setupUi(this);
-    ui->lineEdit->setFocus();
     this->setFixedSize(this->width(), this->height());
+    ui->lineEdit->setFocus();
+
 
 }
 bool CreateGroup:: CheckingBox(QString GroupName ,QString GroupTitle)

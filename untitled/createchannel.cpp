@@ -18,9 +18,10 @@ CreateChannel::CreateChannel(QWidget *parent) :
 {
     ui->setupUi(this);
     //ui->lineEdit->setFocusPolicy(Qt::StrongFocus);
+    this->setFixedSize(this->width(), this->height());
     ui->lineEdit->setFocus();
     //QTimer::singleShot(0, ui->lineEdit, SLOT(setFocus()));
-    this->setFixedSize(this->width(), this->height());
+
 
 }
 bool CreateChannel:: CheckingBox(QString ChannelName ,QString ChannelTitle)

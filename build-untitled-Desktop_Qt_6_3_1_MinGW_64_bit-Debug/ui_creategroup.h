@@ -35,7 +35,8 @@ public:
         if (CreateGroup->objectName().isEmpty())
             CreateGroup->setObjectName(QString::fromUtf8("CreateGroup"));
         CreateGroup->resize(670, 400);
-        CreateGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);"));
+        CreateGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);\n"
+"color:rgb(255, 255, 255);"));
         label_2 = new QLabel(CreateGroup);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(250, 200, 161, 34));

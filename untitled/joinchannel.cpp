@@ -17,9 +17,8 @@ JoinChannel::JoinChannel(QWidget *parent) :
     ui(new Ui::JoinChannel)
 {
     ui->setupUi(this);
-    ui->lineEdit->setFocus();
     this->setFixedSize(this->width(), this->height());
-
+    ui->lineEdit->setFocus();
 }
 
 JoinChannel::~JoinChannel()

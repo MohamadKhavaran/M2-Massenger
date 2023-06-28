@@ -32,7 +32,7 @@ public:
     {
         if (verification->objectName().isEmpty())
             verification->setObjectName(QString::fromUtf8("verification"));
-        verification->resize(616, 439);
+        verification->resize(616, 312);
         verification->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(255, 255, 255);"));
         CodeSent_lineEdit = new QLineEdit(verification);

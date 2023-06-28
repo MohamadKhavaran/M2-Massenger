@@ -25,7 +25,6 @@ public:
     QLabel *label;
     QPushButton *pushButton_4;
     QLabel *label_5;
-    QPushButton *pushButton_5;
     QGroupBox *group_groupBox;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
@@ -96,33 +95,22 @@ public:
         label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(980, 590, 81, 81));
         label_5->setStyleSheet(QString::fromUtf8("image: url(:/icons/logout3.png);"));
-        pushButton_5 = new QPushButton(widget);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(1000, 10, 61, 61));
-        QFont font2;
-        font2.setPointSize(12);
-        pushButton_5->setFont(font2);
-        pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/icons/close3.png);\n"
-"\n"
-"\n"
-"\n"
-""));
         group_groupBox = new QGroupBox(widget);
         group_groupBox->setObjectName(QString::fromUtf8("group_groupBox"));
         group_groupBox->setGeometry(QRect(30, 190, 290, 520));
-        QFont font3;
-        font3.setPointSize(20);
-        font3.setBold(true);
-        group_groupBox->setFont(font3);
+        QFont font2;
+        font2.setPointSize(20);
+        font2.setBold(true);
+        group_groupBox->setFont(font2);
         group_groupBox->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0);\n"
 ""));
         pushButton = new QPushButton(group_groupBox);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(10, 80, 270, 40));
-        QFont font4;
-        font4.setPointSize(15);
-        font4.setBold(true);
-        pushButton->setFont(font4);
+        QFont font3;
+        font3.setPointSize(15);
+        font3.setBold(true);
+        pushButton->setFont(font3);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -142,7 +130,7 @@ public:
         pushButton_2 = new QPushButton(group_groupBox);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(10, 170, 270, 40));
-        pushButton_2->setFont(font4);
+        pushButton_2->setFont(font3);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -162,7 +150,7 @@ public:
         pushButton_3 = new QPushButton(group_groupBox);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
         pushButton_3->setGeometry(QRect(10, 440, 270, 40));
-        pushButton_3->setFont(font4);
+        pushButton_3->setFont(font3);
         pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_3{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -182,7 +170,7 @@ public:
         pushButton_6 = new QPushButton(group_groupBox);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
         pushButton_6->setGeometry(QRect(10, 260, 270, 40));
-        pushButton_6->setFont(font4);
+        pushButton_6->setFont(font3);
         pushButton_6->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_6{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -202,10 +190,10 @@ public:
         pushButton_7 = new QPushButton(group_groupBox);
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
         pushButton_7->setGeometry(QRect(10, 350, 270, 40));
-        QFont font5;
-        font5.setPointSize(14);
-        font5.setBold(true);
-        pushButton_7->setFont(font5);
+        QFont font4;
+        font4.setPointSize(14);
+        font4.setBold(true);
+        pushButton_7->setFont(font4);
         pushButton_7->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_7{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -225,13 +213,13 @@ public:
         channel_groupBox = new QGroupBox(widget);
         channel_groupBox->setObjectName(QString::fromUtf8("channel_groupBox"));
         channel_groupBox->setGeometry(QRect(350, 190, 290, 520));
-        channel_groupBox->setFont(font3);
+        channel_groupBox->setFont(font2);
         channel_groupBox->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0);\n"
 ""));
         pushButton_8 = new QPushButton(channel_groupBox);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
         pushButton_8->setGeometry(QRect(10, 80, 270, 40));
-        pushButton_8->setFont(font4);
+        pushButton_8->setFont(font3);
         pushButton_8->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_8{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -251,7 +239,7 @@ public:
         pushButton_9 = new QPushButton(channel_groupBox);
         pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
         pushButton_9->setGeometry(QRect(10, 170, 270, 40));
-        pushButton_9->setFont(font4);
+        pushButton_9->setFont(font3);
         pushButton_9->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_9{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -271,7 +259,7 @@ public:
         pushButton_10 = new QPushButton(channel_groupBox);
         pushButton_10->setObjectName(QString::fromUtf8("pushButton_10"));
         pushButton_10->setGeometry(QRect(10, 260, 270, 40));
-        pushButton_10->setFont(font4);
+        pushButton_10->setFont(font3);
         pushButton_10->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_10{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -291,10 +279,10 @@ public:
         pushButton_11 = new QPushButton(channel_groupBox);
         pushButton_11->setObjectName(QString::fromUtf8("pushButton_11"));
         pushButton_11->setGeometry(QRect(10, 350, 270, 40));
-        QFont font6;
-        font6.setPointSize(13);
-        font6.setBold(true);
-        pushButton_11->setFont(font6);
+        QFont font5;
+        font5.setPointSize(13);
+        font5.setBold(true);
+        pushButton_11->setFont(font5);
         pushButton_11->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_11{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -314,7 +302,7 @@ public:
         pushButton_12 = new QPushButton(channel_groupBox);
         pushButton_12->setObjectName(QString::fromUtf8("pushButton_12"));
         pushButton_12->setGeometry(QRect(10, 440, 270, 40));
-        pushButton_12->setFont(font4);
+        pushButton_12->setFont(font3);
         pushButton_12->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_12{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -334,13 +322,13 @@ public:
         pv_groupBox = new QGroupBox(widget);
         pv_groupBox->setObjectName(QString::fromUtf8("pv_groupBox"));
         pv_groupBox->setGeometry(QRect(650, 190, 290, 520));
-        pv_groupBox->setFont(font3);
+        pv_groupBox->setFont(font2);
         pv_groupBox->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0);\n"
 ""));
         pushButton_13 = new QPushButton(pv_groupBox);
         pushButton_13->setObjectName(QString::fromUtf8("pushButton_13"));
         pushButton_13->setGeometry(QRect(10, 80, 270, 40));
-        pushButton_13->setFont(font5);
+        pushButton_13->setFont(font4);
         pushButton_13->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_13{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -360,7 +348,7 @@ public:
         pushButton_14 = new QPushButton(pv_groupBox);
         pushButton_14->setObjectName(QString::fromUtf8("pushButton_14"));
         pushButton_14->setGeometry(QRect(10, 170, 270, 40));
-        pushButton_14->setFont(font4);
+        pushButton_14->setFont(font3);
         pushButton_14->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_14{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -380,7 +368,7 @@ public:
         pushButton_15 = new QPushButton(pv_groupBox);
         pushButton_15->setObjectName(QString::fromUtf8("pushButton_15"));
         pushButton_15->setGeometry(QRect(10, 260, 270, 40));
-        pushButton_15->setFont(font4);
+        pushButton_15->setFont(font3);
         pushButton_15->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_15{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color:rgba(0, 0, 0, 255);\n"
@@ -403,7 +391,7 @@ public:
         group_label->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
         channel_label = new QLabel(widget);
         channel_label->setObjectName(QString::fromUtf8("channel_label"));
-        channel_label->setGeometry(QRect(510, 100, 121, 111));
+        channel_label->setGeometry(QRect(510, 95, 121, 111));
         channel_label->setStyleSheet(QString::fromUtf8("image: url(:/icons/channel icon.png);"));
         pv_label = new QLabel(widget);
         pv_label->setObjectName(QString::fromUtf8("pv_label"));
@@ -421,7 +409,6 @@ public:
         label->setText(QCoreApplication::translate("afterLogin", "Welcome to M2 messenger", nullptr));
         pushButton_4->setText(QCoreApplication::translate("afterLogin", "Log out", nullptr));
         label_5->setText(QString());
-        pushButton_5->setText(QString());
         group_groupBox->setTitle(QCoreApplication::translate("afterLogin", "Groups", nullptr));
         pushButton->setText(QCoreApplication::translate("afterLogin", "Create a new group", nullptr));
         pushButton_2->setText(QCoreApplication::translate("afterLogin", "Join groups", nullptr));
