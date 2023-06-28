@@ -8,5 +8,7 @@
         <file>../icons/pv.png</file>
         <file>../icons/close3.png</file>
         <file>../icons/logout3.png</file>
+        <file>../icons/back_icon.jpg</file>
+        <file>../icons/back_icon_2.png</file>
     </qresource>
 </RCC>

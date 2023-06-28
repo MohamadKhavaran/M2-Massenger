@@ -17,6 +17,8 @@ verification::verification(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setFixedSize(this->width(), this->height());
+    ui->CodeSent_lineEdit->setFocus();
+
 
 }
 //verification::verification()

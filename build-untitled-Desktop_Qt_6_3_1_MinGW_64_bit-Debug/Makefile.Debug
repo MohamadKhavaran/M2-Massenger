@@ -160,10 +160,12 @@ debug/qrc_logo.cpp: ../untitled/logo.qrc \
 		C:/Qt/6.3.1/mingw_64/bin/rcc.exe \
 		../icons/newregistrationicon.png \
 		../icons/icons8-password-64\ (1).png \
+		../icons/channel\ icon.png \
+		../icons/back_icon.jpg \
+		../icons/back_icon_2.png \
 		../icons/logout3.png \
 		../icons/pv.png \
 		../icons/close3.png \
-		../icons/channel\ icon.png \
 		../icons/telegramlogo.jpeg \
 		../icons/group2.png
 	C:\Qt\6.3.1\mingw_64\bin\rcc.exe -name logo ..\untitled\logo.qrc -o debug\qrc_logo.cpp
@@ -449,7 +451,7 @@ debug/moc_channellist.cpp: ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o debug\moc_channellist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o debug\moc_channellist.cpp
 
 debug/moc_createchannel.cpp: ../untitled/createchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -860,7 +862,7 @@ debug/moc_grouplist.cpp: ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o debug\moc_grouplist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o debug\moc_grouplist.cpp
 
 debug/moc_joinchannel.cpp: ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1748,7 +1750,13 @@ debug/afterlogin.o: ../untitled/afterlogin.cpp ../untitled/afterlogin.h \
 		../untitled/grouplist.h \
 		../untitled/channellist.h \
 		ui_afterlogin.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/mainwindow.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -1770,23 +1778,6 @@ debug/afterlogin.o: ../untitled/afterlogin.cpp ../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QGroupBox \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgroupbox.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		../untitled/mainwindow.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -1797,6 +1788,7 @@ debug/afterlogin.o: ../untitled/afterlogin.cpp ../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -1965,6 +1957,7 @@ debug/channellist.o: ../untitled/channellist.cpp ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
+		../untitled/afterlogin.h \
 		ui_channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
@@ -2170,7 +2163,7 @@ debug/createchannel.o: ../untitled/createchannel.cpp ../untitled/createchannel.h
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_createchannel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2192,21 +2185,6 @@ debug/createchannel.o: ../untitled/createchannel.cpp ../untitled/createchannel.h
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -2217,6 +2195,7 @@ debug/createchannel.o: ../untitled/createchannel.cpp ../untitled/createchannel.h
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -2389,7 +2368,7 @@ debug/creategroup.o: ../untitled/creategroup.cpp ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_creategroup.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2411,21 +2390,6 @@ debug/creategroup.o: ../untitled/creategroup.cpp ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -2436,6 +2400,7 @@ debug/creategroup.o: ../untitled/creategroup.cpp ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -2608,7 +2573,7 @@ debug/grouplist.o: ../untitled/grouplist.cpp ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_grouplist.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2630,25 +2595,6 @@ debug/grouplist.o: ../untitled/grouplist.cpp ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPlainTextEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qplaintextedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtextedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextlayout.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qglyphrun.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qrawfont.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qfontdatabase.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -2659,6 +2605,7 @@ debug/grouplist.o: ../untitled/grouplist.cpp ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -2831,7 +2778,8 @@ debug/joinchannel.o: ../untitled/joinchannel.cpp ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_joinchannel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/afterlogin.h \
+		ui_joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2853,22 +2801,6 @@ debug/joinchannel.o: ../untitled/joinchannel.cpp ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		../untitled/afterlogin.h \
-		ui_joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -2879,6 +2811,7 @@ debug/joinchannel.o: ../untitled/joinchannel.cpp ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -3052,7 +2985,6 @@ debug/joingroup.o: ../untitled/joingroup.cpp ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		../untitled/afterlogin.h \
 		ui_joingroup.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3074,20 +3006,6 @@ debug/joingroup.o: ../untitled/joingroup.cpp ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -3098,6 +3016,7 @@ debug/joingroup.o: ../untitled/joingroup.cpp ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -3441,7 +3360,7 @@ debug/mainwindow.o: ../untitled/mainwindow.cpp ../untitled/mainwindow.h \
 		../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
 		ui_mainwindow.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3463,25 +3382,6 @@ debug/mainwindow.o: ../untitled/mainwindow.cpp ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QCheckBox \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qcheckbox.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QStatusBar \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qstatusbar.h \
-		../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -3492,6 +3392,7 @@ debug/mainwindow.o: ../untitled/mainwindow.cpp ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -3664,7 +3565,10 @@ debug/register.o: ../untitled/register.cpp ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_register.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
+		../untitled/mainwindow.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3686,26 +3590,6 @@ debug/register.o: ../untitled/register.cpp ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QCheckBox \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qcheckbox.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		../untitled/mainwindow.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -3716,6 +3600,7 @@ debug/register.o: ../untitled/register.cpp ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -3887,7 +3772,6 @@ debug/verification.o: ../untitled/verification.cpp ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		../untitled/register.h \
 		ui_verification.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -3909,20 +3793,6 @@ debug/verification.o: ../untitled/verification.cpp ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -3933,6 +3803,7 @@ debug/verification.o: ../untitled/verification.cpp ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
