@@ -38,7 +38,7 @@ public:
         pushButton->setStyleSheet(QString::fromUtf8("image: url(:/icons/back_icon_2.png);"));
         textBrowser = new QTextBrowser(channellist);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(160, 80, 471, 291));
+        textBrowser->setGeometry(QRect(220, 80, 411, 281));
         QFont font;
         font.setBold(false);
         textBrowser->setFont(font);
