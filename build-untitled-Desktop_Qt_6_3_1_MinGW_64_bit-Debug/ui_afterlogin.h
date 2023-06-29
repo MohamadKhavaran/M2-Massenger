@@ -387,15 +387,15 @@ public:
 "}"));
         group_label = new QLabel(widget);
         group_label->setObjectName(QString::fromUtf8("group_label"));
-        group_label->setGeometry(QRect(160, 100, 151, 101));
+        group_label->setGeometry(QRect(160, 80, 151, 101));
         group_label->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
         channel_label = new QLabel(widget);
         channel_label->setObjectName(QString::fromUtf8("channel_label"));
-        channel_label->setGeometry(QRect(510, 95, 121, 111));
+        channel_label->setGeometry(QRect(510, 80, 121, 111));
         channel_label->setStyleSheet(QString::fromUtf8("image: url(:/icons/channel icon.png);"));
         pv_label = new QLabel(widget);
         pv_label->setObjectName(QString::fromUtf8("pv_label"));
-        pv_label->setGeometry(QRect(820, 100, 131, 101));
+        pv_label->setGeometry(QRect(820, 80, 131, 101));
         pv_label->setStyleSheet(QString::fromUtf8("image: url(:/icons/pv.png);"));
 
         retranslateUi(afterLogin);
