@@ -2759,8 +2759,6 @@ debug/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout \
 		../untitled/afterlogin.h \
 		../untitled/sendmessageuser.h \
-		../untitled/mythread.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QThread \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -2807,7 +2805,11 @@ debug/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QFile \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qfile.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qfiledevice.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QMutex
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QThread \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QMutex \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QTimer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qbasictimer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\chatpage.o ..\untitled\chatpage.cpp
 
 debug/createchannel.o: ../untitled/createchannel.cpp ../untitled/createchannel.h \
