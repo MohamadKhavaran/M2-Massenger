@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>796</width>
-    <height>666</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,13 +18,12 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>801</width>
-     <height>671</height>
+     <width>800</width>
+     <height>600</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:	rgb(0, 0, 0);
-</string>
+    <string notr="true">background-color:black;</string>
    </property>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -186,82 +185,6 @@
      <string>Phone number: </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Submit_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>490</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton#Submit_pushButton{
-	background-color:rgba(254, 231, 21, 1);
-	color:rgba(0, 0, 0, 255);
-	border-radius:5px;
-}
-
-QPushButton#Submit_pushButton:hover{
-	background-color:rgb(0, 255, 0);
-
-}
-
-QPushButton#Submit_pushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(150,123, 111, 255);
-}
-
-
-</string>
-    </property>
-    <property name="text">
-     <string>Submit</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Back_pushButton">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>490</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton#Back_pushButton{
-	background-color:rgba(254, 231, 21, 1);
-	color:rgba(0, 0, 0, 255);
-	border-radius:5px;
-}
-
-QPushButton#Back_pushButton:hover{
-	background-color:rgb(255, 0, 0);
-}
-
-QPushButton#Back_pushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-	background-color:rgba(150,123, 111, 255);
-}</string>
-    </property>
-    <property name="text">
-     <string>Back</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="FirstName_lineEdit">
     <property name="geometry">
      <rect>
@@ -272,11 +195,24 @@ QPushButton#Back_pushButton:pressed{
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#FirstName_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#FirstName_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="LastName_lineEdit">
@@ -289,11 +225,24 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#LastName_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#LastName_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="UserName_lineEdit">
@@ -306,11 +255,24 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#UserName_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#UserName_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="Password_lineEdit">
@@ -323,11 +285,24 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#Password_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#Password_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::Password</enum>
@@ -343,11 +318,24 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#ConfrimPassword_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#ConfrimPassword_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::Password</enum>
@@ -363,11 +351,24 @@ padding-bottom:7px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">bbackground-color:rgba(0, 0, 0, 0);
+     <string notr="true">QLineEdit#PhoneNumber_lineEdit {
+
+background-color:rgba(0, 0, 0, 0);
 border:none;
 border-bottom:2px solid rgba(254, 231, 21, 1);
 color:rgba(255, 255, 255, 255);
-padding-bottom:7px;</string>
+padding-bottom:7px;
+
+}
+
+QLineEdit#PhoneNumber_lineEdit:hover {
+
+	background-color: rgb(42, 46, 52);
+	border-style: solid;
+	border-color: rgb(245, 179, 1);
+	color: rgb(241, 182, 88);
+
+}</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -389,34 +390,118 @@ padding-bottom:7px;</string>
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>610</x>
       <y>370</y>
-      <width>135</width>
+      <width>171</width>
       <height>26</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <pointsize>10</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">QCheckBox#checkBox{
-	background-color:rgba(255, 255, 0, 190);
-
-	color:rgba(0, 0, 0, 255);
-	border-radius:5px;
+     <string notr="true">QCheckBox#checkBox {
+padding-left: 10px;
+border-radius: 5px;
+color: #fefefe;
 }
 
+QCheckBox#checkBox:hover {
+	color: rgb(241, 182, 88);
+}
 
-QCheckBox#checkBox:hover{
-	background-color:rgb(246, 120, 29);
-
+QCheckBox#checkBox:pressed {
+	color: rgb(85, 255, 255);
 }</string>
     </property>
     <property name="text">
      <string>Show password</string>
     </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>490</y>
+      <width>261</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="Back_pushButton">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Back_pushButton {
+color: white;
+border-radius: 5px;
+Background: #933;
+color: #fefefe;
+}
+
+QPushButton#Back_pushButton:hover {
+	background-color: rgb(42, 46, 52);
+border-style: solid;
+ border-width: 1px;
+	color: rgb(241, 182, 88);
+}
+
+QPushButton#Back_pushButton:pressed {
+border-style: solid;
+border-width: 1px;
+	background-color: rgb(25, 69, 105);
+	color: rgb(85, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Submit_pushButton">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#Submit_pushButton {
+color: white;
+border-radius: 5px;
+Background: #393;
+color: #fefefe;
+}
+
+QPushButton#Submit_pushButton:hover {
+	background-color: rgb(42, 46, 52);
+border-style: solid;
+ border-width: 1px;
+	color: rgb(241, 182, 88);
+}
+
+QPushButton#Submit_pushButton:pressed {
+border-style: solid;
+border-width: 1px;
+	background-color: rgb(25, 69, 105);
+	color: rgb(85, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>
