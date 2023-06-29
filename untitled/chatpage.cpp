@@ -2,7 +2,6 @@
 #include "ui_chatpage.h"
 #include"afterlogin.h"
 #include"sendmessageuser.h"
-#include"mythread.h"
 #include<QApplication>
 #include<QCoreApplication>
 #include<QNetworkAccessManager>
@@ -15,8 +14,58 @@
 #include<QFile>
 #include<QThread>
 #include<QMutex>
+#include<QTimer>
+void ChatPage :: update()
+{
+    QFile file("token.txt");
+       if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+           return;
 
-QMutex m ;
+     QString token= file.readAll();
+       file.close();
+
+    QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
+      //Create The QNetworkRequest With setUrl For Connect To Server
+      QNetworkRequest  Request;
+      Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+relevant_username);
+      // Send Request To Server By QNetworkReply Object
+      QNetworkReply  * reply = NetAccMan->get(Request);
+      while (!reply->isFinished()) {
+          QCoreApplication::processEvents();
+      }
+      //Checking Network Connection
+      if(reply->error()==QNetworkReply::NoError)
+      {
+          QByteArray  Data = reply->readAll();
+          QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
+          QJsonObject JObject = JsonDocument.object();
+           QString Message = JObject.value("message").toString();
+           QString code = JObject.value("code").toString();
+           int count_message =  0;
+           QString temp ;
+           QString temp_Exception ="There Are -0- Message";
+           while(true)
+           {
+               temp = "There Are -"+QString::number(count_message)+"- Messages";
+               if(temp==Message)
+               break;
+               else if(temp_Exception==Message)
+               break;
+               count_message++;
+           }
+           int temporally = 0 ;
+            QString Message_Recived;
+           while(count_message)
+           {
+               // Using nested jsonobjects
+               QJsonObject blockObj= (JObject.value("block "+QString::number(temporally))).toObject();
+               Message_Recived = blockObj.value("body").toString();
+               ui->textBrowser->append(Message_Recived);
+               temporally++;
+               count_message--;
+           }
+      }
+}
 ChatPage::ChatPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::ChatPage)
@@ -39,21 +88,13 @@ this->Type_Request_to_send = Type_Request_to_send;
 
      this->token= file.readAll();
        file.close();
-
+QTimer * timer = new QTimer;
+connect(timer,SIGNAL(timeout()),this,SLOT(update()));
+timer->start(1000);
        if(Type_Request_to_send=="sendmessageuser")
    Type_Request_to_recive = "getuserchats";
-Mythread * newThread = new Mythread(Type_Request_to_recive,relevant_username);
-QObject::connect(newThread, &Mythread::message_recived,this,&ChatPage::on_message_recived);
-newThread->start();
 }
 
-void ChatPage::on_message_recived(QString message_recived)
-{
-    m.lock();
-    ui->textBrowser->setStyleSheet("color : red;");
-ui->textBrowser->append(message_recived);
-    m.unlock();
-}
 
 ChatPage::~ChatPage()
 {
@@ -103,9 +144,7 @@ void ChatPage::on_Send_pushButton_clicked()
              QThread t;
             // t(getChat());
              ui->textBrowser->setStyleSheet("color : green;");
-             m.lock();
              ui->textBrowser->append(ui->lineEdit->text());
-             m.unlock();
              ui->lineEdit->setText("");
 return;
 

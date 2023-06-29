@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ChatPage_t {
-    const uint offsetsAndSize[14];
-    char stringdata0[118];
+    const uint offsetsAndSize[12];
+    char stringdata0[90];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_ChatPage_t, stringdata0) + ofs), len 
@@ -34,14 +34,12 @@ QT_MOC_LITERAL(9, 21), // "on_pushButton_clicked"
 QT_MOC_LITERAL(31, 0), // ""
 QT_MOC_LITERAL(32, 23), // "on_pushButton_2_clicked"
 QT_MOC_LITERAL(56, 26), // "on_Send_pushButton_clicked"
-QT_MOC_LITERAL(83, 18), // "on_message_recived"
-QT_MOC_LITERAL(102, 15) // "message_recived"
+QT_MOC_LITERAL(83, 6) // "update"
 
     },
     "ChatPage\0on_pushButton_clicked\0\0"
     "on_pushButton_2_clicked\0"
-    "on_Send_pushButton_clicked\0"
-    "on_message_recived\0message_recived"
+    "on_Send_pushButton_clicked\0update"
 };
 #undef QT_MOC_LITERAL
 
@@ -62,13 +60,13 @@ static const uint qt_meta_data_ChatPage[] = {
        1,    0,   38,    2, 0x08,    1 /* Private */,
        3,    0,   39,    2, 0x08,    2 /* Private */,
        4,    0,   40,    2, 0x08,    3 /* Private */,
-       5,    1,   41,    2, 0x08,    4 /* Private */,
+       5,    0,   41,    2, 0x08,    4 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -82,10 +80,11 @@ void ChatPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 0: _t->on_pushButton_clicked(); break;
         case 1: _t->on_pushButton_2_clicked(); break;
         case 2: _t->on_Send_pushButton_clicked(); break;
-        case 3: _t->on_message_recived((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 3: _t->update(); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject ChatPage::staticMetaObject = { {
@@ -96,7 +95,7 @@ const QMetaObject ChatPage::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_ChatPage_t
 , QtPrivate::TypeAndForceComplete<ChatPage, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QString, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 >,

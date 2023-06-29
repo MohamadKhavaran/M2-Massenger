@@ -17,7 +17,6 @@ public:
     void getChat();
     void appendMessage();
     ~ChatPage();
-
 private slots:
     void on_pushButton_clicked();
 
@@ -25,7 +24,7 @@ private slots:
 
     void on_Send_pushButton_clicked();
 
-    void on_message_recived(QString message_recived);
+    void update();
 
 private:
     Ui::ChatPage *ui;
