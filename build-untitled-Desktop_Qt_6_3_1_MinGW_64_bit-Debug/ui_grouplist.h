@@ -29,16 +29,51 @@ public:
     {
         if (GroupList->objectName().isEmpty())
             GroupList->setObjectName(QString::fromUtf8("GroupList"));
-        GroupList->resize(670, 400);
+        GroupList->resize(400, 500);
         GroupList->setStyleSheet(QString::fromUtf8("background-color:rgb(0, 0, 0);"));
         pushButton = new QPushButton(GroupList);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(40, 310, 71, 71));
-        pushButton->setStyleSheet(QString::fromUtf8("image: url(:/icons/back_icon_2.png);"));
+        pushButton->setGeometry(QRect(10, 450, 71, 31));
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
+"color: white;\n"
+"border-radius: 5px;\n"
+"Background: #933;\n"
+"color: #fefefe;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:hover {\n"
+"	background-color: rgb(42, 46, 52);\n"
+"border-style: solid;\n"
+" border-width: 1px;\n"
+"	color: rgb(241, 182, 88);\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:pressed {\n"
+"border-style: solid;\n"
+"border-width: 1px;\n"
+"	background-color: rgb(25, 69, 105);\n"
+"	color: rgb(85, 255, 255);\n"
+"}"));
         textBrowser = new QTextBrowser(GroupList);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(210, 80, 431, 301));
-        textBrowser->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255);"));
+        textBrowser->setGeometry(QRect(10, 70, 380, 361));
+        textBrowser->setStyleSheet(QString::fromUtf8("QTextBrowsert#textBrowser {\n"
+"Padding: 1px;\n"
+"Border-radius: 7px;\n"
+"Color: #fefefe;\n"
+"background-color: rgb(42, 46, 52);\n"
+"border-style: solid solid solid solid ;\n"
+" border-width: 2px;\n"
+"	border-color: rgb(25, 69, 105);\n"
+"}\n"
+"\n"
+"QTextBrowser#textBrowser:hover {\n"
+"background-color: rgb(42, 46, 52);\n"
+"border-style: solid solid solid solid ;\n"
+" border-width: 2px;\n"
+"color: rgb(241, 182, 88);\n"
+"	border-color: rgb(32, 88, 134);\n"
+"}"));
         label = new QLabel(GroupList);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 0, 291, 61));
@@ -57,7 +92,7 @@ public:
     void retranslateUi(QWidget *GroupList)
     {
         GroupList->setWindowTitle(QCoreApplication::translate("GroupList", "Form", nullptr));
-        pushButton->setText(QString());
+        pushButton->setText(QCoreApplication::translate("GroupList", "Back", nullptr));
         label->setText(QCoreApplication::translate("GroupList", "M2 messenger", nullptr));
     } // retranslateUi
 
