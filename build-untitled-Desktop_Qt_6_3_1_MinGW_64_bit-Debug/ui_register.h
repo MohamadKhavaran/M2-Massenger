@@ -53,7 +53,7 @@ public:
         widget->setObjectName(QString::fromUtf8("widget"));
         widget->setGeometry(QRect(0, 0, 800, 600));
         widget->setStyleSheet(QString::fromUtf8("background-color:	rgb(0, 0, 0);\n"
-""));
+"color:white;"));
         label_2 = new QLabel(widget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(272, 50, 261, 81));
@@ -258,6 +258,7 @@ public:
         QFont font3;
         font3.setPointSize(15);
         font3.setBold(true);
+        font3.setItalic(true);
         Back_pushButton->setFont(font3);
         Back_pushButton->setStyleSheet(QString::fromUtf8("QPushButton#Back_pushButton {\n"
 "color: white;\n"

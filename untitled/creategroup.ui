@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>450</width>
-    <height>500</height>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:rgba(0, 0, 0, 255);
-color:rgb(255, 255, 255);</string>
+color:white;</string>
   </property>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
@@ -177,6 +177,7 @@ QLineEdit#lineEdit:hover {
       <property name="font">
        <font>
         <pointsize>15</pointsize>
+        <italic>true</italic>
         <bold>true</bold>
        </font>
       </property>
@@ -212,6 +213,7 @@ border-width: 1px;
       <property name="font">
        <font>
         <pointsize>15</pointsize>
+        <italic>true</italic>
         <bold>true</bold>
        </font>
       </property>

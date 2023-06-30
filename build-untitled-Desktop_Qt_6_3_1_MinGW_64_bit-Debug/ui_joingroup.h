@@ -35,8 +35,9 @@ public:
     {
         if (JoinGroup->objectName().isEmpty())
             JoinGroup->setObjectName(QString::fromUtf8("JoinGroup"));
-        JoinGroup->resize(450, 500);
-        JoinGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);"));
+        JoinGroup->resize(450, 550);
+        JoinGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);\n"
+"color:white;"));
         label = new QLabel(JoinGroup);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 210, 161, 34));
@@ -91,6 +92,7 @@ public:
         QFont font2;
         font2.setPointSize(15);
         font2.setBold(true);
+        font2.setItalic(true);
         pushButton_2->setFont(font2);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2 {\n"
 "color: white;\n"

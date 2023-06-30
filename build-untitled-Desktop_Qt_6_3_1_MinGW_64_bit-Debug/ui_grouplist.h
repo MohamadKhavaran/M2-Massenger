@@ -29,11 +29,17 @@ public:
     {
         if (GroupList->objectName().isEmpty())
             GroupList->setObjectName(QString::fromUtf8("GroupList"));
-        GroupList->resize(400, 500);
-        GroupList->setStyleSheet(QString::fromUtf8("background-color:rgb(0, 0, 0);"));
+        GroupList->resize(450, 550);
+        GroupList->setStyleSheet(QString::fromUtf8("background-color:rgb(0, 0, 0);\n"
+"color:white;"));
         pushButton = new QPushButton(GroupList);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(10, 450, 71, 31));
+        pushButton->setGeometry(QRect(10, 505, 71, 31));
+        QFont font;
+        font.setPointSize(15);
+        font.setBold(false);
+        font.setItalic(true);
+        pushButton->setFont(font);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -56,7 +62,7 @@ public:
 "}"));
         textBrowser = new QTextBrowser(GroupList);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 70, 380, 361));
+        textBrowser->setGeometry(QRect(10, 70, 431, 421));
         textBrowser->setStyleSheet(QString::fromUtf8("QTextBrowsert#textBrowser {\n"
 "Padding: 1px;\n"
 "Border-radius: 7px;\n"
@@ -77,11 +83,11 @@ public:
         label = new QLabel(GroupList);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 0, 291, 61));
-        QFont font;
-        font.setPointSize(25);
-        font.setBold(true);
-        font.setItalic(true);
-        label->setFont(font);
+        QFont font1;
+        font1.setPointSize(25);
+        font1.setBold(true);
+        font1.setItalic(true);
+        label->setFont(font1);
         label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0);"));
 
         retranslateUi(GroupList);
