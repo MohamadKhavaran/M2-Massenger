@@ -338,7 +338,7 @@ release/moc_afterlogin.cpp: ../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\afterlogin.h -o release\moc_afterlogin.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\afterlogin.h -o release\moc_afterlogin.cpp
 
 release/moc_channellist.cpp: ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -475,12 +475,13 @@ release/moc_channellist.cpp: ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o release\moc_channellist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o release\moc_channellist.cpp
 
 release/moc_chatpage.cpp: ../untitled/chatpage.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiglobal.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qconfig-bootstrapped.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qconfig.h \
@@ -503,12 +504,11 @@ release/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qglobalstatic.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnumeric.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringview.h \
@@ -529,45 +529,94 @@ release/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qutf8stringview.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringtokenizer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringbuilder.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreevent.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlist.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qhashfunctions.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiterator.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qbytearraylist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qalgorithms.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringmatcher.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmetatype.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcompare.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopeguard.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatastream.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiodevicebase.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiterable.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmetacontainer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcontainerinfo.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qtaggedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmath.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qmap.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qhash.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreevent.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qtextstream.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qset.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpointer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qsize.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmargins.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qbitmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrect.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qcolor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgb.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgba64.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qimage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixelformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtransform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpolygon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qregion.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qline.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QList \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QObject \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
@@ -582,50 +631,36 @@ release/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiglobal.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qmargins.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qaction.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qicon.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixmap.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpaintdevice.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qrect.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qpoint.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qcolor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgb.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgba64.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qimage.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixelformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtransform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpolygon.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qregion.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qline.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qpalette.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qbrush.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfont.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfontmetrics.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfontinfo.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qsizepolicy.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qevent.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qeventpoint.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qvector2d.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qvectornd.h \
@@ -636,10 +671,9 @@ release/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSize \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\chatpage.h -o release\moc_chatpage.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\chatpage.h -o release\moc_chatpage.cpp
 
 release/moc_createchannel.cpp: ../untitled/createchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -776,7 +810,7 @@ release/moc_createchannel.cpp: ../untitled/createchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\createchannel.h -o release\moc_createchannel.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\createchannel.h -o release\moc_createchannel.cpp
 
 release/moc_creategroup.cpp: ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -913,7 +947,7 @@ release/moc_creategroup.cpp: ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\creategroup.h -o release\moc_creategroup.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\creategroup.h -o release\moc_creategroup.cpp
 
 release/moc_grouplist.cpp: ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1050,7 +1084,7 @@ release/moc_grouplist.cpp: ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o release\moc_grouplist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o release\moc_grouplist.cpp
 
 release/moc_joinchannel.cpp: ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1187,7 +1221,7 @@ release/moc_joinchannel.cpp: ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joinchannel.h -o release\moc_joinchannel.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joinchannel.h -o release\moc_joinchannel.cpp
 
 release/moc_joingroup.cpp: ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1324,7 +1358,7 @@ release/moc_joingroup.cpp: ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joingroup.h -o release\moc_joingroup.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joingroup.h -o release\moc_joingroup.cpp
 
 release/moc_mainwindow.cpp: ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
@@ -1463,7 +1497,7 @@ release/moc_mainwindow.cpp: ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mainwindow.h -o release\moc_mainwindow.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mainwindow.h -o release\moc_mainwindow.cpp
 
 release/moc_mythread.cpp: ../untitled/mythread.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QThread \
@@ -1539,7 +1573,7 @@ release/moc_mythread.cpp: ../untitled/mythread.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mythread.h -o release\moc_mythread.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mythread.h -o release\moc_mythread.cpp
 
 release/moc_register.cpp: ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1676,7 +1710,7 @@ release/moc_register.cpp: ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\register.h -o release\moc_register.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\register.h -o release\moc_register.cpp
 
 release/moc_sendmessageuser.cpp: ../untitled/sendmessageuser.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1813,7 +1847,7 @@ release/moc_sendmessageuser.cpp: ../untitled/sendmessageuser.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessageuser.h -o release\moc_sendmessageuser.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessageuser.h -o release\moc_sendmessageuser.cpp
 
 release/moc_userlist.cpp: ../untitled/userlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1950,7 +1984,7 @@ release/moc_userlist.cpp: ../untitled/userlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\userlist.h -o release\moc_userlist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\userlist.h -o release\moc_userlist.cpp
 
 release/moc_verification.cpp: ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -2087,7 +2121,7 @@ release/moc_verification.cpp: ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\verification.h -o release\moc_verification.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\verification.h -o release\moc_verification.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -2608,9 +2642,10 @@ release/channellist.o: ../untitled/channellist.cpp ../untitled/channellist.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\channellist.o ..\untitled\channellist.cpp
 
 release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiglobal.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qconfig-bootstrapped.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qconfig.h \
@@ -2633,12 +2668,11 @@ release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qglobalstatic.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnumeric.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringview.h \
@@ -2659,45 +2693,94 @@ release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qutf8stringview.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringtokenizer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringbuilder.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreevent.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlist.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qhashfunctions.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiterator.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qbytearraylist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qalgorithms.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringmatcher.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmetatype.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcompare.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopeguard.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatastream.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qscopedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiodevicebase.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qiterable.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmetacontainer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcontainerinfo.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qtaggedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qmath.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qmap.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qhash.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreevent.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qtextstream.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qset.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpointer.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qsize.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qmargins.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qbitmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixmap.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qrect.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qcolor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgb.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgba64.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qimage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixelformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtransform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpolygon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qregion.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qline.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkrequest.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QList \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QObject \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
@@ -2712,50 +2795,36 @@ release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcryptographichash.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qdatetime.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcalendar.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qssl.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QFlags \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
+		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiglobal.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtguiexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qmargins.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qaction.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qicon.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixmap.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpaintdevice.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qrect.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qpoint.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qcolor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgb.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qrgba64.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qimage.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpixelformat.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qtransform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qpolygon.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qregion.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qline.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qpalette.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qbrush.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfont.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfontmetrics.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qfontinfo.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qsizepolicy.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qcursor.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qevent.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qpointer.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qeventpoint.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qvector2d.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qvectornd.h \
@@ -2766,28 +2835,7 @@ release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSize \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_chatpage.h \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qpromise.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
@@ -2813,20 +2861,6 @@ release/chatpage.o: ../untitled/chatpage.cpp ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
 		../untitled/afterlogin.h \
 		../untitled/sendmessageuser.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
-		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkRequest \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonObject \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonobject.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsonvalue.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborvalue.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qcborcommon.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonValue \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \
@@ -4947,6 +4981,7 @@ release/sendmessageuser.o: ../untitled/sendmessageuser.cpp ../untitled/sendmessa
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 		../untitled/afterlogin.h \
 		../untitled/chatpage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
@@ -4972,7 +5007,6 @@ release/sendmessageuser.o: ../untitled/sendmessageuser.cpp ../untitled/sendmessa
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QMetaType \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkReply \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkreply.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QIODevice \
