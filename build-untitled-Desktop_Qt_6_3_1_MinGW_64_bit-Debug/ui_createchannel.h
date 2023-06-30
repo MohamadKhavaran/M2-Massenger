@@ -37,8 +37,9 @@ public:
     {
         if (CreateChannel->objectName().isEmpty())
             CreateChannel->setObjectName(QString::fromUtf8("CreateChannel"));
-        CreateChannel->resize(450, 500);
-        CreateChannel->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);"));
+        CreateChannel->resize(450, 550);
+        CreateChannel->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);\n"
+"color:white;"));
         label = new QLabel(CreateChannel);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(30, 170, 174, 34));
@@ -116,7 +117,7 @@ public:
         label_4->setStyleSheet(QString::fromUtf8("image: url(:/icons/channel icon.png);"));
         horizontalLayoutWidget = new QWidget(CreateChannel);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(100, 380, 241, 61));
+        horizontalLayoutWidget->setGeometry(QRect(100, 400, 241, 61));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -125,6 +126,7 @@ public:
         QFont font3;
         font3.setPointSize(15);
         font3.setBold(true);
+        font3.setItalic(true);
         pushButton_2->setFont(font3);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2 {\n"
 "color: white;\n"
@@ -151,11 +153,7 @@ public:
 
         pushButton = new QPushButton(horizontalLayoutWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        QFont font4;
-        font4.setPointSize(15);
-        font4.setBold(true);
-        font4.setItalic(false);
-        pushButton->setFont(font4);
+        pushButton->setFont(font3);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"

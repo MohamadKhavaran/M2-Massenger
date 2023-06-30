@@ -350,7 +350,7 @@ debug/moc_afterlogin.cpp: ../untitled/afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\afterlogin.h -o debug\moc_afterlogin.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\afterlogin.h -o debug\moc_afterlogin.cpp
 
 debug/moc_channellist.cpp: ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -487,7 +487,7 @@ debug/moc_channellist.cpp: ../untitled/channellist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o debug\moc_channellist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\channellist.h -o debug\moc_channellist.cpp
 
 debug/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
@@ -685,7 +685,7 @@ debug/moc_chatpage.cpp: ../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\chatpage.h -o debug\moc_chatpage.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\chatpage.h -o debug\moc_chatpage.cpp
 
 debug/moc_createchannel.cpp: ../untitled/createchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -822,7 +822,7 @@ debug/moc_createchannel.cpp: ../untitled/createchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\createchannel.h -o debug\moc_createchannel.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\createchannel.h -o debug\moc_createchannel.cpp
 
 debug/moc_creategroup.cpp: ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -959,7 +959,7 @@ debug/moc_creategroup.cpp: ../untitled/creategroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\creategroup.h -o debug\moc_creategroup.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\creategroup.h -o debug\moc_creategroup.cpp
 
 debug/moc_grouplist.cpp: ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1096,7 +1096,7 @@ debug/moc_grouplist.cpp: ../untitled/grouplist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o debug\moc_grouplist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\grouplist.h -o debug\moc_grouplist.cpp
 
 debug/moc_joinchannel.cpp: ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1233,7 +1233,7 @@ debug/moc_joinchannel.cpp: ../untitled/joinchannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joinchannel.h -o debug\moc_joinchannel.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joinchannel.h -o debug\moc_joinchannel.cpp
 
 debug/moc_joingroup.cpp: ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1370,7 +1370,7 @@ debug/moc_joingroup.cpp: ../untitled/joingroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joingroup.h -o debug\moc_joingroup.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\joingroup.h -o debug\moc_joingroup.cpp
 
 debug/moc_mainwindow.cpp: ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
@@ -1509,7 +1509,7 @@ debug/moc_mainwindow.cpp: ../untitled/mainwindow.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mainwindow.h -o debug\moc_mainwindow.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mainwindow.h -o debug\moc_mainwindow.cpp
 
 debug/moc_mythread.cpp: ../untitled/mythread.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QThread \
@@ -1585,7 +1585,7 @@ debug/moc_mythread.cpp: ../untitled/mythread.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mythread.h -o debug\moc_mythread.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\mythread.h -o debug\moc_mythread.cpp
 
 debug/moc_register.cpp: ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1722,7 +1722,7 @@ debug/moc_register.cpp: ../untitled/register.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\register.h -o debug\moc_register.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\register.h -o debug\moc_register.cpp
 
 debug/moc_sendmessagechannel.cpp: ../untitled/sendmessagechannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1859,7 +1859,7 @@ debug/moc_sendmessagechannel.cpp: ../untitled/sendmessagechannel.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessagechannel.h -o debug\moc_sendmessagechannel.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessagechannel.h -o debug\moc_sendmessagechannel.cpp
 
 debug/moc_sendmessagegroup.cpp: ../untitled/sendmessagegroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -1996,7 +1996,7 @@ debug/moc_sendmessagegroup.cpp: ../untitled/sendmessagegroup.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessagegroup.h -o debug\moc_sendmessagegroup.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessagegroup.h -o debug\moc_sendmessagegroup.cpp
 
 debug/moc_sendmessageuser.cpp: ../untitled/sendmessageuser.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -2133,7 +2133,7 @@ debug/moc_sendmessageuser.cpp: ../untitled/sendmessageuser.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessageuser.h -o debug\moc_sendmessageuser.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\sendmessageuser.h -o debug\moc_sendmessageuser.cpp
 
 debug/moc_userlist.cpp: ../untitled/userlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -2270,7 +2270,7 @@ debug/moc_userlist.cpp: ../untitled/userlist.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\userlist.h -o debug\moc_userlist.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\userlist.h -o debug\moc_userlist.cpp
 
 debug/moc_verification.cpp: ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QWidget \
@@ -2407,7 +2407,7 @@ debug/moc_verification.cpp: ../untitled/verification.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Modern/Documents/GitHub/AP-project/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\verification.h -o debug\moc_verification.cpp
+	C:\Qt\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.3.1/mingw_64/mkspecs/win32-g++ -IC:/Users/Padidar/Desktop/Messenger_M2_13/untitled -IC:/Qt/6.3.1/mingw_64/include -IC:/Qt/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/6.3.1/mingw_64/include/QtGui -IC:/Qt/6.3.1/mingw_64/include/QtNetwork -IC:/Qt/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\untitled\verification.h -o debug\moc_verification.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -2629,6 +2629,7 @@ debug/afterlogin.o: ../untitled/afterlogin.cpp ../untitled/afterlogin.h \
 		../untitled/channellist.h \
 		../untitled/sendmessageuser.h \
 		../untitled/sendmessagegroup.h \
+		../untitled/sendmessagechannel.h \
 		../untitled/userlist.h \
 		ui_afterlogin.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
@@ -5255,7 +5256,7 @@ debug/sendmessagechannel.o: ../untitled/sendmessagechannel.cpp ../untitled/sendm
 		C:/Qt/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_sendmessagechannel.h \
-		../untitled/chatpage.h \
+		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -5277,6 +5278,26 @@ debug/sendmessagechannel.o: ../untitled/sendmessagechannel.cpp ../untitled/sendm
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		../untitled/chatpage.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QCoreApplication \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QNetworkAccessManager \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
@@ -5287,7 +5308,6 @@ debug/sendmessagechannel.o: ../untitled/sendmessagechannel.cpp ../untitled/sendm
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QSharedDataPointer \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QUrl \
-		C:/Qt/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/QSslConfiguration \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslconfiguration.h \
 		C:/Qt/6.3.1/mingw_64/include/QtNetwork/qsslsocket.h \
@@ -5317,7 +5337,10 @@ debug/sendmessagechannel.o: ../untitled/sendmessagechannel.cpp ../untitled/sendm
 		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
-		../untitled/afterlogin.h
+		../untitled/afterlogin.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sendmessagechannel.o ..\untitled\sendmessagechannel.cpp
 
 debug/sendmessagegroup.o: ../untitled/sendmessagegroup.cpp ../untitled/sendmessagegroup.h \
@@ -5535,7 +5558,10 @@ debug/sendmessagegroup.o: ../untitled/sendmessagegroup.cpp ../untitled/sendmessa
 		C:/Qt/6.3.1/mingw_64/include/QtCore/quuid.h \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/QJsonDocument \
 		C:/Qt/6.3.1/mingw_64/include/QtCore/qjsondocument.h \
-		../untitled/afterlogin.h
+		../untitled/afterlogin.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.3.1/mingw_64/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sendmessagegroup.o ..\untitled\sendmessagegroup.cpp
 
 debug/sendmessageuser.o: ../untitled/sendmessageuser.cpp ../untitled/sendmessageuser.h \

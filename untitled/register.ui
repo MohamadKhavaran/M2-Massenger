@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">background-color:	rgb(0, 0, 0);
-</string>
+color:white;</string>
    </property>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -436,6 +436,7 @@ QCheckBox#checkBox:pressed {
        <property name="font">
         <font>
          <pointsize>15</pointsize>
+         <italic>true</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -471,6 +472,7 @@ border-width: 1px;
        <property name="font">
         <font>
          <pointsize>15</pointsize>
+         <italic>true</italic>
          <bold>true</bold>
         </font>
        </property>

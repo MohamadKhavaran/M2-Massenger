@@ -30,8 +30,8 @@ public:
         if (userlist->objectName().isEmpty())
             userlist->setObjectName(QString::fromUtf8("userlist"));
         userlist->resize(450, 550);
-        userlist->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
-""));
+        userlist->setStyleSheet(QString::fromUtf8("background-color:	rgb(0, 0, 0);\n"
+"color:white;"));
         textBrowser = new QTextBrowser(userlist);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
         textBrowser->setGeometry(QRect(20, 80, 411, 391));

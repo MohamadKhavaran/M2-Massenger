@@ -29,12 +29,17 @@ public:
     {
         if (channellist->objectName().isEmpty())
             channellist->setObjectName(QString::fromUtf8("channellist"));
-        channellist->resize(400, 500);
+        channellist->resize(450, 550);
         channellist->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
-""));
+"color:white;"));
         pushButton = new QPushButton(channellist);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(10, 455, 71, 31));
+        pushButton->setGeometry(QRect(10, 500, 81, 31));
+        QFont font;
+        font.setPointSize(15);
+        font.setBold(false);
+        font.setItalic(true);
+        pushButton->setFont(font);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -57,10 +62,10 @@ public:
 "}"));
         textBrowser = new QTextBrowser(channellist);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 80, 380, 361));
-        QFont font;
-        font.setBold(false);
-        textBrowser->setFont(font);
+        textBrowser->setGeometry(QRect(10, 80, 431, 401));
+        QFont font1;
+        font1.setBold(false);
+        textBrowser->setFont(font1);
         textBrowser->setStyleSheet(QString::fromUtf8("QTextBrowsert#textBrowser {\n"
 "Padding: 1px;\n"
 "Border-radius: 7px;\n"
@@ -81,11 +86,11 @@ public:
         label = new QLabel(channellist);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 0, 291, 71));
-        QFont font1;
-        font1.setPointSize(25);
-        font1.setBold(true);
-        font1.setItalic(true);
-        label->setFont(font1);
+        QFont font2;
+        font2.setPointSize(25);
+        font2.setBold(true);
+        font2.setItalic(true);
+        label->setFont(font2);
         label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
 
         retranslateUi(channellist);

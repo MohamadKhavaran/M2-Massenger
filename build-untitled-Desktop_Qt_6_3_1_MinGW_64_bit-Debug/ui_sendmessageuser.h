@@ -34,19 +34,20 @@ public:
     {
         if (sendmessageuser->objectName().isEmpty())
             sendmessageuser->setObjectName(QString::fromUtf8("sendmessageuser"));
-        sendmessageuser->resize(479, 517);
-        sendmessageuser->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
-""));
+        sendmessageuser->resize(450, 550);
+        sendmessageuser->setStyleSheet(QString::fromUtf8("background-color:	rgb(0, 0, 0);\n"
+"color:white;"));
         label = new QLabel(sendmessageuser);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(55, 160, 415, 34));
+        label->setGeometry(QRect(40, 150, 415, 34));
         QFont font;
         font.setPointSize(13);
+        font.setItalic(true);
         label->setFont(font);
         label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
         lineEdit = new QLineEdit(sendmessageuser);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(80, 260, 291, 51));
+        lineEdit->setGeometry(QRect(80, 270, 291, 41));
         lineEdit->setStyleSheet(QString::fromUtf8("\n"
 "QLineEdit#lineEdit {\n"
 "\n"
@@ -86,7 +87,7 @@ public:
         QFont font2;
         font2.setPointSize(15);
         font2.setBold(true);
-        font2.setItalic(false);
+        font2.setItalic(true);
         pushButton->setFont(font2);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
@@ -113,10 +114,7 @@ public:
 
         pushButton_2 = new QPushButton(horizontalLayoutWidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        QFont font3;
-        font3.setPointSize(15);
-        font3.setBold(true);
-        pushButton_2->setFont(font3);
+        pushButton_2->setFont(font2);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2 {\n"
 "color: white;\n"
 "border-radius: 5px;\n"

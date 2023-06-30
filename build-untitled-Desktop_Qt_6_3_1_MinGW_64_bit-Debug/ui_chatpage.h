@@ -38,7 +38,7 @@ public:
             ChatPage->setObjectName(QString::fromUtf8("ChatPage"));
         ChatPage->resize(450, 550);
         ChatPage->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
-""));
+"color:white;"));
         textBrowser = new QTextBrowser(ChatPage);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
         textBrowser->setGeometry(QRect(10, 70, 430, 371));
@@ -76,6 +76,9 @@ public:
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
         pushButton = new QPushButton(horizontalLayoutWidget_2);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        QFont font1;
+        font1.setItalic(true);
+        pushButton->setFont(font1);
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -101,6 +104,7 @@ public:
 
         pushButton_2 = new QPushButton(horizontalLayoutWidget_2);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setFont(font1);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
 "	color: black;\n"
@@ -123,6 +127,7 @@ public:
         Send_pushButton = new QPushButton(ChatPage);
         Send_pushButton->setObjectName(QString::fromUtf8("Send_pushButton"));
         Send_pushButton->setGeometry(QRect(380, 450, 61, 31));
+        Send_pushButton->setFont(font1);
         Send_pushButton->setStyleSheet(QString::fromUtf8("QPushButton#Send_pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
