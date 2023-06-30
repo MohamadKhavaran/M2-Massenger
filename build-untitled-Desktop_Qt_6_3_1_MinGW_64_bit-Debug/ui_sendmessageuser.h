@@ -34,7 +34,7 @@ public:
     {
         if (sendmessageuser->objectName().isEmpty())
             sendmessageuser->setObjectName(QString::fromUtf8("sendmessageuser"));
-        sendmessageuser->resize(450, 500);
+        sendmessageuser->resize(479, 517);
         sendmessageuser->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 ""));
         label = new QLabel(sendmessageuser);

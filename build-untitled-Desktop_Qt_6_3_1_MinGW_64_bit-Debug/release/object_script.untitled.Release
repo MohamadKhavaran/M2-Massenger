@@ -10,6 +10,8 @@ release/main.o
 release/mainwindow.o
 release/mythread.o
 release/register.o
+release/sendmessagechannel.o
+release/sendmessagegroup.o
 release/sendmessageuser.o
 release/userlist.o
 release/verification.o
@@ -25,6 +27,8 @@ release/moc_joingroup.o
 release/moc_mainwindow.o
 release/moc_mythread.o
 release/moc_register.o
+release/moc_sendmessagechannel.o
+release/moc_sendmessagegroup.o
 release/moc_sendmessageuser.o
 release/moc_userlist.o
 release/moc_verification.o

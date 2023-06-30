@@ -26,7 +26,8 @@ void ChatPage :: update()
        if (!Number_Messaging.open(QIODevice::ReadOnly | QIODevice::Text))
            return;
 
-     int counting = Number_Messaging.readAll().toInt();
+        int counting = 0 ;
+      counting = Number_Messaging.readAll().toInt();
        Number_Messaging.close();
 
     qDebug()<<"Update is Working ...";
@@ -120,8 +121,6 @@ qDebug()<<counting;
                  //if(Help_Set_TexBrowser)
                      ui->textBrowser->append(line);
 
-                  counting++;
-                  int Help_To_Save_File = counting;
                   QFile Number_Message("nm.txt");
                   if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
                       return;
@@ -129,7 +128,7 @@ qDebug()<<counting;
 
                   QTextStream out_Number(&Number_Message);
 
-                  out_Number<<Help_To_Save_File;
+                  out_Number<<temporally;
                   Number_Message.close();
 
             }

@@ -6,6 +6,8 @@
 #include"grouplist.h"
 #include"channellist.h"
 #include"sendmessageuser.h"
+#include"sendmessagegroup.h"
+#include"sendmessagechannel.h"
 #include"userlist.h"
 #include "ui_afterlogin.h"
 #include"mainwindow.h"
@@ -175,8 +177,24 @@ void afterLogin::on_pushButton_14_clicked()
 
 void afterLogin::on_pushButton_13_clicked()
 {
-    sendmessageuser * newsendMessageuser = new sendmessageuser();
-    newsendMessageuser->show();
+    sendmessageuser * newsendMessageUser = new sendmessageuser();
+    newsendMessageUser->show();
+    this->close();
+}
+
+
+void afterLogin::on_pushButton_7_clicked()
+{
+    sendmessagegroup * newsendMessageGroup = new sendmessagegroup();
+    newsendMessageGroup->show();
+    this->close();
+}
+
+
+void afterLogin::on_pushButton_11_clicked()
+{
+    sendmessagechannel * newsendMessageChannel = new sendmessagechannel();
+    newsendMessageChannel->show();
     this->close();
 }
 

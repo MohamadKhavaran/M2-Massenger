@@ -22,6 +22,8 @@ SOURCES += \
     mainwindow.cpp \
     mythread.cpp \
     register.cpp \
+    sendmessagechannel.cpp \
+    sendmessagegroup.cpp \
     sendmessageuser.cpp \
     userlist.cpp \
     verification.cpp
@@ -38,6 +40,8 @@ HEADERS += \
     mainwindow.h \
     mythread.h \
     register.h \
+    sendmessagechannel.h \
+    sendmessagegroup.h \
     sendmessageuser.h \
     userlist.h \
     verification.h
@@ -53,6 +57,8 @@ FORMS += \
     joingroup.ui \
     mainwindow.ui \
     register.ui \
+    sendmessagechannel.ui \
+    sendmessagegroup.ui \
     sendmessageuser.ui \
     userlist.ui \
     verification.ui

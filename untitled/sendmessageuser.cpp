@@ -133,6 +133,9 @@ void sendmessageuser::on_pushButton_clicked()
 
 void sendmessageuser::on_pushButton_2_clicked()
 {
+    QString User = ui->lineEdit->text();
+    if(!(ui->lineEdit->text().trimmed().isEmpty()))
+       {
     QFile file("token.txt");
        if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
            return;
@@ -140,7 +143,6 @@ void sendmessageuser::on_pushButton_2_clicked()
      QString token= file.readAll();
        file.close();
 
-       QString User = ui->lineEdit->text();
 
 
        setFileChatUser("getuserchats",token,User);
@@ -164,8 +166,14 @@ if (Usernames_To_Chats.exists())
             }
 }
 
-this->close();
 newChatUser->show();
+this->close();
+    }
+    else
+    {
+        QMessageBox::warning(this,"","UserName Cannot Be Empty !");
+        return;
+    }
 
 }
 

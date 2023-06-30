@@ -10,6 +10,8 @@ debug/main.o
 debug/mainwindow.o
 debug/mythread.o
 debug/register.o
+debug/sendmessagechannel.o
+debug/sendmessagegroup.o
 debug/sendmessageuser.o
 debug/userlist.o
 debug/verification.o
@@ -25,6 +27,8 @@ debug/moc_joingroup.o
 debug/moc_mainwindow.o
 debug/moc_mythread.o
 debug/moc_register.o
+debug/moc_sendmessagechannel.o
+debug/moc_sendmessagegroup.o
 debug/moc_sendmessageuser.o
 debug/moc_userlist.o
 debug/moc_verification.o
