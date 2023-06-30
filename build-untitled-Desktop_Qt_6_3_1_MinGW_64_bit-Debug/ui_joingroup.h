@@ -32,11 +32,11 @@ public:
     {
         if (JoinGroup->objectName().isEmpty())
             JoinGroup->setObjectName(QString::fromUtf8("JoinGroup"));
-        JoinGroup->resize(670, 400);
+        JoinGroup->resize(450, 550);
         JoinGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);"));
         label = new QLabel(JoinGroup);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(260, 180, 161, 34));
+        label->setGeometry(QRect(20, 210, 161, 34));
         QFont font;
         font.setPointSize(15);
         font.setItalic(true);
@@ -44,56 +44,76 @@ public:
         label->setStyleSheet(QString::fromUtf8("color:rgba(254, 231, 21, 1);"));
         lineEdit = new QLineEdit(JoinGroup);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(420, 180, 221, 28));
-        lineEdit->setStyleSheet(QString::fromUtf8("bbackground-color:rgba(0, 0, 0, 0);\n"
+        lineEdit->setGeometry(QRect(180, 210, 221, 28));
+        lineEdit->setStyleSheet(QString::fromUtf8("\n"
+"QLineEdit#lineEdit {\n"
+"\n"
+"background-color:rgba(0, 0, 0, 0);\n"
 "border:none;\n"
 "border-bottom:2px solid rgba(254, 231, 21, 1);\n"
 "color:rgba(255, 255, 255, 255);\n"
-"padding-bottom:7px;"));
+"padding-bottom:7px;\n"
+"\n"
+"}\n"
+"\n"
+"QLineEdit#lineEdit:hover {\n"
+"\n"
+"	background-color: rgb(42, 46, 52);\n"
+"	border-style: solid;\n"
+"	border-color: rgb(245, 179, 1);\n"
+"	color: rgb(241, 182, 88);\n"
+"\n"
+"}"));
         pushButton = new QPushButton(JoinGroup);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(520, 290, 131, 31));
+        pushButton->setGeometry(QRect(220, 370, 131, 31));
         QFont font1;
         font1.setPointSize(13);
         font1.setBold(true);
         pushButton->setFont(font1);
-        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton{\n"
-"	background-color:rgba(254, 231, 21, 1);\n"
-"	color:rgba(0, 0, 0, 255);\n"
-"	border-radius:5px;\n"
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
+"color: white;\n"
+"border-radius: 5px;\n"
+"Background: #393;\n"
+"color: #fefefe;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton:hover{\n"
-"	background-color:rgb(0, 255, 0);\n"
-"\n"
+"QPushButton#pushButton:hover {\n"
+"	background-color: rgb(42, 46, 52);\n"
+"border-style: solid;\n"
+" border-width: 1px;\n"
+"	color: rgb(241, 182, 88);\n"
 "}\n"
 "\n"
-"QPushButton#pushButton:pressed{\n"
-"	padding-left:5px;\n"
-"	padding-top:5px;\n"
-"	background-color:rgba(150,123, 111, 255);\n"
-"}\n"
-"\n"
-"\n"
-""));
+"QPushButton#pushButton:pressed {\n"
+"border-style: solid;\n"
+"border-width: 1px;\n"
+"	background-color: rgb(25, 69, 105);\n"
+"	color: rgb(85, 255, 255);\n"
+"}"));
         pushButton_2 = new QPushButton(JoinGroup);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(380, 290, 131, 31));
+        pushButton_2->setGeometry(QRect(80, 370, 131, 31));
         pushButton_2->setFont(font1);
-        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
-"	background-color:rgba(254, 231, 21, 1);\n"
-"	color:rgba(0, 0, 0, 255);\n"
-"	border-radius:5px;\n"
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2 {\n"
+"color: white;\n"
+"border-radius: 5px;\n"
+"Background: #933;\n"
+"color: #fefefe;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_2:hover{\n"
-"	background-color:rgb(255, 0, 0);\n"
+"QPushButton#pushButton_2:hover {\n"
+"	background-color: rgb(42, 46, 52);\n"
+"border-style: solid;\n"
+" border-width: 1px;\n"
+"	color: rgb(241, 182, 88);\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_2:pressed{\n"
-"	padding-left:5px;\n"
-"	padding-top:5px;\n"
-"	background-color:rgba(150,123, 111, 255);\n"
+"QPushButton#pushButton_2:pressed {\n"
+"border-style: solid;\n"
+"border-width: 1px;\n"
+"	background-color: rgb(25, 69, 105);\n"
+"	color: rgb(85, 255, 255);\n"
 "}"));
         label_2 = new QLabel(JoinGroup);
         label_2->setObjectName(QString::fromUtf8("label_2"));
@@ -106,7 +126,7 @@ public:
         label_2->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
         label_3 = new QLabel(JoinGroup);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(60, 130, 161, 131));
+        label_3->setGeometry(QRect(330, 20, 101, 91));
         label_3->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
 
         retranslateUi(JoinGroup);
