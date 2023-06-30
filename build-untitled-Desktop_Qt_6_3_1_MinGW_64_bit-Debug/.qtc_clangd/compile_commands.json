@@ -9,7 +9,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -34,7 +34,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -46,9 +46,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -72,10 +72,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\afterlogin.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\afterlogin.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/afterlogin.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/afterlogin.cpp"
 },
 {
     "arguments": [
@@ -87,7 +87,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -112,7 +112,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -124,9 +124,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -150,10 +150,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\channellist.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\channellist.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/channellist.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/channellist.cpp"
 },
 {
     "arguments": [
@@ -165,7 +165,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -190,7 +190,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -202,9 +202,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -228,10 +228,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\chatpage.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\chatpage.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/chatpage.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/chatpage.cpp"
 },
 {
     "arguments": [
@@ -243,7 +243,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -268,7 +268,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -280,9 +280,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -306,10 +306,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\createchannel.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\createchannel.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/createchannel.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/createchannel.cpp"
 },
 {
     "arguments": [
@@ -321,7 +321,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -346,7 +346,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -358,9 +358,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -384,10 +384,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\creategroup.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\creategroup.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/creategroup.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/creategroup.cpp"
 },
 {
     "arguments": [
@@ -399,7 +399,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -424,7 +424,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -436,9 +436,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -462,10 +462,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\grouplist.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\grouplist.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/grouplist.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/grouplist.cpp"
 },
 {
     "arguments": [
@@ -477,7 +477,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -502,7 +502,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -514,9 +514,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -540,10 +540,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\joinchannel.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\joinchannel.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/joinchannel.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/joinchannel.cpp"
 },
 {
     "arguments": [
@@ -555,7 +555,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -580,7 +580,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -592,9 +592,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -618,10 +618,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\joingroup.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\joingroup.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/joingroup.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/joingroup.cpp"
 },
 {
     "arguments": [
@@ -633,7 +633,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -658,7 +658,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -670,9 +670,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -696,10 +696,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\main.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\main.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/main.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/main.cpp"
 },
 {
     "arguments": [
@@ -711,7 +711,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -736,7 +736,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -748,9 +748,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -774,10 +774,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mainwindow.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\mainwindow.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mainwindow.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -789,7 +789,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -814,7 +814,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -826,9 +826,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -852,10 +852,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mythread.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\mythread.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mythread.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/mythread.cpp"
 },
 {
     "arguments": [
@@ -867,7 +867,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -892,7 +892,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -904,9 +904,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -930,10 +930,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\register.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\register.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/register.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/register.cpp"
 },
 {
     "arguments": [
@@ -945,7 +945,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -970,7 +970,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -982,9 +982,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1008,10 +1008,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessagechannel.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessagechannel.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessagechannel.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessagechannel.cpp"
 },
 {
     "arguments": [
@@ -1023,7 +1023,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1048,7 +1048,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1060,9 +1060,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1086,10 +1086,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessagegroup.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessagegroup.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessagegroup.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessagegroup.cpp"
 },
 {
     "arguments": [
@@ -1101,7 +1101,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1126,7 +1126,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1138,9 +1138,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1164,10 +1164,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessageuser.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessageuser.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessageuser.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessageuser.cpp"
 },
 {
     "arguments": [
@@ -1179,7 +1179,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1204,7 +1204,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1216,9 +1216,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1242,10 +1242,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\userlist.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\userlist.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/userlist.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/userlist.cpp"
 },
 {
     "arguments": [
@@ -1257,7 +1257,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1282,7 +1282,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1294,9 +1294,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1320,10 +1320,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\verification.cpp"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\verification.cpp"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/verification.cpp"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/verification.cpp"
 },
 {
     "arguments": [
@@ -1335,7 +1335,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1360,7 +1360,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1372,9 +1372,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1398,10 +1398,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\afterlogin.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\afterlogin.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/afterlogin.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/afterlogin.h"
 },
 {
     "arguments": [
@@ -1413,7 +1413,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1438,7 +1438,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1450,9 +1450,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1476,10 +1476,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\channellist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\channellist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/channellist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/channellist.h"
 },
 {
     "arguments": [
@@ -1491,7 +1491,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1516,7 +1516,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1528,9 +1528,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1554,10 +1554,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\chatpage.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\chatpage.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/chatpage.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/chatpage.h"
 },
 {
     "arguments": [
@@ -1569,7 +1569,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1594,7 +1594,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1606,9 +1606,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1632,10 +1632,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\createchannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\createchannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/createchannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/createchannel.h"
 },
 {
     "arguments": [
@@ -1647,7 +1647,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1672,7 +1672,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1684,9 +1684,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1710,10 +1710,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\creategroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\creategroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/creategroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/creategroup.h"
 },
 {
     "arguments": [
@@ -1725,7 +1725,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1750,7 +1750,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1762,9 +1762,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1788,10 +1788,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\grouplist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\grouplist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/grouplist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/grouplist.h"
 },
 {
     "arguments": [
@@ -1803,7 +1803,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1828,7 +1828,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1840,9 +1840,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1866,10 +1866,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\joinchannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\joinchannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/joinchannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/joinchannel.h"
 },
 {
     "arguments": [
@@ -1881,7 +1881,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1906,7 +1906,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1918,9 +1918,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1944,10 +1944,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\joingroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\joingroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/joingroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/joingroup.h"
 },
 {
     "arguments": [
@@ -1959,7 +1959,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1984,7 +1984,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1996,9 +1996,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2022,10 +2022,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mainwindow.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\mainwindow.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mainwindow.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/mainwindow.h"
 },
 {
     "arguments": [
@@ -2037,7 +2037,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2062,7 +2062,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2074,9 +2074,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2100,10 +2100,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\mythread.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\mythread.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/mythread.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/mythread.h"
 },
 {
     "arguments": [
@@ -2115,7 +2115,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2140,7 +2140,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2152,9 +2152,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2178,10 +2178,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\register.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\register.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/register.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/register.h"
 },
 {
     "arguments": [
@@ -2193,7 +2193,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2218,7 +2218,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2230,9 +2230,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2256,10 +2256,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessagechannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessagechannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessagechannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessagechannel.h"
 },
 {
     "arguments": [
@@ -2271,7 +2271,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2296,7 +2296,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2308,9 +2308,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2334,10 +2334,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessagegroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessagegroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessagegroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessagegroup.h"
 },
 {
     "arguments": [
@@ -2349,7 +2349,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2374,7 +2374,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2386,9 +2386,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2412,10 +2412,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\sendmessageuser.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\sendmessageuser.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/sendmessageuser.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/sendmessageuser.h"
 },
 {
     "arguments": [
@@ -2427,7 +2427,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2452,7 +2452,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2464,9 +2464,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2490,10 +2490,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\userlist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\userlist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/userlist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/userlist.h"
 },
 {
     "arguments": [
@@ -2505,7 +2505,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2530,7 +2530,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2542,9 +2542,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2568,10 +2568,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled\\verification.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled\\verification.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/untitled/verification.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/untitled/verification.h"
 },
 {
     "arguments": [
@@ -2583,7 +2583,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2608,7 +2608,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2620,9 +2620,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2646,10 +2646,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessagegroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_verification.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessagegroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_verification.h"
 },
 {
     "arguments": [
@@ -2661,7 +2661,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2686,7 +2686,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2698,9 +2698,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2724,10 +2724,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_verification.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessagegroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_verification.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessagegroup.h"
 },
 {
     "arguments": [
@@ -2739,7 +2739,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2764,7 +2764,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2776,9 +2776,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2802,10 +2802,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_afterlogin.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_channellist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_afterlogin.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_channellist.h"
 },
 {
     "arguments": [
@@ -2817,7 +2817,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2842,7 +2842,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2854,9 +2854,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2880,10 +2880,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_joingroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_joingroup.h"
 },
 {
     "arguments": [
@@ -2895,7 +2895,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2920,7 +2920,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -2932,9 +2932,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -2958,10 +2958,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_joinchannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessagechannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_joinchannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessagechannel.h"
 },
 {
     "arguments": [
@@ -2973,7 +2973,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -2998,7 +2998,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3010,9 +3010,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3036,10 +3036,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_chatpage.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_userlist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_chatpage.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_userlist.h"
 },
 {
     "arguments": [
@@ -3051,7 +3051,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3076,7 +3076,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3088,9 +3088,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3114,10 +3114,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessagechannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessagechannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
 },
 {
     "arguments": [
@@ -3129,7 +3129,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3154,7 +3154,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3166,9 +3166,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3192,10 +3192,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_userlist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_register.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_userlist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_register.h"
 },
 {
     "arguments": [
@@ -3207,7 +3207,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3232,7 +3232,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3244,9 +3244,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3270,10 +3270,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessageuser.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_creategroup.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessageuser.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_creategroup.h"
 },
 {
     "arguments": [
@@ -3285,7 +3285,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3310,7 +3310,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3322,9 +3322,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3348,10 +3348,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_channellist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_grouplist.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_channellist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_grouplist.h"
 },
 {
     "arguments": [
@@ -3363,7 +3363,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3388,7 +3388,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3400,9 +3400,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3426,10 +3426,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_createchannel.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_chatpage.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_createchannel.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_chatpage.h"
 },
 {
     "arguments": [
@@ -3441,7 +3441,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3466,7 +3466,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3478,9 +3478,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3504,10 +3504,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_creategroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_createchannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_creategroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_createchannel.h"
 },
 {
     "arguments": [
@@ -3519,7 +3519,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3544,7 +3544,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3556,9 +3556,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3582,10 +3582,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_joinchannel.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_mainwindow.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_joinchannel.h"
 },
 {
     "arguments": [
@@ -3597,7 +3597,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3622,7 +3622,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3634,9 +3634,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3660,10 +3660,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_joingroup.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_afterlogin.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_joingroup.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_afterlogin.h"
 },
 {
     "arguments": [
@@ -3675,7 +3675,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\AppData\\Local\\Temp\\QtCreator-MSVxpf\\clang-uiheader-GXAyyz",
+        "C:\\Users\\Padidar\\AppData\\Local\\Temp\\QtCreator-InbabI\\clang-uiheader-DonoKe",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -3700,7 +3700,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\untitled",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\untitled",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -3712,9 +3712,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -3738,9 +3738,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\Users\\Modern\\Documents\\GitHub\\AP-project\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_grouplist.h"
+        "C:\\Users\\Padidar\\Desktop\\Messenger_M2_13\\build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_sendmessageuser.h"
     ],
-    "directory": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Modern/Documents/GitHub/AP-project/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_grouplist.h"
+    "directory": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Padidar/Desktop/Messenger_M2_13/build-untitled-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_sendmessageuser.h"
 }
 ]
