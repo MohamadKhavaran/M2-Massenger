@@ -104,6 +104,8 @@ sendmessageuser::sendmessageuser(QWidget *parent) :
     ui(new Ui::sendmessageuser)
 {
     ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
+
 }
 
 sendmessageuser::~sendmessageuser()

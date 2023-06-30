@@ -131,7 +131,9 @@ ChatPage::ChatPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::ChatPage)
 {
-    ui->setupUi(this);        
+    ui->setupUi(this);
+    this->setFixedSize(this->width(), this->height());
+
 }
 
 ChatPage::ChatPage(int count_message_set_in_sendmessageclass , QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
