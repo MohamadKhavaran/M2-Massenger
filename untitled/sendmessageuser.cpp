@@ -13,7 +13,6 @@
 #include<QFile>
 #include<QThread>
 #include<QTimer>
-int temporally = 0 ;
 // This function was created to create a file with the user's name once, without update capability, and later in the ChatPage object, it is used to read from the file and by
 //connect(timer,SIGNAL(timeout()),this,SLOT(update()));
 //timer->start(0);
@@ -21,6 +20,7 @@ int temporally = 0 ;
 void setFileChatUser(QString Type_Request_to_recive , QString token , QString relevant_username)
 {
     int Count_Message_To_Save_File = 0;
+    int temporally = 0 ;
 
     QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
       //Create The QNetworkRequest With setUrl For Connect To Server
@@ -79,6 +79,16 @@ void setFileChatUser(QString Type_Request_to_recive , QString token , QString re
                Count_Message_To_Save_File--;
            }
            file.close();
+
+           QFile Number_Messaging("nm.txt");
+           if (!Number_Messaging.open(QIODevice::WriteOnly | QIODevice::Text))
+               return;
+
+
+           QTextStream out_Number(&Number_Messaging);
+
+           out_Number<<temporally;
+           Number_Messaging.close();
       }
 }
 
@@ -127,9 +137,14 @@ void sendmessageuser::on_pushButton_2_clicked()
 
      QString token= file.readAll();
        file.close();
-QString User = ui->lineEdit->text();
-setFileChatUser("getuserchats",token,User);
-ChatPage * newChatUser =  new ChatPage(temporally,User,"sendmessageuser");
+
+       QString User = ui->lineEdit->text();
+
+
+       setFileChatUser("getuserchats",token,User);
+
+
+ChatPage * newChatUser =  new ChatPage(User,"sendmessageuser");
 
 QFile Usernames_To_Chats("UserChats.txt");
 if (Usernames_To_Chats.exists())

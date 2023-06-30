@@ -19,7 +19,7 @@ class ChatPage : public QWidget
 
 public:
     explicit ChatPage(QWidget *parent = nullptr);
-    ChatPage(int , QString , QString);
+    ChatPage( QString , QString);
     void getChat();
     void appendMessage();
     ~ChatPage();
@@ -34,7 +34,6 @@ private slots:
 
 private:
     Ui::ChatPage *ui;
-    int count_message_set_in_sendmessageclass;
     QString relevant_username;
     QString Type_Request_to_send;
     QString Type_Request_to_recive;

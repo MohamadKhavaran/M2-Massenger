@@ -15,11 +15,20 @@
 #include<QThread>
 #include<QMutex>
 #include<QTimer>
+#include<QVector>
 
 QTimer * timer = new QTimer;
 
+
 void ChatPage :: update()
 {
+    QFile Number_Messaging("nm.txt");
+       if (!Number_Messaging.open(QIODevice::ReadOnly | QIODevice::Text))
+           return;
+
+     int counting = Number_Messaging.readAll().toInt();
+       Number_Messaging.close();
+
     qDebug()<<"Update is Working ...";
     int Count_Message_To_Save_File = 0;
     int temporally = 0 ;
@@ -78,12 +87,13 @@ void ChatPage :: update()
            }
            file.close();
       }
-int temp  = count_message_set_in_sendmessageclass;
-temp*=2;
 //This variable helps to print only once if the sender sends a message
-bool Help_Set_TexBrowser = true;
-    if(temporally-count_message_set_in_sendmessageclass)
+//bool Help_Set_TexBrowser = true;
+qDebug()<<temporally;
+qDebug()<<counting;
+    if(temporally>counting)
     {
+        ui->textBrowser->clear();
         QFile file_for_textBrowser(relevant_username+".txt");
         if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
         {
@@ -91,18 +101,12 @@ bool Help_Set_TexBrowser = true;
             while (!in.atEnd())
             {
                 QString line = in.readLine();
-              if(temp)
-              {
-                  temp--;
-                  continue;
-              }
-
                   if(line=="src")
                   {
                       QTextCharFormat format;
                       format.setForeground(Qt::green);
                       ui->textBrowser->setCurrentCharFormat(format);
-                      Help_Set_TexBrowser = false ;
+                      //Help_Set_TexBrowser = false ;
                       continue;
                   }
                   else if(line=="dst")
@@ -110,16 +114,23 @@ bool Help_Set_TexBrowser = true;
                       QTextCharFormat format;
                       format.setForeground(Qt::red);
                       ui->textBrowser->setCurrentCharFormat(format);
-                      Help_Set_TexBrowser = true ;
+                  //    Help_Set_TexBrowser = true ;
                       continue;
                   }
-                 if(Help_Set_TexBrowser)
+                 //if(Help_Set_TexBrowser)
                      ui->textBrowser->append(line);
 
-                  count_message_set_in_sendmessageclass++;
+                  counting++;
+                  int Help_To_Save_File = counting;
+                  QFile Number_Message("nm.txt");
+                  if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
+                      return;
 
-                  if(temporally==count_message_set_in_sendmessageclass)
-                      break;
+
+                  QTextStream out_Number(&Number_Message);
+
+                  out_Number<<Help_To_Save_File;
+                  Number_Message.close();
 
             }
             file_for_textBrowser.close();
@@ -134,13 +145,12 @@ ChatPage::ChatPage(QWidget *parent) :
     ui->setupUi(this);        
 }
 
-ChatPage::ChatPage(int count_message_set_in_sendmessageclass , QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
+ChatPage::ChatPage( QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
 
 {
     // Set The Relevant Username
     // Set The Type      Request
     // They Are Used In Send Request To Server
-this->count_message_set_in_sendmessageclass = count_message_set_in_sendmessageclass ;
     ui->setupUi(this);
 this->relevant_username = relevant_username;
 this->Type_Request_to_send = Type_Request_to_send;
