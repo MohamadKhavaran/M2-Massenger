@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>450</width>
-    <height>550</height>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -69,88 +69,6 @@ QLineEdit#lineEdit:hover {
 }</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>370</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>13</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton#pushButton {
-color: white;
-border-radius: 5px;
-Background: #393;
-color: #fefefe;
-}
-
-QPushButton#pushButton:hover {
-	background-color: rgb(42, 46, 52);
-border-style: solid;
- border-width: 1px;
-	color: rgb(241, 182, 88);
-}
-
-QPushButton#pushButton:pressed {
-border-style: solid;
-border-width: 1px;
-	background-color: rgb(25, 69, 105);
-	color: rgb(85, 255, 255);
-}</string>
-   </property>
-   <property name="text">
-    <string>Confrim</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>370</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>13</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton#pushButton_2 {
-color: white;
-border-radius: 5px;
-Background: #933;
-color: #fefefe;
-}
-
-QPushButton#pushButton_2:hover {
-	background-color: rgb(42, 46, 52);
-border-style: solid;
- border-width: 1px;
-	color: rgb(241, 182, 88);
-}
-
-QPushButton#pushButton_2:pressed {
-border-style: solid;
-border-width: 1px;
-	background-color: rgb(25, 69, 105);
-	color: rgb(85, 255, 255);
-}</string>
-   </property>
-   <property name="text">
-    <string>Back</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
@@ -189,6 +107,88 @@ border-width: 1px;
    <property name="text">
     <string/>
    </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>241</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButton_2 {
+color: white;
+border-radius: 5px;
+Background: #933;
+color: #fefefe;
+}
+
+QPushButton#pushButton_2:hover {
+	background-color: rgb(42, 46, 52);
+border-style: solid;
+ border-width: 1px;
+	color: rgb(241, 182, 88);
+}
+
+QPushButton#pushButton_2:pressed {
+border-style: solid;
+border-width: 1px;
+	background-color: rgb(25, 69, 105);
+	color: rgb(85, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButton {
+color: white;
+border-radius: 5px;
+Background: #393;
+color: #fefefe;
+}
+
+QPushButton#pushButton:hover {
+	background-color: rgb(42, 46, 52);
+border-style: solid;
+ border-width: 1px;
+	color: rgb(241, 182, 88);
+}
+
+QPushButton#pushButton:pressed {
+border-style: solid;
+border-width: 1px;
+	background-color: rgb(25, 69, 105);
+	color: rgb(85, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Confrim</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -25,16 +26,18 @@ public:
     QLabel *label;
     QLineEdit *lineEdit_2;
     QLineEdit *lineEdit;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
     QLabel *label_3;
     QLabel *label_4;
+    QWidget *horizontalLayoutWidget;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton;
 
     void setupUi(QWidget *CreateGroup)
     {
         if (CreateGroup->objectName().isEmpty())
             CreateGroup->setObjectName(QString::fromUtf8("CreateGroup"));
-        CreateGroup->resize(450, 550);
+        CreateGroup->resize(450, 500);
         CreateGroup->setStyleSheet(QString::fromUtf8("background-color:rgba(0, 0, 0, 255);\n"
 "color:rgb(255, 255, 255);"));
         label_2 = new QLabel(CreateGroup);
@@ -94,37 +97,31 @@ public:
 "	color: rgb(241, 182, 88);\n"
 "\n"
 "}"));
-        pushButton = new QPushButton(CreateGroup);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(210, 400, 116, 31));
+        label_3 = new QLabel(CreateGroup);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(20, 10, 291, 61));
         QFont font1;
-        font1.setPointSize(13);
+        font1.setPointSize(25);
         font1.setBold(true);
-        pushButton->setFont(font1);
-        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
-"color: white;\n"
-"border-radius: 5px;\n"
-"Background: #393;\n"
-"color: #fefefe;\n"
-"}\n"
-"\n"
-"QPushButton#pushButton:hover {\n"
-"	background-color: rgb(42, 46, 52);\n"
-"border-style: solid;\n"
-" border-width: 1px;\n"
-"	color: rgb(241, 182, 88);\n"
-"}\n"
-"\n"
-"QPushButton#pushButton:pressed {\n"
-"border-style: solid;\n"
-"border-width: 1px;\n"
-"	background-color: rgb(25, 69, 105);\n"
-"	color: rgb(85, 255, 255);\n"
-"}"));
-        pushButton_2 = new QPushButton(CreateGroup);
+        font1.setItalic(true);
+        label_3->setFont(font1);
+        label_3->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
+        label_4 = new QLabel(CreateGroup);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(330, 10, 111, 91));
+        label_4->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
+        horizontalLayoutWidget = new QWidget(CreateGroup);
+        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
+        horizontalLayoutWidget->setGeometry(QRect(100, 380, 231, 80));
+        horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        pushButton_2 = new QPushButton(horizontalLayoutWidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(80, 400, 116, 31));
-        pushButton_2->setFont(font1);
+        QFont font2;
+        font2.setPointSize(15);
+        font2.setBold(true);
+        pushButton_2->setFont(font2);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2 {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -145,19 +142,35 @@ public:
 "	background-color: rgb(25, 69, 105);\n"
 "	color: rgb(85, 255, 255);\n"
 "}"));
-        label_3 = new QLabel(CreateGroup);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(20, 10, 291, 61));
-        QFont font2;
-        font2.setPointSize(25);
-        font2.setBold(true);
-        font2.setItalic(true);
-        label_3->setFont(font2);
-        label_3->setStyleSheet(QString::fromUtf8("color:rgb(255,255,0)	;"));
-        label_4 = new QLabel(CreateGroup);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(330, 10, 111, 91));
-        label_4->setStyleSheet(QString::fromUtf8("image: url(:/icons/group2.png);"));
+
+        horizontalLayout->addWidget(pushButton_2);
+
+        pushButton = new QPushButton(horizontalLayoutWidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setFont(font2);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
+"color: white;\n"
+"border-radius: 5px;\n"
+"Background: #393;\n"
+"color: #fefefe;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:hover {\n"
+"	background-color: rgb(42, 46, 52);\n"
+"border-style: solid;\n"
+" border-width: 1px;\n"
+"	color: rgb(241, 182, 88);\n"
+"}\n"
+"\n"
+"QPushButton#pushButton:pressed {\n"
+"border-style: solid;\n"
+"border-width: 1px;\n"
+"	background-color: rgb(25, 69, 105);\n"
+"	color: rgb(85, 255, 255);\n"
+"}"));
+
+        horizontalLayout->addWidget(pushButton);
+
 
         retranslateUi(CreateGroup);
 
@@ -169,10 +182,10 @@ public:
         CreateGroup->setWindowTitle(QCoreApplication::translate("CreateGroup", "Form", nullptr));
         label_2->setText(QCoreApplication::translate("CreateGroup", "Group title :", nullptr));
         label->setText(QCoreApplication::translate("CreateGroup", "Group name :", nullptr));
-        pushButton->setText(QCoreApplication::translate("CreateGroup", "Confrim", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("CreateGroup", "Back", nullptr));
         label_3->setText(QCoreApplication::translate("CreateGroup", "M2 messenger", nullptr));
         label_4->setText(QString());
+        pushButton_2->setText(QCoreApplication::translate("CreateGroup", "Back", nullptr));
+        pushButton->setText(QCoreApplication::translate("CreateGroup", "Confrim", nullptr));
     } // retranslateUi
 
 };

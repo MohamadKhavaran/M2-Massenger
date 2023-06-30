@@ -98,7 +98,7 @@ public:
         PhoneNumber_label->setStyleSheet(QString::fromUtf8("color:rgba(254, 231, 21, 1);"));
         FirstName_lineEdit = new QLineEdit(widget);
         FirstName_lineEdit->setObjectName(QString::fromUtf8("FirstName_lineEdit"));
-        FirstName_lineEdit->setGeometry(QRect(220, 185, 381, 28));
+        FirstName_lineEdit->setGeometry(QRect(220, 185, 410, 28));
         FirstName_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#FirstName_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -119,7 +119,7 @@ public:
 "}"));
         LastName_lineEdit = new QLineEdit(widget);
         LastName_lineEdit->setObjectName(QString::fromUtf8("LastName_lineEdit"));
-        LastName_lineEdit->setGeometry(QRect(220, 230, 381, 28));
+        LastName_lineEdit->setGeometry(QRect(220, 230, 410, 28));
         LastName_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#LastName_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -140,7 +140,7 @@ public:
 "}"));
         UserName_lineEdit = new QLineEdit(widget);
         UserName_lineEdit->setObjectName(QString::fromUtf8("UserName_lineEdit"));
-        UserName_lineEdit->setGeometry(QRect(220, 280, 381, 28));
+        UserName_lineEdit->setGeometry(QRect(220, 280, 410, 28));
         UserName_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#UserName_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -161,7 +161,7 @@ public:
 "}"));
         Password_lineEdit = new QLineEdit(widget);
         Password_lineEdit->setObjectName(QString::fromUtf8("Password_lineEdit"));
-        Password_lineEdit->setGeometry(QRect(220, 330, 381, 28));
+        Password_lineEdit->setGeometry(QRect(220, 330, 410, 28));
         Password_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#Password_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -183,7 +183,7 @@ public:
         Password_lineEdit->setEchoMode(QLineEdit::Password);
         ConfrimPassword_lineEdit = new QLineEdit(widget);
         ConfrimPassword_lineEdit->setObjectName(QString::fromUtf8("ConfrimPassword_lineEdit"));
-        ConfrimPassword_lineEdit->setGeometry(QRect(220, 378, 381, 28));
+        ConfrimPassword_lineEdit->setGeometry(QRect(220, 378, 410, 28));
         ConfrimPassword_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#ConfrimPassword_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -205,7 +205,7 @@ public:
         ConfrimPassword_lineEdit->setEchoMode(QLineEdit::Password);
         PhoneNumber_lineEdit = new QLineEdit(widget);
         PhoneNumber_lineEdit->setObjectName(QString::fromUtf8("PhoneNumber_lineEdit"));
-        PhoneNumber_lineEdit->setGeometry(QRect(220, 430, 381, 28));
+        PhoneNumber_lineEdit->setGeometry(QRect(220, 430, 410, 28));
         PhoneNumber_lineEdit->setStyleSheet(QString::fromUtf8("QLineEdit#PhoneNumber_lineEdit {\n"
 "\n"
 "background-color:rgba(0, 0, 0, 0);\n"
@@ -230,7 +230,7 @@ public:
         label->setStyleSheet(QString::fromUtf8("image: url(:/icons/newregistrationicon.png);"));
         checkBox = new QCheckBox(widget);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
-        checkBox->setGeometry(QRect(630, 370, 151, 26));
+        checkBox->setGeometry(QRect(640, 370, 151, 26));
         QFont font2;
         font2.setBold(true);
         checkBox->setFont(font2);
@@ -249,7 +249,7 @@ public:
 "}"));
         horizontalLayoutWidget = new QWidget(widget);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(390, 480, 211, 80));
+        horizontalLayoutWidget->setGeometry(QRect(390, 480, 251, 91));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);

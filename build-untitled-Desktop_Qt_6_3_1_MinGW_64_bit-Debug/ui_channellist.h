@@ -29,12 +29,12 @@ public:
     {
         if (channellist->objectName().isEmpty())
             channellist->setObjectName(QString::fromUtf8("channellist"));
-        channellist->resize(450, 550);
+        channellist->resize(400, 500);
         channellist->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 ""));
         pushButton = new QPushButton(channellist);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(10, 490, 71, 31));
+        pushButton->setGeometry(QRect(10, 455, 71, 31));
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -57,7 +57,7 @@ public:
 "}"));
         textBrowser = new QTextBrowser(channellist);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 90, 421, 371));
+        textBrowser->setGeometry(QRect(10, 80, 380, 361));
         QFont font;
         font.setBold(false);
         textBrowser->setFont(font);

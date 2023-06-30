@@ -29,11 +29,11 @@ public:
     {
         if (GroupList->objectName().isEmpty())
             GroupList->setObjectName(QString::fromUtf8("GroupList"));
-        GroupList->resize(450, 550);
+        GroupList->resize(400, 500);
         GroupList->setStyleSheet(QString::fromUtf8("background-color:rgb(0, 0, 0);"));
         pushButton = new QPushButton(GroupList);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(10, 490, 71, 41));
+        pushButton->setGeometry(QRect(10, 450, 71, 31));
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton#pushButton {\n"
 "color: white;\n"
 "border-radius: 5px;\n"
@@ -56,7 +56,7 @@ public:
 "}"));
         textBrowser = new QTextBrowser(GroupList);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 90, 431, 381));
+        textBrowser->setGeometry(QRect(10, 70, 380, 361));
         textBrowser->setStyleSheet(QString::fromUtf8("QTextBrowsert#textBrowser {\n"
 "Padding: 1px;\n"
 "Border-radius: 7px;\n"
