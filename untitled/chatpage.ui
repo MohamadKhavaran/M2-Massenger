@@ -131,6 +131,9 @@ QPushButton#pushButton_2:pressed{
       <property name="text">
        <string>Home</string>
       </property>
+      <property name="shortcut">
+       <string>Esc</string>
+      </property>
      </widget>
     </item>
    </layout>

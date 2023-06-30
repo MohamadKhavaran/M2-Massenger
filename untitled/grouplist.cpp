@@ -44,14 +44,19 @@ GroupList::GroupList(QWidget *parent) :
          int count_group =  0;
          QString temp ;
          QString temp_Exception ="You Are in -0- Group";
+         QString temp_Exception_2 ="You Are in -1- Group";
 
          while(true)
          {
              temp = "You Are in -"+QString::number(count_group)+"- Groups";
              if(temp==Message)
              break;
-             else if(temp_Exception==Message)
+             else if(temp_Exception==Message||temp_Exception_2==Message)
+             {
+                 count_group++;
+
              break;
+             }
              count_group++;
          }
          int temporally = 0 ;

@@ -1,6 +1,12 @@
 #ifndef CHATPAGE_H
 #define CHATPAGE_H
-
+#include<QApplication>
+#include<QCoreApplication>
+#include<QNetworkAccessManager>
+#include<QNetworkReply>
+#include<QUrl>
+#include <QJsonObject>
+#include <QJsonDocument>
 #include <QWidget>
 
 namespace Ui {
@@ -13,7 +19,7 @@ class ChatPage : public QWidget
 
 public:
     explicit ChatPage(QWidget *parent = nullptr);
-    ChatPage(QString , QString);
+    ChatPage(int , QString , QString);
     void getChat();
     void appendMessage();
     ~ChatPage();
@@ -28,12 +34,26 @@ private slots:
 
 private:
     Ui::ChatPage *ui;
+    int count_message_set_in_sendmessageclass;
     QString relevant_username;
     QString Type_Request_to_send;
     QString Type_Request_to_recive;
     QString MessageSent = " ";
     QString token ;
-
+    QNetworkAccessManager *netAccMan;
+     QNetworkRequest  Request;
+       QNetworkReply  * reply ;
+    QByteArray  Data ;
+    QJsonDocument JsonDocument;
+    QJsonObject JObject;
+     QString Message;
+     QString code ;
+    QString temp ;
+    QString temp_Exception ="There Are -0- Message";
+    QString temp_Exception_2 ="There Are -1- Message";
+    QJsonObject BlockObj;
+    QString Message_Recived;
+    QString Type_User_Send_Message;
 };
 
 #endif // CHATPAGE_H

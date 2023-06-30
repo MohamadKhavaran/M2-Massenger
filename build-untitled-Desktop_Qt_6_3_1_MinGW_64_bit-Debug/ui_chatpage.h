@@ -176,6 +176,9 @@ public:
         label->setText(QCoreApplication::translate("ChatPage", "M2 messenger", nullptr));
         pushButton->setText(QCoreApplication::translate("ChatPage", "Back", nullptr));
         pushButton_2->setText(QCoreApplication::translate("ChatPage", "Home", nullptr));
+#if QT_CONFIG(shortcut)
+        pushButton_2->setShortcut(QCoreApplication::translate("ChatPage", "Esc", nullptr));
+#endif // QT_CONFIG(shortcut)
         Send_pushButton->setText(QCoreApplication::translate("ChatPage", "Send", nullptr));
 #if QT_CONFIG(shortcut)
         Send_pushButton->setShortcut(QCoreApplication::translate("ChatPage", "Return", nullptr));

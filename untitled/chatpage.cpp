@@ -15,56 +15,117 @@
 #include<QThread>
 #include<QMutex>
 #include<QTimer>
+
+QTimer * timer = new QTimer;
+
 void ChatPage :: update()
 {
-    QFile file("token.txt");
-       if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
-           return;
-
-     QString token= file.readAll();
-       file.close();
-
-    QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
+    qDebug()<<"Update is Working ...";
+    int Count_Message_To_Save_File = 0;
+    int temporally = 0 ;
+    netAccMan = new QNetworkAccessManager();
       //Create The QNetworkRequest With setUrl For Connect To Server
-      QNetworkRequest  Request;
       Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+relevant_username);
       // Send Request To Server By QNetworkReply Object
-      QNetworkReply  * reply = NetAccMan->get(Request);
+       reply = netAccMan->get(Request);
       while (!reply->isFinished()) {
           QCoreApplication::processEvents();
       }
       //Checking Network Connection
       if(reply->error()==QNetworkReply::NoError)
       {
-          QByteArray  Data = reply->readAll();
-          QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
-          QJsonObject JObject = JsonDocument.object();
-           QString Message = JObject.value("message").toString();
-           QString code = JObject.value("code").toString();
-           int count_message =  0;
-           QString temp ;
-           QString temp_Exception ="There Are -0- Message";
+            Data = reply->readAll();
+            JsonDocument = QJsonDocument::fromJson(Data);
+            JObject = JsonDocument.object();
+            Message = JObject.value("message").toString();
+            code = JObject.value("code").toString();
+
            while(true)
            {
-               temp = "There Are -"+QString::number(count_message)+"- Messages";
+               temp = "There Are -"+QString::number(Count_Message_To_Save_File)+"- Messages";
                if(temp==Message)
                break;
-               else if(temp_Exception==Message)
+               else if(temp_Exception==Message||temp_Exception_2==Message)
                break;
-               count_message++;
+               Count_Message_To_Save_File++;
            }
-           int temporally = 0 ;
-            QString Message_Recived;
-           while(count_message)
+           // This File Create For Save Messages In Online Mode
+
+           QFile file(relevant_username+".txt");
+           if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
+               return;
+
+
+           QTextStream out(&file);
+           while(Count_Message_To_Save_File)
            {
                // Using nested jsonobjects
-               QJsonObject blockObj= (JObject.value("block "+QString::number(temporally))).toObject();
-               Message_Recived = blockObj.value("body").toString();
-               ui->textBrowser->append(Message_Recived);
+
+               BlockObj= (JObject.value("block "+QString::number(temporally))).toObject();
+               Message_Recived = BlockObj.value("body").toString();
+               Type_User_Send_Message = BlockObj.value("src").toString();
+
+               // Determining the sender and receiver of the message
+
+               if(Type_User_Send_Message==relevant_username)
+               out<<"dst"<<Qt::endl;
+               else
+                   out<<"src"<<Qt::endl;
+
+               out << Message_Recived << Qt::endl;
                temporally++;
-               count_message--;
+               Count_Message_To_Save_File--;
            }
+           file.close();
       }
+int temp  = count_message_set_in_sendmessageclass;
+temp*=2;
+//This variable helps to print only once if the sender sends a message
+bool Help_Set_TexBrowser = true;
+    if(temporally-count_message_set_in_sendmessageclass)
+    {
+        QFile file_for_textBrowser(relevant_username+".txt");
+        if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            QTextStream in(&file_for_textBrowser);
+            while (!in.atEnd())
+            {
+                QString line = in.readLine();
+              if(temp)
+              {
+                  temp--;
+                  continue;
+              }
+
+                  if(line=="src")
+                  {
+                      QTextCharFormat format;
+                      format.setForeground(Qt::green);
+                      ui->textBrowser->setCurrentCharFormat(format);
+                      Help_Set_TexBrowser = false ;
+                      continue;
+                  }
+                  else if(line=="dst")
+                  {
+                      QTextCharFormat format;
+                      format.setForeground(Qt::red);
+                      ui->textBrowser->setCurrentCharFormat(format);
+                      Help_Set_TexBrowser = true ;
+                      continue;
+                  }
+                 if(Help_Set_TexBrowser)
+                     ui->textBrowser->append(line);
+
+                  count_message_set_in_sendmessageclass++;
+
+                  if(temporally==count_message_set_in_sendmessageclass)
+                      break;
+
+            }
+            file_for_textBrowser.close();
+        }
+    }
+
 }
 ChatPage::ChatPage(QWidget *parent) :
     QWidget(parent),
@@ -73,12 +134,13 @@ ChatPage::ChatPage(QWidget *parent) :
     ui->setupUi(this);        
 }
 
-ChatPage::ChatPage(QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
+ChatPage::ChatPage(int count_message_set_in_sendmessageclass , QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
 
 {
     // Set The Relevant Username
     // Set The Type      Request
     // They Are Used In Send Request To Server
+this->count_message_set_in_sendmessageclass = count_message_set_in_sendmessageclass ;
     ui->setupUi(this);
 this->relevant_username = relevant_username;
 this->Type_Request_to_send = Type_Request_to_send;
@@ -88,9 +150,38 @@ this->Type_Request_to_send = Type_Request_to_send;
 
      this->token= file.readAll();
        file.close();
-QTimer * timer = new QTimer;
 connect(timer,SIGNAL(timeout()),this,SLOT(update()));
-timer->start(1000);
+timer->start(0);
+
+// Searching for messages from files created in the name of users
+
+qDebug()<<"Want to Read File  ...";
+// Show The Messages In Offline Mode
+QFile file_for_textBrowser(relevant_username+".txt");
+if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+{
+    QTextStream in(&file_for_textBrowser);
+    while (!in.atEnd())
+    {
+        QString line = in.readLine();
+        if(line=="src")
+        {
+            QTextCharFormat format;
+            format.setForeground(Qt::green);
+            ui->textBrowser->setCurrentCharFormat(format);
+            continue;
+        }
+        else if(line=="dst")
+        {
+            QTextCharFormat format;
+            format.setForeground(Qt::red);
+            ui->textBrowser->setCurrentCharFormat(format);
+            continue;
+        }
+        ui->textBrowser->append(line);
+    }
+    file_for_textBrowser.close();
+}
        if(Type_Request_to_send=="sendmessageuser")
    Type_Request_to_recive = "getuserchats";
 }
@@ -103,14 +194,18 @@ ChatPage::~ChatPage()
 
 void ChatPage::on_pushButton_clicked()
 {
-    sendmessageuser * backtoPage = new sendmessageuser();
-    backtoPage->show();
+    disconnect(timer,SIGNAL(timeout()),this,SLOT(update()));
+   // timer->stop();
+    sendmessageuser * BacktoPage = new sendmessageuser();
+    BacktoPage->show();
     this->close();
 }
 
 
 void ChatPage::on_pushButton_2_clicked()
 {
+    disconnect(timer,SIGNAL(timeout()),this,SLOT(update()));
+    //timer->stop();
     afterLogin * BacktoPage = new afterLogin();
     BacktoPage->show();
     this->close();
@@ -121,6 +216,12 @@ void ChatPage::on_pushButton_2_clicked()
 
 void ChatPage::on_Send_pushButton_clicked()
 {
+    // Checking that the user does not send an empty message
+    if(ui->lineEdit->text().trimmed().isEmpty())
+    {
+        QMessageBox::warning(this,"","You cannot send an empty message !");
+        return ;
+    }
 
        QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
          //Create The QNetworkRequest With setUrl For Connect To Server
@@ -141,9 +242,11 @@ void ChatPage::on_Send_pushButton_clicked()
               QString code = JObject.value("code").toString();
          if(code=="200")
          {
-             QThread t;
-            // t(getChat());
-             ui->textBrowser->setStyleSheet("color : green;");
+             // Set The Color Text
+
+             QTextCharFormat format;
+             format.setForeground(Qt::green);
+             ui->textBrowser->setCurrentCharFormat(format);
              ui->textBrowser->append(ui->lineEdit->text());
              ui->lineEdit->setText("");
 return;
@@ -158,6 +261,7 @@ return;
          else
          {
              QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
+             ui->lineEdit->setText("");
      return;
          }
 }

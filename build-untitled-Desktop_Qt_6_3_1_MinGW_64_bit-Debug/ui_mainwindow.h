@@ -270,6 +270,9 @@ public:
         lineEdit_2->setPlaceholderText(QCoreApplication::translate("MainWindow", " Password", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Register", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "SIGN IN", nullptr));
+#if QT_CONFIG(shortcut)
+        pushButton->setShortcut(QCoreApplication::translate("MainWindow", "Return", nullptr));
+#endif // QT_CONFIG(shortcut)
         checkBox->setText(QCoreApplication::translate("MainWindow", "Show password", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "Forgot password?", nullptr));
     } // retranslateUi

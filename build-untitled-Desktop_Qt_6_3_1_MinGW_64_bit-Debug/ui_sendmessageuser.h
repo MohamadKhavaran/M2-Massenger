@@ -24,7 +24,7 @@ class Ui_sendmessageuser
 public:
     QPushButton *pushButton;
     QPushButton *pushButton_2;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QLabel *label;
     QLineEdit *lineEdit;
@@ -40,13 +40,13 @@ public:
         pushButton_2 = new QPushButton(sendmessageuser);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(620, 430, 93, 29));
-        widget = new QWidget(sendmessageuser);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(40, 220, 642, 36));
-        horizontalLayout = new QHBoxLayout(widget);
+        layoutWidget = new QWidget(sendmessageuser);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(40, 220, 642, 36));
+        horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName(QString::fromUtf8("label"));
         QFont font;
         font.setPointSize(15);
@@ -54,7 +54,7 @@ public:
 
         horizontalLayout->addWidget(label);
 
-        lineEdit = new QLineEdit(widget);
+        lineEdit = new QLineEdit(layoutWidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
 
         horizontalLayout->addWidget(lineEdit);
@@ -70,6 +70,9 @@ public:
         sendmessageuser->setWindowTitle(QCoreApplication::translate("sendmessageuser", "Form", nullptr));
         pushButton->setText(QCoreApplication::translate("sendmessageuser", "Back", nullptr));
         pushButton_2->setText(QCoreApplication::translate("sendmessageuser", "Confrim", nullptr));
+#if QT_CONFIG(shortcut)
+        pushButton_2->setShortcut(QCoreApplication::translate("sendmessageuser", "Return", nullptr));
+#endif // QT_CONFIG(shortcut)
         label->setText(QCoreApplication::translate("sendmessageuser", "Enter the username of the desired person : ", nullptr));
     } // retranslateUi
 

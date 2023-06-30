@@ -47,10 +47,26 @@ void afterLogin::on_pushButton_4_clicked()
 
     QString Password = Password_file.readAll();
     Password_file.close();
+
     QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
     //Create The QNetworkRequest With setUrl For Connect To Server
     QNetworkRequest  Request;
     Request.setUrl("http://api.barafardayebehtar.ml:8080/logout?username="+Username+"&password="+Password);
+    QNetworkReply  * reply = NetAccMan->get(Request);
+    while (!reply->isFinished()) {
+        QCoreApplication::processEvents();
+    }
+    //Checking Network Connection
+    if(reply->error()==QNetworkReply::NoError)
+    {
+        QByteArray  Data = reply->readAll();
+        QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
+        QJsonObject JObject = JsonDocument.object();
+    MainWindow * AfterLogout = new MainWindow;
+    AfterLogout->show();
+    this->close();
+    }
+
     // Update token.txt File
     QFile file("token.txt");
     if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
@@ -72,24 +88,34 @@ void afterLogin::on_pushButton_4_clicked()
 
     QTextStream out2(&file2);
     out2 << "";
-    file.close();
+    file2.close();
     // Send Request To Server By QNetworkReply Object
-    QNetworkReply  * reply = NetAccMan->get(Request);
-    while (!reply->isFinished()) {
-        QCoreApplication::processEvents();
-    }
-    //Checking Network Connection
-    if(reply->error()==QNetworkReply::NoError)
+
+    // Remove Chat Messages Files
+    QFile cleanUsernames_To_Chats("UserChats.txt");
+    if (cleanUsernames_To_Chats.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        QByteArray  Data = reply->readAll();
-        QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
-        QJsonObject JObject = JsonDocument.object();
-         QString Message = JObject.value("message").toString();
-    QMessageBox::information(this," ",Message);
- MainWindow * AfterLogout = new MainWindow;
- AfterLogout->show();
- this->close();
-    }
+        QTextStream in(&cleanUsernames_To_Chats);
+        while (!in.atEnd())
+        {
+            QString line = in.readLine();
+            if(QFile::exists(line+".txt"))
+            QFile::remove(line+".txt");
+        }
+        cleanUsernames_To_Chats.close();
+    };
+
+    QFile cleanUserChats("UserChats.txt");
+
+      // Open the file in WriteOnly and Text mode
+      if (cleanUserChats.open(QIODevice::WriteOnly | QIODevice::Text))
+      {
+          // Truncate the file to remove existing content
+          cleanUserChats.resize(0);
+
+          cleanUserChats.close();
+      }
+
 }
 
 void afterLogin::on_pushButton_clicked()

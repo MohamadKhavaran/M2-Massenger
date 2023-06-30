@@ -49,7 +49,10 @@ userlist::userlist(QWidget *parent) :
              if(temp==Message)
              break;
              else if(temp_Exception==Message||temp_Exception_2==Message)
+             {
+                 count_user++;
              break;
+             }
              count_user++;
          }
          int temporally = 0 ;

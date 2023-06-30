@@ -44,13 +44,18 @@ channellist::channellist(QWidget *parent) :
          int count_channel =  0;
          QString temp ;
          QString temp_Exception ="You Are in -0- Channel";
+         QString temp_Exception_2 ="You Are in -1- Channel";
          while(true)
          {
              temp = "You Are in -"+QString::number(count_channel)+"- Channels";
              if(temp==Message)
              break;
-             else if(temp_Exception==Message)
+             else if(temp_Exception==Message||temp_Exception_2==Message)
+             {
+                 count_channel++;
+
              break;
+             }
              count_channel++;
          }
          int temporally = 0 ;
