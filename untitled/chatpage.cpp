@@ -1,4 +1,4 @@
-#include "chatpage.h"
+    #include "chatpage.h"
 #include "ui_chatpage.h"
 #include"afterlogin.h"
 #include"sendmessageuser.h"
@@ -146,14 +146,13 @@ ChatPage::ChatPage(QWidget *parent) :
 
 }
 
-ChatPage::ChatPage( QString relevant_username , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
+ChatPage::ChatPage( QString relevant , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
 
 {
     // Set The Relevant Username
     // Set The Type      Request
     // They Are Used In Send Request To Server
     ui->setupUi(this);
-this->relevant_username = relevant_username;
 this->Type_Request_to_send = Type_Request_to_send;
     QFile file("token.txt");
        if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -168,6 +167,11 @@ timer->start(0);
 
 qDebug()<<"Want to Read File  ...";
 // Show The Messages In Offline Mode
+// Conditional commands that are between sendmessageuser , sendmessagegroup , sendmessagechannel .
+if(Type_Request_to_send=="sendmessageuser")
+{
+    this->relevant_username = relevant;
+Type_Request_to_recive = "getuserchats";
 QFile file_for_textBrowser(relevant_username+".txt");
 if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
 {
@@ -193,10 +197,19 @@ if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
     }
     file_for_textBrowser.close();
 }
-       if(Type_Request_to_send=="sendmessageuser")
-   Type_Request_to_recive = "getuserchats";
-}
+ }
 
+else if(Type_Request_to_send=="sendmessagegroup")
+{
+    this->GroupName = relevant;
+Type_Request_to_recive = "getgroupchats";
+QFile file_for_textBrowser(GroupName+".txt");
+if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+{
+
+}
+}
+}
 
 ChatPage::~ChatPage()
 {

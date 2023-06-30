@@ -35,18 +35,19 @@ private slots:
 private:
     Ui::ChatPage *ui;
     QString relevant_username;
+    QString GroupName;
     QString Type_Request_to_send;
     QString Type_Request_to_recive;
     QString MessageSent = " ";
     QString token ;
     QNetworkAccessManager *netAccMan;
-     QNetworkRequest  Request;
-       QNetworkReply  * reply ;
+    QNetworkRequest  Request;
+    QNetworkReply  * reply ;
     QByteArray  Data ;
     QJsonDocument JsonDocument;
     QJsonObject JObject;
-     QString Message;
-     QString code ;
+    QString Message;
+    QString code ;
     QString temp ;
     QString temp_Exception ="There Are -0- Message";
     QString temp_Exception_2 ="There Are -1- Message";

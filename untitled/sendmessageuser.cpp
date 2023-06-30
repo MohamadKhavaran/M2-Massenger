@@ -38,7 +38,6 @@ void setFileChatUser(QString Type_Request_to_recive , QString token , QString re
           QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
           QJsonObject JObject = JsonDocument.object();
            QString Message = JObject.value("message").toString();
-           QString code = JObject.value("code").toString();
            QString temp ;
            QString temp_Exception ="There Are -0- Message";
            QString temp_Exception_2 ="There Are -1- Message";
