@@ -198,6 +198,16 @@ else if(Type_Request_to_send=="sendmessagegroup")
                 ui->textBrowser->setCurrentCharFormat(format);
                 ui->textBrowser->append(line);
             }
+            QFile Number_Message("nm.txt");
+            if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
+                return;
+
+
+            QTextStream out_Number(&Number_Message);
+
+            out_Number<<temporally;
+            Number_Message.close();
+            file_for_textBrowser.close();
         }
     }
 }
