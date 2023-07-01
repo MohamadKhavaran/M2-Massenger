@@ -48,6 +48,7 @@ HEADERS += \
 
 FORMS += \
     afterlogin.ui \
+    channelPage.ui \
     channellist.ui \
     chatpage.ui \
     createchannel.ui \
