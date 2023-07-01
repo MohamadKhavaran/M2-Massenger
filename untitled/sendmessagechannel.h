@@ -14,6 +14,7 @@ class sendmessagechannel : public QWidget
 public:
     explicit sendmessagechannel(QWidget *parent = nullptr);
     ~sendmessagechannel();
+    bool setFileChatChannel(QString Type_Request_to_recive , QString token , QString relevant_channel);
 
 private slots:
     void on_pushButton_2_clicked();

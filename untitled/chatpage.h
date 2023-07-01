@@ -19,7 +19,7 @@ class ChatPage : public QWidget
 
 public:
     explicit ChatPage(QWidget *parent = nullptr);
-    ChatPage( QString , QString);
+    ChatPage( QString , QString , bool);
     void getChat();
     void appendMessage();
     ~ChatPage();
@@ -36,6 +36,7 @@ private:
     Ui::ChatPage *ui;
     QString relevant_username;
     QString GroupName;
+    QString ChannelName;
     QString Type_Request_to_send;
     QString Type_Request_to_recive;
     QString MessageSent = " ";

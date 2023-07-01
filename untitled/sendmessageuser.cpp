@@ -11,8 +11,6 @@
 #include<QJsonValue>
 #include<QMessageBox>
 #include<QFile>
-#include<QThread>
-#include<QTimer>
 // This function was created to create a file with the user's name once, without update capability, and later in the ChatPage object, it is used to read from the file and by
 //connect(timer,SIGNAL(timeout()),this,SLOT(update()));
 //timer->start(0);
@@ -96,11 +94,13 @@ bool sendmessageuser :: setFileChatUser(QString Type_Request_to_recive , QString
            else
            {
                QMessageBox::warning(this,"",Message);
+return false;
            }
       }
       else
       {
           QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
+          return false;
       }
 }
 
@@ -145,11 +145,13 @@ void sendmessageuser::on_pushButton_clicked()
 
 void sendmessageuser::on_pushButton_2_clicked()
 {
-    QString User = ui->lineEdit->text();
     if(!(ui->lineEdit->text().trimmed().isEmpty()))
        {
-    QFile file("token.txt");
-       if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+        QString User = ui->lineEdit->text();
+
+
+       QFile file("token.txt");
+        if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
            return;
 
      QString token= file.readAll();
@@ -157,7 +159,7 @@ void sendmessageuser::on_pushButton_2_clicked()
 
     if(setFileChatUser("getuserchats",token,User))
 {
-ChatPage * newChatUser =  new ChatPage(User,"sendmessageuser");
+ChatPage * newChatUser =  new ChatPage(User,"sendmessageuser",false);
 
 QFile Usernames_To_Chats("UserChats.txt");
 if (Usernames_To_Chats.exists())

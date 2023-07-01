@@ -43,6 +43,11 @@ void ChatPage :: update()
     {
       Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+GroupName);
     }
+    if(Type_Request_to_send=="sendmessagechannel")
+    {
+      Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+ChannelName);
+    }
+
       // Send Request To Server By QNetworkReply Object
        reply = netAccMan->get(Request);
       while (!reply->isFinished()) {
@@ -131,7 +136,26 @@ if(Type_Request_to_send=="sendmessagegroup")
            }
            file.close();
 }
+if(Type_Request_to_send=="sendmessagechannel")
+{
+    QFile file(ChannelName+".txt");
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
+        return;
 
+    QTextStream out(&file);
+    while(Count_Message_To_Save_File)
+    {
+        // Using nested jsonobjects
+
+         BlockObj= (JObject.value("block "+QString::number(temporally))).toObject();
+         Message_Recived = BlockObj.value("body").toString();
+         out<<Message_Recived<<Qt::endl;
+         temporally++;
+         Count_Message_To_Save_File--;
+    }
+
+    file.close();
+}
       }
 
 qDebug()<<temporally;
@@ -211,6 +235,38 @@ else if(Type_Request_to_send=="sendmessagegroup")
         }
     }
 }
+
+else if(Type_Request_to_send=="sendmessagechannel")
+{
+    if(temporally>counting)
+    {
+        ui->textBrowser->clear();
+        QFile file_for_textBrowser(ChannelName+".txt");
+        if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            QTextStream in(&file_for_textBrowser);
+            while (!in.atEnd())
+            {
+                QString line = in.readLine();
+                QTextCharFormat format;
+                format.setForeground(Qt::yellow);
+                ui->textBrowser->setCurrentCharFormat(format);
+                ui->textBrowser->append(line);
+            }
+            QFile Number_Message("nm.txt");
+            if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
+                return;
+
+
+            QTextStream out_Number(&Number_Message);
+
+            out_Number<<temporally;
+            Number_Message.close();
+            file_for_textBrowser.close();
+        }
+    }
+}
+
 }
 ChatPage::ChatPage(QWidget *parent) :
     QWidget(parent),
@@ -221,7 +277,7 @@ ChatPage::ChatPage(QWidget *parent) :
 
 }
 
-ChatPage::ChatPage( QString relevant , QString Type_Request_to_send )   : ui(new Ui::ChatPage)
+ChatPage::ChatPage( QString relevant , QString Type_Request_to_send , bool DSL )   : ui(new Ui::ChatPage)
 
 {
     // Set The Relevant Username
@@ -292,7 +348,30 @@ if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
     }
    }
 }
-
+else if(Type_Request_to_send=="sendmessagechannel")
+{
+    this->ChannelName = relevant;
+Type_Request_to_recive = "getchannelchats";
+QFile file_for_textBrowser(ChannelName+".txt");
+if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+   {
+    QTextStream in(&file_for_textBrowser);
+    while (!in.atEnd())
+    {
+        QString line = in.readLine();
+        QTextCharFormat format;
+        format.setForeground(Qt::yellow);
+        ui->textBrowser->setCurrentCharFormat(format);
+        ui->textBrowser->append(line);
+        if(DSL)
+        {
+            ui->lineEdit->setText("Only Admin Can Send Messages");
+            ui->lineEdit->setReadOnly(true);
+            ui->Send_pushButton->hide();
+        }
+    }
+   }
+}
 }
 
 ChatPage::~ChatPage()
@@ -319,9 +398,6 @@ void ChatPage::on_pushButton_2_clicked()
     this->close();
 }
 
-
-
-
 void ChatPage::on_Send_pushButton_clicked()
 {
     // Checking that the user does not send an empty message
@@ -341,6 +417,10 @@ void ChatPage::on_Send_pushButton_clicked()
          if(Type_Request_to_send=="sendmessagegroup")
          {
          Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_send+"?token="+token+"&dst="+GroupName+"&body="+ui->lineEdit->text());
+         }
+         if(Type_Request_to_send=="sendmessagechannel")
+         {
+         Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_send+"?token="+token+"&dst="+ChannelName+"&body="+ui->lineEdit->text());
          }
          // Send Request To Server By QNetworkReply Object
          QNetworkReply  * reply = NetAccMan->get(Request);
@@ -374,6 +454,15 @@ else if(Type_Request_to_send=="sendmessagegroup")
              format.setForeground(Qt::blue);
              ui->textBrowser->setCurrentCharFormat(format);
              //ui->textBrowser->append(ui->lineEdit->text());
+             ui->lineEdit->setText("");
+return;
+}
+else if(Type_Request_to_send=="sendmessagechannel")
+{
+             QTextCharFormat format;
+             format.setForeground(Qt::yellow);
+             ui->textBrowser->setCurrentCharFormat(format);
+             ui->textBrowser->append(ui->lineEdit->text());
              ui->lineEdit->setText("");
 return;
 }

@@ -12,7 +12,6 @@
 #include<QMessageBox>
 #include<QFile>
 #include<QThread>
-#include<QTimer>
 bool sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QString token , QString relevant_group)
 {
     int Count_Message_To_Save_File = 0;
@@ -141,9 +140,9 @@ sendmessagegroup::~sendmessagegroup()
 
 void sendmessagegroup::on_pushButton_clicked()
 {
-    QString groupName = ui->lineEdit->text();
     if(!(ui->lineEdit->text().trimmed().isEmpty()))
     {
+        QString groupName = ui->lineEdit->text();
 
         QFile file("token.txt");
            if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -154,7 +153,7 @@ void sendmessagegroup::on_pushButton_clicked()
 
     if(setFileChatGroup("getgroupchats",token,groupName))
 {
-    ChatPage * newChatUser =  new ChatPage(groupName,"sendmessagegroup");
+    ChatPage * newChatUser =  new ChatPage(groupName,"sendmessagegroup",false);
 
     QFile Groups_To_Chats("GroupChats.txt");
     if (Groups_To_Chats.exists())
@@ -171,7 +170,6 @@ void sendmessagegroup::on_pushButton_clicked()
                     }
                 }
     }
-
     newChatUser->show();
     this->close();
     }
