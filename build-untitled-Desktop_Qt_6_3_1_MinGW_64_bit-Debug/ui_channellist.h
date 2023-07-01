@@ -62,7 +62,7 @@ public:
 "}"));
         textBrowser = new QTextBrowser(channellist);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 80, 431, 401));
+        textBrowser->setGeometry(QRect(10, 80, 430, 400));
         QFont font1;
         font1.setBold(false);
         textBrowser->setFont(font1);
