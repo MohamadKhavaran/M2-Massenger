@@ -13,7 +13,7 @@
 #include<QFile>
 #include<QThread>
 #include<QTimer>
-void sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QString token , QString relevant_group)
+bool sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QString token , QString relevant_group)
 {
     int Count_Message_To_Save_File = 0;
     int temporally = 0 ;
@@ -34,9 +34,12 @@ void sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QStri
           QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
           QJsonObject JObject = JsonDocument.object();
            QString Message = JObject.value("message").toString();
+           QString code = JObject.value("code").toString();
            QString temp ;
            QString temp_Exception ="There Are -0- Message";
            QString temp_Exception_2 ="There Are -1- Message";
+           if(code=="200")
+           {
            while(true)
            {
                temp = "There Are -"+QString::number(Count_Message_To_Save_File)+"- Messages";
@@ -50,7 +53,7 @@ void sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QStri
 
            QFile file(relevant_group+".txt");
            if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
-               return;
+               return false;
 
 
            QTextStream out(&file);
@@ -69,7 +72,6 @@ void sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QStri
                else
                    out<<Type_User_Send_Message+" : "<<Message_Recived<<Qt::endl;
 
-               out << Message_Recived << Qt::endl;
                temporally++;
                Count_Message_To_Save_File--;
            }
@@ -77,13 +79,25 @@ void sendmessagegroup :: setFileChatGroup(QString Type_Request_to_recive , QStri
 
            QFile Number_Messaging("nm.txt");
            if (!Number_Messaging.open(QIODevice::WriteOnly | QIODevice::Text))
-               return;
+               return false;
 
 
            QTextStream out_Number(&Number_Messaging);
 
            out_Number<<temporally;
            Number_Messaging.close();
+           return true;
+           }
+           else
+           {
+               QMessageBox::warning(this,"",Message);
+               return false;
+           }
+      }
+      else
+      {
+          QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
+          return false;
       }
 }
 
@@ -138,8 +152,8 @@ void sendmessagegroup::on_pushButton_clicked()
          QString token= file.readAll();
            file.close();
 
-           setFileChatGroup("getgroupchats",token,groupName);
-
+    if(setFileChatGroup("getgroupchats",token,groupName))
+{
     ChatPage * newChatUser =  new ChatPage(groupName,"sendmessagegroup");
 
     QFile Groups_To_Chats("GroupChats.txt");
@@ -161,11 +175,13 @@ void sendmessagegroup::on_pushButton_clicked()
     newChatUser->show();
     this->close();
     }
+  }
     else
     {
         QMessageBox::warning(this,"","GroupName Cannot Be Empty !");
         return;
     }
+
 }
 
 

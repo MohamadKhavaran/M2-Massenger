@@ -14,7 +14,7 @@ class sendmessagegroup : public QWidget
 public:
     explicit sendmessagegroup(QWidget *parent = nullptr);
     ~sendmessagegroup();
-    void setFileChatGroup(QString Type_Request_to_recive , QString token , QString relevant_group);
+    bool setFileChatGroup(QString Type_Request_to_recive , QString token , QString relevant_group);
 private slots:
     void on_pushButton_clicked();
 

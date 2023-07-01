@@ -14,6 +14,7 @@ class sendmessageuser : public QWidget
 public:
     explicit sendmessageuser(QWidget *parent = nullptr);
     ~sendmessageuser();
+    bool setFileChatUser(QString Type_Request_to_recive , QString token , QString relevant_username);
 
 private slots:
     void on_pushButton_clicked();

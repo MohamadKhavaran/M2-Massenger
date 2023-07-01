@@ -17,7 +17,7 @@
 //connect(timer,SIGNAL(timeout()),this,SLOT(update()));
 //timer->start(0);
 //be updated
-void setFileChatUser(QString Type_Request_to_recive , QString token , QString relevant_username)
+bool sendmessageuser :: setFileChatUser(QString Type_Request_to_recive , QString token , QString relevant_username)
 {
     int Count_Message_To_Save_File = 0;
     int temporally = 0 ;
@@ -38,9 +38,12 @@ void setFileChatUser(QString Type_Request_to_recive , QString token , QString re
           QJsonDocument JsonDocument = QJsonDocument::fromJson(Data);
           QJsonObject JObject = JsonDocument.object();
            QString Message = JObject.value("message").toString();
+           QString code = JObject.value("code").toString();
            QString temp ;
            QString temp_Exception ="There Are -0- Message";
            QString temp_Exception_2 ="There Are -1- Message";
+           if(code=="200")
+           {
            while(true)
            {
                temp = "There Are -"+QString::number(Count_Message_To_Save_File)+"- Messages";
@@ -54,7 +57,7 @@ void setFileChatUser(QString Type_Request_to_recive , QString token , QString re
 
            QFile file(relevant_username+".txt");
            if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
-               return;
+               return false;
 
 
            QTextStream out(&file);
@@ -81,13 +84,23 @@ void setFileChatUser(QString Type_Request_to_recive , QString token , QString re
 
            QFile Number_Messaging("nm.txt");
            if (!Number_Messaging.open(QIODevice::WriteOnly | QIODevice::Text))
-               return;
+               return false;
 
 
            QTextStream out_Number(&Number_Messaging);
 
            out_Number<<temporally;
            Number_Messaging.close();
+           return true;
+           }
+           else
+           {
+               QMessageBox::warning(this,"",Message);
+           }
+      }
+      else
+      {
+          QMessageBox::warning(this,"Network Connection","Make sure you are connected to the Internet");
       }
 }
 
@@ -142,11 +155,8 @@ void sendmessageuser::on_pushButton_2_clicked()
      QString token= file.readAll();
        file.close();
 
-
-
-       setFileChatUser("getuserchats",token,User);
-
-
+    if(setFileChatUser("getuserchats",token,User))
+{
 ChatPage * newChatUser =  new ChatPage(User,"sendmessageuser");
 
 QFile Usernames_To_Chats("UserChats.txt");
@@ -168,11 +178,12 @@ if (Usernames_To_Chats.exists())
 newChatUser->show();
 this->close();
     }
+
+}
     else
     {
         QMessageBox::warning(this,"","UserName Cannot Be Empty !");
         return;
     }
-
 }
 

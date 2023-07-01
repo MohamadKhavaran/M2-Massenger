@@ -94,17 +94,17 @@ void afterLogin::on_pushButton_4_clicked()
     // Send Request To Server By QNetworkReply Object
 
     // Remove Chat Messages Files
-    QFile cleanUsernames_To_Chats("UserChats.txt");
-    if (cleanUsernames_To_Chats.open(QIODevice::ReadOnly | QIODevice::Text))
+    QFile RemoveUsernames_To_Chats("UserChats.txt");
+    if (RemoveUsernames_To_Chats.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        QTextStream in(&cleanUsernames_To_Chats);
+        QTextStream in(&RemoveUsernames_To_Chats);
         while (!in.atEnd())
         {
             QString line = in.readLine();
             if(QFile::exists(line+".txt"))
             QFile::remove(line+".txt");
         }
-        cleanUsernames_To_Chats.close();
+        RemoveUsernames_To_Chats.close();
     };
 
     QFile cleanUserChats("UserChats.txt");
@@ -117,7 +117,29 @@ void afterLogin::on_pushButton_4_clicked()
 
           cleanUserChats.close();
       }
+      QFile RemoveGroupName_To_Chats("GroupChats.txt");
+      if (RemoveGroupName_To_Chats.open(QIODevice::ReadOnly | QIODevice::Text))
+      {
+          QTextStream in(&RemoveGroupName_To_Chats);
+          while (!in.atEnd())
+          {
+              QString line = in.readLine();
+              if(QFile::exists(line+".txt"))
+              QFile::remove(line+".txt");
+          }
+          RemoveGroupName_To_Chats.close();
+      };
 
+      QFile cleanGroupChats("GroupChats.txt");
+
+        // Open the file in WriteOnly and Text mode
+        if (cleanGroupChats.open(QIODevice::WriteOnly | QIODevice::Text))
+        {
+            // Truncate the file to remove existing content
+            cleanGroupChats.resize(0);
+
+            cleanGroupChats.close();
+        }
 }
 
 void afterLogin::on_pushButton_clicked()

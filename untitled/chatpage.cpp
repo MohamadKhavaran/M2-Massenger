@@ -35,7 +35,14 @@ void ChatPage :: update()
     int temporally = 0 ;
     netAccMan = new QNetworkAccessManager();
       //Create The QNetworkRequest With setUrl For Connect To Server
+    if(Type_Request_to_send=="sendmessageuser")
+    {
       Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+relevant_username);
+    }
+    if(Type_Request_to_send=="sendmessagegroup")
+    {
+      Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_recive+"?token="+token+"&dst="+GroupName);
+    }
       // Send Request To Server By QNetworkReply Object
        reply = netAccMan->get(Request);
       while (!reply->isFinished()) {
@@ -60,13 +67,14 @@ void ChatPage :: update()
                Count_Message_To_Save_File++;
            }
            // This File Create For Save Messages In Online Mode
-
+if(Type_Request_to_send=="sendmessageuser")
+{
            QFile file(relevant_username+".txt");
            if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
                return;
 
-
            QTextStream out(&file);
+
            while(Count_Message_To_Save_File)
            {
                // Using nested jsonobjects
@@ -87,11 +95,49 @@ void ChatPage :: update()
                Count_Message_To_Save_File--;
            }
            file.close();
+}
+if(Type_Request_to_send=="sendmessagegroup")
+{
+           QFile file(GroupName+".txt");
+           if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
+               return;
+
+           QTextStream out(&file);
+
+           while(Count_Message_To_Save_File)
+           {
+               // Using nested jsonobjects
+
+                BlockObj= (JObject.value("block "+QString::number(temporally))).toObject();
+                Message_Recived = BlockObj.value("body").toString();
+                Type_User_Send_Message = BlockObj.value("src").toString();
+// Open Username.txt for checking 'src' Is Username Or Not in if
+                QFile Username_file("Username.txt");
+                if (!Username_file.open(QIODevice::ReadOnly | QIODevice::Text))
+                    return;
+
+                QString Username = Username_file.readAll();
+                Username_file.close();
+
+               // Determining the sender and receiver of the message
+
+               if(Type_User_Send_Message==Username)
+               out<<"You : "<<Message_Recived<<Qt::endl;
+               else
+                   out<<Type_User_Send_Message+" : "<<Message_Recived<<Qt::endl;
+
+               temporally++;
+               Count_Message_To_Save_File--;
+           }
+           file.close();
+}
+
       }
-//This variable helps to print only once if the sender sends a message
-//bool Help_Set_TexBrowser = true;
+
 qDebug()<<temporally;
 qDebug()<<counting;
+if(Type_Request_to_send=="sendmessageuser")
+{
     if(temporally>counting)
     {
         ui->textBrowser->clear();
@@ -107,7 +153,6 @@ qDebug()<<counting;
                       QTextCharFormat format;
                       format.setForeground(Qt::green);
                       ui->textBrowser->setCurrentCharFormat(format);
-                      //Help_Set_TexBrowser = false ;
                       continue;
                   }
                   else if(line=="dst")
@@ -115,27 +160,47 @@ qDebug()<<counting;
                       QTextCharFormat format;
                       format.setForeground(Qt::red);
                       ui->textBrowser->setCurrentCharFormat(format);
-                  //    Help_Set_TexBrowser = true ;
                       continue;
                   }
-                 //if(Help_Set_TexBrowser)
+
                      ui->textBrowser->append(line);
 
-                  QFile Number_Message("nm.txt");
-                  if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
-                      return;
-
-
-                  QTextStream out_Number(&Number_Message);
-
-                  out_Number<<temporally;
-                  Number_Message.close();
-
             }
+
+            QFile Number_Message("nm.txt");
+            if (!Number_Message.open(QIODevice::WriteOnly | QIODevice::Text))
+                return;
+
+
+            QTextStream out_Number(&Number_Message);
+
+            out_Number<<temporally;
+            Number_Message.close();
             file_for_textBrowser.close();
         }
     }
+}
 
+else if(Type_Request_to_send=="sendmessagegroup")
+{
+    if(temporally>counting)
+    {
+        ui->textBrowser->clear();
+        QFile file_for_textBrowser(GroupName+".txt");
+        if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            QTextStream in(&file_for_textBrowser);
+            while (!in.atEnd())
+            {
+                QString line = in.readLine();
+                QTextCharFormat format;
+                format.setForeground(Qt::blue);
+                ui->textBrowser->setCurrentCharFormat(format);
+                ui->textBrowser->append(line);
+            }
+        }
+    }
+}
 }
 ChatPage::ChatPage(QWidget *parent) :
     QWidget(parent),
@@ -205,10 +270,19 @@ else if(Type_Request_to_send=="sendmessagegroup")
 Type_Request_to_recive = "getgroupchats";
 QFile file_for_textBrowser(GroupName+".txt");
 if (file_for_textBrowser.open(QIODevice::ReadOnly | QIODevice::Text))
-{
+   {
+    QTextStream in(&file_for_textBrowser);
+    while (!in.atEnd())
+    {
+        QString line = in.readLine();
+        QTextCharFormat format;
+        format.setForeground(Qt::blue);
+        ui->textBrowser->setCurrentCharFormat(format);
+        ui->textBrowser->append(line);
+    }
+   }
+}
 
-}
-}
 }
 
 ChatPage::~ChatPage()
@@ -250,7 +324,14 @@ void ChatPage::on_Send_pushButton_clicked()
        QNetworkAccessManager * NetAccMan = new QNetworkAccessManager();
          //Create The QNetworkRequest With setUrl For Connect To Server
          QNetworkRequest  Request;
+         if(Type_Request_to_send=="sendmessageuser")
+         {
          Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_send+"?token="+token+"&dst="+relevant_username+"&body="+ui->lineEdit->text());
+         }
+         if(Type_Request_to_send=="sendmessagegroup")
+         {
+         Request.setUrl("http://api.barafardayebehtar.ml:8080/"+Type_Request_to_send+"?token="+token+"&dst="+GroupName+"&body="+ui->lineEdit->text());
+         }
          // Send Request To Server By QNetworkReply Object
          QNetworkReply  * reply = NetAccMan->get(Request);
          while (!reply->isFinished()) {
@@ -267,20 +348,27 @@ void ChatPage::on_Send_pushButton_clicked()
          if(code=="200")
          {
              // Set The Color Text
-
+if(Type_Request_to_send=="sendmessageuser")
+{
              QTextCharFormat format;
              format.setForeground(Qt::green);
              ui->textBrowser->setCurrentCharFormat(format);
-             ui->textBrowser->append(ui->lineEdit->text());
+            // ui->textBrowser->append(ui->lineEdit->text());
              ui->lineEdit->setText("");
 return;
+}
 
-         }
-         else
-         {
-             QMessageBox::warning(this,"",Message);
-             return ;
-         }
+else if(Type_Request_to_send=="sendmessagegroup")
+{
+             QTextCharFormat format;
+             format.setForeground(Qt::blue);
+             ui->textBrowser->setCurrentCharFormat(format);
+             //ui->textBrowser->append(ui->lineEdit->text());
+             ui->lineEdit->setText("");
+return;
+}
+
+      }
          }
          else
          {
