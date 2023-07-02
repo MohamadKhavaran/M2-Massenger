@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>M2 messenger Installer</Name>
+    <Version>1.0.0</Version>
+    <Title>M2 messenger Installer</Title>
+    <Publisher>group</Publisher>
+    <StartMenuDir>Super App</StartMenuDir>
+    <TargetDir>@HomeDir@/M2 messenger</TargetDir>
+</Installer>
