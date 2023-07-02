@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1080</width>
-    <height>650</height>
+    <height>690</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
      <x>0</x>
      <y>0</y>
      <width>1080</width>
-     <height>650</height>
+     <height>690</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -59,7 +59,7 @@ color:white;</string>
     <property name="geometry">
      <rect>
       <x>970</x>
-      <y>585</y>
+      <y>615</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -96,7 +96,7 @@ QPushButton#pushButton_4:pressed{
     <property name="geometry">
      <rect>
       <x>970</x>
-      <y>490</y>
+      <y>525</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -114,7 +114,7 @@ QPushButton#pushButton_4:pressed{
       <x>30</x>
       <y>190</y>
       <width>290</width>
-      <height>431</height>
+      <height>461</height>
      </rect>
     </property>
     <property name="font">
@@ -136,7 +136,7 @@ QPushButton#pushButton_4:pressed{
        <x>10</x>
        <y>80</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -173,7 +173,7 @@ QPushButton#pushButton:pressed{
        <x>10</x>
        <y>170</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -210,7 +210,7 @@ QPushButton#pushButton_2:pressed{
        <x>10</x>
        <y>260</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -247,7 +247,7 @@ QPushButton#pushButton_6:pressed{
        <x>10</x>
        <y>350</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -285,7 +285,7 @@ QPushButton#pushButton_7:pressed{
       <x>350</x>
       <y>190</y>
       <width>290</width>
-      <height>431</height>
+      <height>461</height>
      </rect>
     </property>
     <property name="font">
@@ -307,7 +307,7 @@ QPushButton#pushButton_7:pressed{
        <x>10</x>
        <y>80</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -344,7 +344,7 @@ QPushButton#pushButton_8:pressed{
        <x>10</x>
        <y>170</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -381,7 +381,7 @@ QPushButton#pushButton_9:pressed{
        <x>10</x>
        <y>260</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -418,7 +418,7 @@ QPushButton#pushButton_10:pressed{
        <x>10</x>
        <y>350</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -456,7 +456,7 @@ QPushButton#pushButton_11:pressed{
       <x>650</x>
       <y>190</y>
       <width>290</width>
-      <height>431</height>
+      <height>461</height>
      </rect>
     </property>
     <property name="font">
@@ -478,7 +478,7 @@ QPushButton#pushButton_11:pressed{
        <x>10</x>
        <y>80</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -515,7 +515,7 @@ QPushButton#pushButton_13:pressed{
        <x>10</x>
        <y>170</y>
        <width>270</width>
-       <height>50</height>
+       <height>60</height>
       </rect>
      </property>
      <property name="font">
@@ -593,6 +593,19 @@ QPushButton#pushButton_14:pressed{
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>663</y>
+      <width>651</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Designed and developed by Mohammad Khavaran and Mohammad Kazemi with c++ and  Qt 6.5</string>
     </property>
    </widget>
   </widget>

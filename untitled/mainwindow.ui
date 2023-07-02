@@ -253,25 +253,22 @@ border-width: 1px;
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="verticalLayoutWidget_2">
+    <widget class="QCheckBox" name="checkBox">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>310</y>
-       <width>160</width>
-       <height>80</height>
+       <x>600</x>
+       <y>330</y>
+       <width>158</width>
+       <height>21</height>
       </rect>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <widget class="QCheckBox" name="checkBox">
-        <property name="font">
-         <font>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QCheckBox#checkBox {
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox#checkBox {
 padding-left: 10px;
 border-radius: 5px;
 color: #fefefe;
@@ -284,13 +281,10 @@ QCheckBox#checkBox:hover {
 QCheckBox#checkBox:pressed {
 	color: rgb(85, 255, 255);
 }</string>
-        </property>
-        <property name="text">
-         <string>Show password</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
+     </property>
+     <property name="text">
+      <string>Show password</string>
+     </property>
     </widget>
    </widget>
   </widget>

@@ -39,8 +39,6 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *pushButton_3;
     QPushButton *pushButton;
-    QWidget *verticalLayoutWidget_2;
-    QVBoxLayout *verticalLayout_2;
     QCheckBox *checkBox;
     QStatusBar *statusbar;
 
@@ -197,14 +195,9 @@ public:
 
         horizontalLayout->addWidget(pushButton);
 
-        verticalLayoutWidget_2 = new QWidget(widget);
-        verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(590, 310, 160, 80));
-        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        checkBox = new QCheckBox(verticalLayoutWidget_2);
+        checkBox = new QCheckBox(widget);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        checkBox->setGeometry(QRect(600, 330, 158, 21));
         QFont font5;
         font5.setBold(true);
         checkBox->setFont(font5);
@@ -221,9 +214,6 @@ public:
 "QCheckBox#checkBox:pressed {\n"
 "	color: rgb(85, 255, 255);\n"
 "}"));
-
-        verticalLayout_2->addWidget(checkBox);
-
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
