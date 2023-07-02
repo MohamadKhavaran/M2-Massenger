@@ -199,7 +199,7 @@ public:
 
         verticalLayoutWidget_2 = new QWidget(widget);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(590, 320, 160, 80));
+        verticalLayoutWidget_2->setGeometry(QRect(590, 310, 160, 80));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);

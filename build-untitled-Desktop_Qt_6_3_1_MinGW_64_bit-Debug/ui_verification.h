@@ -110,18 +110,31 @@ public:
         label->setStyleSheet(QString::fromUtf8("image: url(:/icons/icons8-password-64 (1).png);"));
         clock = new QLineEdit(verification);
         clock->setObjectName(QString::fromUtf8("clock"));
-        clock->setGeometry(QRect(275, 190, 81, 41));
+        clock->setGeometry(QRect(265, 190, 100, 30));
         QFont font3;
         font3.setPointSize(10);
         clock->setFont(font3);
         pushButton_3 = new QPushButton(verification);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(260, 182, 111, 51));
+        pushButton_3->setGeometry(QRect(265, 190, 100, 30));
         pushButton_3->setFont(font2);
         pushButton_3->setCursor(QCursor(Qt::ArrowCursor));
-        pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+        pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_3{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
-""));
+"	color: black;\n"
+"	border-radius:5px;\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_3:hover{\n"
+"	background-color:rgb(246, 120, 29);\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton#pushButton_3:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(150,123, 111, 255);\n"
+"}"));
 
         retranslateUi(verification);
 

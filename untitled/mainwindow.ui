@@ -257,7 +257,7 @@ border-width: 1px;
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>320</y>
+       <y>310</y>
        <width>160</width>
        <height>80</height>
       </rect>
