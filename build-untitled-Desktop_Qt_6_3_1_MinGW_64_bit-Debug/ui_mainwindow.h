@@ -42,7 +42,6 @@ public:
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QCheckBox *checkBox;
-    QPushButton *pushButton_2;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -225,31 +224,6 @@ public:
 
         verticalLayout_2->addWidget(checkBox);
 
-        pushButton_2 = new QPushButton(verticalLayoutWidget_2);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        QFont font6;
-        font6.setPointSize(8);
-        font6.setBold(true);
-        pushButton_2->setFont(font6);
-        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
-"	background-color:rgba(255, 255, 0, 190);\n"
-"	color:rgba(0, 0, 0, 255);\n"
-"	border-radius:5px;\n"
-"}\n"
-"\n"
-"QPushButton#pushButton_2:hover{\n"
-"	background-color:rgb(246, 120, 29);\n"
-"\n"
-"}\n"
-"\n"
-"QPushButton#pushButton_2:pressed{\n"
-"	padding-left:5px;\n"
-"	padding-top:5px;\n"
-"	background-color:rgba(150,123, 111, 255);\n"
-"}"));
-
-        verticalLayout_2->addWidget(pushButton_2);
-
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -274,7 +248,6 @@ public:
         pushButton->setShortcut(QCoreApplication::translate("MainWindow", "Return", nullptr));
 #endif // QT_CONFIG(shortcut)
         checkBox->setText(QCoreApplication::translate("MainWindow", "Show password", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Forgot password?", nullptr));
     } // retranslateUi
 
 };

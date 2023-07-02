@@ -140,6 +140,29 @@ void afterLogin::on_pushButton_4_clicked()
 
             cleanGroupChats.close();
         }
+        QFile RemoveChannelName_To_Chats("ChannelChats.txt");
+        if (RemoveChannelName_To_Chats.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            QTextStream in(&RemoveChannelName_To_Chats);
+            while (!in.atEnd())
+            {
+                QString line = in.readLine();
+                if(QFile::exists(line+".txt"))
+                QFile::remove(line+".txt");
+            }
+            RemoveChannelName_To_Chats.close();
+        };
+
+        QFile cleanChannelChats("ChannelChats.txt");
+
+          // Open the file in WriteOnly and Text mode
+          if (cleanChannelChats.open(QIODevice::WriteOnly | QIODevice::Text))
+          {
+              // Truncate the file to remove existing content
+              cleanChannelChats.resize(0);
+
+              cleanChannelChats.close();
+          }
 }
 
 void afterLogin::on_pushButton_clicked()

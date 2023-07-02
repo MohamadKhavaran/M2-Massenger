@@ -329,6 +329,9 @@ public:
         checkBox->setText(QCoreApplication::translate("Register", "Show password", nullptr));
         Back_pushButton->setText(QCoreApplication::translate("Register", "Back", nullptr));
         Submit_pushButton->setText(QCoreApplication::translate("Register", "Submit", nullptr));
+#if QT_CONFIG(shortcut)
+        Submit_pushButton->setShortcut(QCoreApplication::translate("Register", "Return", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };

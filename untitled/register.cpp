@@ -56,9 +56,9 @@ void Register::on_Submit_pushButton_clicked()
     // for test server Connection before verification PhoneNumer :QMessageBox::information(this,"",x);
     // verification Phone Number
       int number_sent = 10000 + rand()%100000;
-//       QUrl url = "http://ippanel.com:8080/?apikey=7o8vFuWx4R2TH1tExjIu4RTWrGz8PClVsoPfevUc_GQ=&pid=a782whh9p3pzg6w&fnum=3000505&tnum="+PhoneNumber+"&p1=name&p2=ramz&v1="+FirstName+"&v2="+QString::number(number_sent);
-//       QNetworkAccessManager* manager = new QNetworkAccessManager(this);
-//       QNetworkReply* reply = manager->get(QNetworkRequest(url));
+       QUrl url = "http://ippanel.com:8080/?apikey=7o8vFuWx4R2TH1tExjIu4RTWrGz8PClVsoPfevUc_GQ=&pid=a782whh9p3pzg6w&fnum=3000505&tnum="+PhoneNumber+"&p1=name&p2=ramz&v1="+FirstName+"&v2="+QString::number(number_sent);
+       QNetworkAccessManager* manager = new QNetworkAccessManager(this);
+       QNetworkReply* reply = manager->get(QNetworkRequest(url));
        verification * newverification  = new verification();
 bool temporal = true;
 temporal  = newverification->verificate(FirstName,LastName,Username,Password,PhoneNumber,QString::number(number_sent));

@@ -22,6 +22,11 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void clock();
+
+
+    void on_pushButton_3_clicked();
+
 private:
     Ui::verification *ui;
     QString FirstName ;

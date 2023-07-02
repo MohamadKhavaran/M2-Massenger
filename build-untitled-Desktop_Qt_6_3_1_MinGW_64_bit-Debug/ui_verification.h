@@ -27,6 +27,8 @@ public:
     QPushButton *pushButton;
     QPushButton *pushButton_2;
     QLabel *label;
+    QLineEdit *clock;
+    QPushButton *pushButton_3;
 
     void setupUi(QWidget *verification)
     {
@@ -61,7 +63,7 @@ public:
         PhoneNumber_label->setStyleSheet(QString::fromUtf8("color:rgb(255,255,51);"));
         pushButton = new QPushButton(verification);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(90, 230, 211, 29));
+        pushButton->setGeometry(QRect(90, 270, 211, 29));
         QFont font2;
         font2.setPointSize(12);
         font2.setBold(true);
@@ -84,7 +86,7 @@ public:
 "}"));
         pushButton_2 = new QPushButton(verification);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(340, 230, 211, 29));
+        pushButton_2->setGeometry(QRect(340, 270, 211, 29));
         pushButton_2->setFont(font2);
         pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton#pushButton_2{\n"
 "	background-color:rgba(255, 255, 0, 190);\n"
@@ -106,6 +108,20 @@ public:
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(100, 90, 111, 91));
         label->setStyleSheet(QString::fromUtf8("image: url(:/icons/icons8-password-64 (1).png);"));
+        clock = new QLineEdit(verification);
+        clock->setObjectName(QString::fromUtf8("clock"));
+        clock->setGeometry(QRect(275, 190, 81, 41));
+        QFont font3;
+        font3.setPointSize(10);
+        clock->setFont(font3);
+        pushButton_3 = new QPushButton(verification);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        pushButton_3->setGeometry(QRect(260, 182, 111, 51));
+        pushButton_3->setFont(font2);
+        pushButton_3->setCursor(QCursor(Qt::ArrowCursor));
+        pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"	background-color:rgba(255, 255, 0, 190);\n"
+""));
 
         retranslateUi(verification);
 
@@ -121,7 +137,12 @@ public:
         PhoneNumber_label->setText(QCoreApplication::translate("verification", "09052578107", nullptr));
         pushButton->setText(QCoreApplication::translate("verification", "Change Number", nullptr));
         pushButton_2->setText(QCoreApplication::translate("verification", "Confrim", nullptr));
+#if QT_CONFIG(shortcut)
+        pushButton_2->setShortcut(QCoreApplication::translate("verification", "Return", nullptr));
+#endif // QT_CONFIG(shortcut)
         label->setText(QString());
+        clock->setText(QString());
+        pushButton_3->setText(QCoreApplication::translate("verification", "Resend ", nullptr));
     } // retranslateUi
 
 };
